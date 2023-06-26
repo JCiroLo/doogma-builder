@@ -1,0 +1,605 @@
+nhtml {
+  line-height: 1.5;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+  -moz-tab-size: 4;
+  /* 3 */
+  -o-tab-size: 4;
+  tab-size: 4;
+  /* 3 */
+  font-family: "Inter", sans-serif;
+
+  /* 4 */
+}
+
+body {
+  margin: 0;
+  /* 1 */
+  line-height: inherit;
+  /* 2 */
+}
+
+/* custom css */
+
+@font-face {
+  font-family: "Notos Sans";
+  src: url("NotoSans-Black.ttf");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Comic Neue";
+  src: url("ComicNeue-Bold.ttf");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Arimo";
+  src: url("Arimo-VariableFont_wght.ttf");
+  font-weight: bold;
+  font-style: normal;
+}
+
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 99;
+}
+
+.div_1 {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 10%;
+  height: 800px;
+}
+
+.doogma-navigation-container {
+  max-width: 484px;
+}
+
+/***
+    TABS
+     */
+
+body {
+  counter-reset: section; /* Set a counter named 'section', and its initial value is 0. */
+}
+
+.doogma-nav-tabs li a::before {
+  counter-increment: section;
+  content: counter(section);
+  color: #d9368a;
+  align-items: center;
+  top: -33%;
+  right: -3%;
+  position: absolute;
+  float: right;
+  font-size: 18px;
+  width: 22px;
+  height: 20px;
+  line-height: 17px;
+  display: block;
+  text-align: center;
+  margin: 0 auto 10px auto;
+  border-radius: 50%;
+  background-color: #ffffff;
+  border: solid 1px;
+}
+
+.doogma-nav-tabs {
+  list-style: none;
+  padding: 7px;
+  /* width: 100%; */
+  background-color: #ebe7e7;
+  border-radius: 10px;
+  border-bottom: 1px solid #ffffff;
+}
+
+#doogma-nav-tabs-container-navtabs {
+  width: fit-content !important;
+  border: solid #ebe7e7 2px;
+  border-radius: 20px;
+  margin: 1% !important;
+}
+
+doogma-component-containers .price {
+  font-size: 23px;
+  font-weight: bolder;
+  padding-right: 3rem;
+  padding-left: 3rem;
+}
+
+/* doogma-html-section .doogma-html-section p {
+  margin-right: 6rem;
+} */
+
+#doogma-container-content-dog-tag-container-cta-container10 {
+  width: fit-content;
+}
+
+.doogma-nav-tabs li {
+  display: flex;
+  margin-right: 0.25rem;
+  margin-left: 0.25rem;
+}
+
+.doogma-nav-tabs li a {
+  min-width: 140px;
+  padding: 0.7rem;
+  background: #ffffff;
+  color: #d9368a;
+  text-decoration: none;
+  border: solid 1px #d9368a;
+  border-radius: 10px;
+  font-size: 0.7rem;
+  top: 10px;
+  position: relative;
+  text-align: center;
+}
+
+.tabs .tab {
+  background-color: #f5f5f5;
+  color: #000;
+  margin-top: 1px;
+  margin-bottom: 0;
+  margin-left: 1px;
+  margin-right: 0;
+}
+
+.tabs .tab.active {
+  background-color: #d9368a !important;
+  color: #fff;
+}
+
+.doogma-nav-tabs li.active a {
+  background-color: #d9368a;
+}
+
+.tab-content {
+  display: none;
+}
+
+.tab-content.active {
+  display: block;
+}
+
+.doogma-title {
+  font-size: 1.3rem;
+  font-weight: 500;
+  margin-bottom: 0.625rem;
+  color: #d9368a;
+  padding: 1% 7%;
+}
+
+.doogma-text {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #d9368a;
+}
+
+.image-swatch.doogma-control-item.doogma-swatch-list--item::part(span) {
+  background-color: red;
+}
+
+.doogma-image-swatch::part(span) {
+  background-color: red;
+}
+
+.image-swatch img {
+  width: 50% !important;
+}
+
+doogma-image-swatches[param="size"] div div doogma-image-swatch::slotted(span) {
+  width: 20rem;
+}
+
+doogma-image-swatches[param="size"] div div doogma-image-swatch {
+  cursor: pointer;
+  border: 1px solid #dcdcdc;
+  background-color: rgb(255, 255, 255);
+  /* padding: 2rem; */
+  box-shadow: 0px 4px 5px 2px rgba(194, 194, 194, 0.75);
+  -webkit-box-shadow: 0px 4px 5px 2px rgba(194, 194, 194, 0.75);
+  -moz-box-shadow: 0px 4px 5px 2px rgba(194, 194, 194, 0.75);
+  color: #d9368a;
+  font-weight: 200;
+  text-align: center;
+  min-width: 24%;
+  margin-left: 5%;
+}
+
+.doogma-nav-component-container
+  .doogma-image-swatch-list
+  .doogma-swatch-list--item.active,
+.doogma-nav-component-container
+  .doogma-swatch-list
+  .doogma-swatch-list--item.active {
+  border: 3px solid #d9368a;
+  padding: 4px;
+}
+
+p.detail {
+  color: #d9368a;
+  font-weight: bold;
+  font-size: 12px;
+}
+span.name {
+  color: #958e88;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.doogma-nav-tabs-content .doogma-nav-tab-content {
+  display: none;
+  padding: 1.5rem 1rem;
+}
+
+.box {
+  padding: 8px;
+  display: block;
+  position: relative;
+  width: fit-content;
+}
+
+.center-text {
+  text-align: left;
+  display: block;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: normal;
+  padding-bottom: 4%;
+  width: 90%;
+}
+
+.center-text2 {
+  color: #737373;
+  margin-bottom: 9%;
+  text-align: left;
+  display: block;
+  font-size: 12px;
+  font-weight: lighter;
+  line-height: normal;
+  padding-bottom: 10px;
+  width: 90%;
+}
+
+.center-text3 {
+  color: #737373;
+  text-align: left;
+  display: block;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: normal;
+  width: 90%;
+}
+
+.doogma-nav-component-container input[type="text"] {
+  width: 100%;
+  height: 40px;
+  border: 1px solid #ccc;
+  padding: 0.5rem;
+  margin-bottom: -5%;
+  background-color: #fefefe;
+}
+
+.doogma-nav-component-container .doogma-image-swatch-list,
+.doogma-nav-component-container .doogma-swatch-list {
+  display: flex;
+  justify-content: space-around;
+}
+
+.doogma-color-swatch-list .doogma-swatch-list--item.color-swatch,
+.doogma-swatch-list .doogma-swatch-list--item.color-swatch {
+  border: none;
+}
+
+.doogma-nav-component-container {
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Media Query */
+
+@media screen and (max-width: 767px) {
+  .main {
+    flex-wrap: wrap !important;
+  }
+
+  .div_1,
+  .div_2 {
+    position: relative;
+    width: 100%;
+    height: auto !important;
+  }
+
+  .div_2 {
+    overflow: hidden !important;
+  }
+}
+
+@media only screen and (max-width: 1250px) {
+  .doogma-nav-tabs {
+    width: 87%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .doogma-nav-tabs {
+    display: flex;
+    width: 100%;
+    padding: 0;
+  }
+  .doogma-nav-tabs li {
+    min-width: 23%;
+  }
+
+  .doogma-nav-tabs-content {
+    max-height: 100vh;
+    overflow: auto;
+    overflow-y: scroll;
+  }
+
+  .doogma-sticky {
+    position: static;
+  }
+
+  .doogma-nav-tabs-content::-webkit-scrollbar,
+  .doogma-nav-tabs-content::-webkit-scrollbar-thumb {
+    position: absolute;
+    border-radius: 13px;
+    background-clip: padding-box;
+    border: 10px solid transparent;
+    color: #424b5a;
+  }
+
+  .doogma-nav-tabs-content {
+    max-height: 100vh;
+  }
+
+  .doogma-nav-component-container input[type="text"] {
+    width: 100%;
+    margin-bottom: 2%;
+  }
+  .doogma-select-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .box {
+    width: 100%;
+  }
+
+  .center-text {
+    width: 100%;
+    padding: 0 30px;
+  }
+
+  .center-text2 {
+    width: 100%;
+    padding: 0 30px;
+  }
+
+  .doogma-nav-component-container > label {
+    margin-top: 1rem !important;
+  }
+
+  .doogma-title {
+    text-align: center;
+    font-size: 1.1rem;
+  }
+
+  .doogma-wrapper .doogma-wrapper-row .doogma-col-2 {
+    width: 100%;
+    padding-bottom: 20px;
+  }
+
+  /* doogma-image-swatches[param="size"] div div doogma-image-swatch {
+    padding: 1rem;
+  } */
+}
+
+@media only screen and (max-width: 500px) {
+  .doogma-nav-tabs li a {
+    padding: 7px;
+    font-size: 0.9rem;
+    text-align: center;
+    min-width: 21%;
+  }
+
+  doogma-image-swatches[param="size"] div div doogma-image-swatch {
+    min-width: 43%;
+  }
+
+  .doogma-nav-tabs-content .doogma-nav-tab-content {
+    display: none;
+    padding: 1rem;
+  }
+
+  .doogma-add-to-cart-button-container button {
+    padding: 0.3rem 1.5rem;
+    border-radius: 6px;
+    width: 128px;
+  }
+
+  .doogma-nav-tabs li {
+    min-width: 23%;
+  }
+
+  .doogma-nav-component-container {
+    margin-top: 0;
+    margin-bottom: -11px;
+  }
+
+  .center-text {
+    width: 100%;
+    padding: 12px 5px;
+  }
+
+  .center-text2 {
+    width: 100%;
+    padding: 12px 5px;
+  }
+
+  .center-text3 {
+    width: 100%;
+    padding-top: 5%;
+    padding: 12px 5px;
+  }
+
+  .doogma-nav-component-container .doogma-image-swatch-list,
+  .doogma-nav-component-container .doogma-swatch-list {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+
+  .doogma-share-button-modal-wrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 3rem 1rem 3rem;
+    gap: 1rem;
+    position: absolute;
+    width: 308px;
+    height: 160px;
+    background: #ffffff;
+    border: 1px solid #c7c7c7;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    left: 50%;
+    top: 50%;
+    transform: translate(-30%, -100%);
+  }
+
+  doogma-component-containers .price {
+    font-size: 23px;
+    font-weight: bolder;
+    padding-right: 1rem;
+    padding-left: 1.5rem;
+  }
+}
+
+.doogma-nav-component-container > label {
+  font-weight: bolder;
+  margin-bottom: 0.5rem;
+  display: block;
+  font-size: 16px;
+  font-family: lato;
+}
+
+.doogma-nav-component-container label > .selection {
+  size: 0.85rem;
+  font-weight: normal;
+  margin-top: 0.25rem;
+  padding-left: 10px;
+  display: revert;
+  color: #777777;
+}
+
+doogma-component-containers .doogma-container-content-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.25rem;
+}
+
+.doogma-share-button-modal-wrapper {
+  z-index: 99999;
+  transform: translate(-280px, 10px);
+  left: 50%;
+  top: 50%;
+  transform: translate(-30%, -100%);
+}
+
+.doogma-share-button-modal-wrapper input[type="text"] {
+  width: 100%;
+  text-overflow: ellipsis;
+}
+
+.doogma-add-to-cart-button-container button {
+  padding: 0.2rem 1rem;
+  border: 1px solid;
+  cursor: pointer;
+  background-color: #ffca11 !important;
+  border-color: #ffca11 !important;
+  display: block;
+  position: relative;
+  border-radius: 6px;
+  text-align: center;
+}
+
+.doogma-color-swatch-list .doogma-swatch-list--item.color-swatch,
+.doogma-swatch-list .doogma-swatch-list--item.color-swatch {
+  border: 2px solid #fff;
+}
+
+.doogma-color-swatch-list .doogma-swatch-list--item.active:before {
+  content: "\2713";
+  position: absolute;
+  font-weight: 800;
+  display: inline-block;
+  padding: 0 6px;
+}
+
+.doogma-share-button {
+  cursor: pointer;
+  padding: 0.1875rem 0.9375rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.25rem;
+  background: transparent;
+  border: 1px solid black;
+}
+
+doogma-image-swatch > span {
+  padding: 2rem;
+}
+
+doogma-image-swatch span {
+  padding: 2rem;
+}
+
+doogma-image-swatch > #shadow-root > span {
+  padding: 2rem;
+}
+
+doogma-image-swatch #shadow-root span {
+  padding: 2rem;
+}
+
+.navigation-buttons-container button.invalid {
+  background-color: transparent;
+  color: transparent;
+  cursor: default;
+  border: transparent;
+}
+
+.navigation-buttons-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.doogma-next-button {
+  border: solid 2px #d9368a;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin: 2%;
+  color: #d9368a;
+}
+
+.doogma-prev-button {
+  border: solid 2px #d9368a;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin: 2%;
+  color: #d9368a;
+}
+
+@media only screen and (max-width: 500px) {
+  doogma-component-containers .doogma-container-content-inner {
+    gap: 0.25rem;
+  }
+}

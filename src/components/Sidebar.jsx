@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from "react";
+import { useMemo, useState } from "react";
 import PropTypes from "prop-types";
 import classnames from "classnames";
 import useTheme from "../hooks/useTheme";
@@ -24,70 +24,85 @@ import pastease_live1 from "../products/production/pastease-live1.json";
 
 function Sidebar({ title }) {
   const [theme, setTheme] = useTheme();
-  const [{ json }, setBuilder] = useBuilder();
-  const inputRef = useRef();
+  const [, setCode, setCss] = useBuilder();
   const [enviroment, setEnviroment] = useState(null);
   const [product, setProduct] = useState(null);
   const [showModal, setShowModal] = useState(false);
 
-  const products = {
-    development: {
-      admin_oreo_weddings: {
-        name: "Admin Oreo Weddings",
-        json: admin_oreo_weddings_development,
+  const products = useMemo(
+    () => ({
+      development: {
+        admin_oreo_weddings: {
+          name: "Admin Oreo Weddings",
+          json: admin_oreo_weddings_development,
+          css: "src/products/css/development/admin-oreo-weddings-development.css",
+        },
+        design_oreo_weddings: {
+          name: "Design Oreo Weddings",
+          json: design_oreo_weddings_development,
+          css: "src/products/css/development/design-oreo-weddings-development.css",
+        },
+        dog_tag: {
+          name: "Dog Tag",
+          json: dog_tag_development,
+          css: "src/products/css/development/dog-tag-development.css",
+        },
+        lagolfcp: {
+          name: "Lagolfpc",
+          json: lagolfcp_development,
+          css: "src/products/css/development/lagolfcp-development.css",
+        },
+        mdt: {
+          name: "MDT",
+          json: mdt_development,
+          css: "src/products/css/development/mdt-development.css",
+        },
+        oreo_corp: {
+          name: "Oreo Corp",
+          json: oreo_corp_development,
+          css: "src/products/css/development/oreo-corp-development.css",
+        },
+        oreo_weddings: {
+          name: "Oreo Weddings",
+          json: oreo_weddings_development,
+          css: "src/products/css/development/oreo-weddings-development.css",
+        },
+        oreocp3: {
+          name: "Oreo CP3",
+          json: oreocp3_development,
+          css: "src/products/css/development/oreocp3.css",
+        },
+        primadonna_lux: {
+          name: "Primadonna Lux",
+          json: primadonna_lux_development,
+          css: "src/products/css/development/primadonna-lux-development.css",
+        },
       },
-      design_oreo_weddings: {
-        name: "Design Oreo Weddings",
-        json: design_oreo_weddings_development,
+      production: {
+        custom_oreo_weddings: {
+          name: "Custom Oreo Weddings",
+          json: custom_oreo_weddings_live1,
+          css: "src/products/css/production/custom-oreo-weddings-live1.css",
+        },
+        lagolfcp: {
+          name: "Lagol FPC",
+          json: lagolfcp_live1,
+          css: "src/products/css/production/lagolfcp-live1.css",
+        },
+        oreo_corp: {
+          name: "Oreo Corp",
+          json: oreo_corp_live1,
+          css: "src/products/css/production/oreo-corp-live1.css",
+        },
+        pastease: {
+          name: "Pastease",
+          json: pastease_live1,
+          css: "src/products/css/production/pastease-live1.css",
+        },
       },
-      dog_tag: {
-        name: "Dog Tag",
-        json: dog_tag_development,
-      },
-      lagolfcp: {
-        name: "Lagolfpc",
-        json: lagolfcp_development,
-      },
-      mdt: {
-        name: "MDT",
-        json: mdt_development,
-      },
-      oreo_corp: {
-        name: "Oreo Corp",
-        json: oreo_corp_development,
-      },
-      oreo_weddings: {
-        name: "Oreo Weddings",
-        json: oreo_weddings_development,
-      },
-      oreocp3: {
-        name: "Oreo CP3",
-        json: oreocp3_development,
-      },
-      primadonna_lux: {
-        name: "Primadonna Lux",
-        json: primadonna_lux_development,
-      },
-    },
-    production: {
-      custom_oreo_weddings: {
-        name: "Custom Oreo Weddings",
-        json: custom_oreo_weddings_live1,
-      },
-      lagolfcp: {
-        name: "Lagol FPC",
-        json: lagolfcp_live1,
-      },
-      oreo_corp: {
-        name: "Oreo Corp",
-        json: oreo_corp_live1,
-      },
-      pastease: {
-        name: "Pastease",
-        json: pastease_live1,
-      },
-    },
-  };
+    }),
+    []
+  );
 
   const handleSwitchView = (view) => {
     setTheme((prev) => ({ ...prev, view }));
@@ -96,7 +111,8 @@ function Sidebar({ title }) {
   const handleChangeJSON = async (event) => {
     event.preventDefault();
 
-    setBuilder(JSON.stringify(products[enviroment][product].json));
+    setCode(JSON.stringify(products[enviroment][product].json));
+    setCss(products[enviroment][product].css);
 
     setShowModal(false);
   };

@@ -6,6 +6,7 @@ export const BuilderContext = createContext();
 
 export const BuilderProvider = ({ children }) => {
   const [code, setCode] = useState("");
+  const [css, setCss] = useState("");
   const json = useMemo(() => {
     try {
       return JSON.parse(code);
@@ -22,13 +23,39 @@ export const BuilderProvider = ({ children }) => {
     if (localStorage.getItem("doogma_code")) {
       setCode(localStorage.getItem("doogma_code"));
     }
+
+    if (localStorage.getItem("doogma_styles")) {
+      setCss(localStorage.getItem("doogma_styles"));
+    }
   }, []);
 
   useEffect(() => {
     localStorage.setItem("doogma_code", code);
   }, [code]);
 
-  return <BuilderContext.Provider value={[{ code, parsed, json }, setCode]}>{children}</BuilderContext.Provider>;
+  useEffect(() => {
+    console.log("Render");
+    localStorage.setItem("doogma_styles", css);
+
+    const head = document.head;
+    const link = document.createElement("link");
+
+    link.type = "text/css";
+    link.rel = "stylesheet";
+    link.href = css;
+
+    console.log(link);
+
+    head.appendChild(link);
+
+    return () => {
+      head.removeChild(link);
+    };
+  }, [css]);
+
+  return (
+    <BuilderContext.Provider value={[{ code, parsed, json }, setCode, setCss]}>{children}</BuilderContext.Provider>
+  );
 };
 
 BuilderProvider.propTypes = {
