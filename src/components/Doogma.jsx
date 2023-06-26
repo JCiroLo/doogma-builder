@@ -1,5 +1,5 @@
 import useDoogma from "../hooks/useDoogma";
-import Sidebar from "./sidebar";
+import Sidebar from "./Sidebar";
 import BuilderWrapper from "./BuilderWrapper";
 
 function Doogma() {
