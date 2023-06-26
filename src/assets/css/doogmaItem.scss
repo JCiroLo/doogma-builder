@@ -1,0 +1,123 @@
+.doogma-item-component {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+
+  &.active {
+
+    .doogma-item-toggler {
+      i:last-child {
+        transform: rotate(180deg);
+      }
+    }
+
+    .doogma-item-dropdown {
+      display: flex;
+    }
+  }
+
+  &.sidebar-active {
+    .doogma-item-dropdown {
+      .doogma-item-prop {
+        gap: $unit;
+
+        label {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          justify-content: space-between;
+          width: 100%;
+
+          .doogma-item-prop-name {
+            span {
+              color: tomato;
+            }
+          }
+
+          .doogma-item-prop-type {
+            font-size: x-small;
+            opacity: 0.5;
+          }
+        }
+
+        input {
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  .doogma-item-toggler {
+    display: flex;
+    align-items: center;
+    gap: $unit;
+    background: white;
+    padding: $unit;
+    cursor: pointer;
+    @include border-radius(1);
+    @include transition("outline", "opacity");
+
+    &:hover {
+      box-shadow: 0 0 0 1.5px rgba(map-get($colors, main), 0.5) inset;
+    }
+
+    span:first-letter {
+      text-transform: uppercase;
+    }
+
+    i:last-child {
+      margin-left: auto;
+      @include transition("transform");
+    }
+  }
+
+  .doogma-item-dropdown {
+    display: none;
+    flex-direction: column;
+    gap: $unit;
+    padding: $unit;
+    background-color: white;
+    @include border-radius(1);
+
+    .doogma-item-prop {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      padding: $unit;
+      background-color: #f9f9f9;
+      @include border-radius(1);
+
+      label {
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+        width: 0;
+        font-size: small;
+        font-weight: 500;
+
+        .doogma-item-prop-name {
+          span {
+            color: tomato;
+          }
+        }
+
+        .doogma-item-prop-type {
+          font-size: x-small;
+          opacity: 0.5;
+        }
+      }
+
+      input {
+        all: unset;
+        flex-grow: 1;
+        width: 0;
+        padding: $unit * 0.5 $unit;
+        cursor: text;
+        border: 1px solid #bdc6ce;
+        background: #fff;
+        @include border-radius(0.5);
+      }
+    }
+  }
+}

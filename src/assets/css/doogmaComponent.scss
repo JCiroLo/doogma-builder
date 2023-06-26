@@ -1,0 +1,120 @@
+.doogma-component-wrapper {
+  display: flex;
+  flex-direction: column;
+  user-select: none;
+  background-color: white;
+
+  &:hover {
+    & > .doogma-component-header {
+      border-color: var(--color-main);
+
+      .doogma-component-handle,
+      .doogma-component-remove {
+        opacity: 1;
+        visibility: visible;
+      }
+    }
+
+    &.with-dropzone {
+      & > .doogma-component-items {
+        border-color: var(--color-main);
+      }
+    }
+  }
+
+  &.is-dragging {
+    border-color: var(--color-main);
+  }
+
+  &.with-dropzone {
+    .doogma-component-header {
+      border-radius: $unit $unit 0 0;
+    }
+
+    .doogma-component-items {
+      padding: $unit;
+      border-radius: 0 0 $unit $unit;
+      border: 1px solid rgba(map-get($colors, font), 0.5);
+      border-top: none;
+    }
+  }
+
+  &.active {
+    .doogma-component-header {
+      border-radius: $unit;
+    }
+
+    .doogma-component-items {
+      display: none;
+    }
+  }
+
+  .doogma-component-header {
+    display: flex;
+    align-items: center;
+    gap: $unit;
+    padding: $unit * 0.5;
+    border: 1px solid rgba(map-get($colors, font), 0.5);
+    border-radius: $unit $unit 0 0;
+    overflow: hidden;
+
+    p {
+    }
+
+    .doogma-component-handle,
+    .doogma-component-remove {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      user-select: none;
+      height: $unit * 3;
+      aspect-ratio: 1;
+      color: white;
+      background-color: rgba(map-get($colors, font), 0.5);
+      @include border-radius(0.5);
+      @include transition("opacity", "visibility", "background-color");
+
+      &:hover {
+        background-color: rgba(map-get($colors, main), 0.75);
+      }
+    }
+
+    .doogma-component-handle {
+    }
+
+    .doogma-component-remove {
+      cursor: pointer;
+      margin-left: auto;
+    }
+  }
+
+  .doogma-component-items {
+    display: flex;
+    flex-direction: column;
+    gap: $unit;
+    padding: $unit;
+    border-radius: 0 0 $unit $unit;
+    border: 1px solid rgba(map-get($colors, font), 0.5);
+    // background-color: #00000011;
+
+    .doogma-component-item {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      padding: $unit * 0.5;
+      border: 1px solid rgba(map-get($colors, font), 0.5);
+      @include border-radius(0.5);
+
+      small {
+        font-size: x-small;
+      }
+
+      .doogma-component-drop-zone {
+        display: flex;
+        flex-direction: column;
+        gap: $unit;
+        padding: $unit;
+      }
+    }
+  }
+}

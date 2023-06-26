@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
+@import "config";
+@import "sidebar.scss";
+@import "modal.scss";
+@import "button.scss";
+@import "builder.scss";
+@import "doogmaItem.scss";
+@import "doogmaComponent.scss";
+
+:root {
+  --color-main: #{map-get($colors, main)};
+  --color-background: #{map-get($colors, background)};
+  --color-font: #{map-get($colors, font)};
+}
+
+::-webkit-scrollbar{
+  display: initial !important;
+}
+
+body {
+  background-color: var(--color-background);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Manrope", sans-serif;
+  color: var(--color-font);
+}
+
+.doogma-builder {
+  display: flex;
+}

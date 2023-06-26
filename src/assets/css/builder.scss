@@ -1,0 +1,32 @@
+.builder-component {
+  flex-grow: 1;
+  max-height: 100vh;
+  overflow-y: auto;
+
+  .drop-zone {
+    display: flex;
+    flex-direction: column;
+    gap: $unit;
+    padding: $unit;
+    margin: $unit;
+    background-color: white;
+    @include border-radius(1);
+    @include transition("box-shadow", "background-color");
+
+    &.dragging-over {
+      box-shadow: 0 0 0 2px rgba(map-get($colors, main), 0.5) inset;
+      background-color: rgba(map-get($colors, main), 0.01);
+    }
+
+    .drop-zone-empty {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: $unit;
+
+      i {
+        font-size: $unit * 2.5;
+      }
+    }
+  }
+}

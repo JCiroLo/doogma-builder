@@ -1,0 +1,4888 @@
+{
+  "timestamp": "2023-06-21T19:19:30",
+  "compiler": {
+    "name": "@stencil/core",
+    "version": "2.16.1",
+    "typescriptVersion": "4.5.4"
+  },
+  "components": [
+    {
+      "filePath": "./src/components/doogma-add-to-cart-button/doogma-add-to-cart-button.tsx",
+      "encapsulation": "none",
+      "tag": "doogma-add-to-cart-button",
+      "readme": "# doogma-add-to-cart-button\r\n\r\n\r\n\r",
+      "docs": "",
+      "docsTags": [],
+      "usage": {},
+      "props": [
+        {
+          "name": "backgroundColor",
+          "type": "string",
+          "mutable": true,
+          "attr": "background-color",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'#000000'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "color",
+          "type": "string",
+          "mutable": true,
+          "attr": "color",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'#FFFFFF'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "label",
+          "type": "string",
+          "mutable": true,
+          "attr": "label",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'Add to Cart'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        }
+      ],
+      "methods": [],
+      "events": [],
+      "listeners": [],
+      "styles": [],
+      "slots": [],
+      "parts": [],
+      "dependents": [],
+      "dependencies": [],
+      "dependencyGraph": {}
+    },
+    {
+      "filePath": "./src/components/doogma-checkbox-group/doogma-checkbox.tsx",
+      "encapsulation": "none",
+      "tag": "doogma-checkbox",
+      "readme": "# doogma-checkbox-group\r\n\r\n\r\n\r",
+      "docs": "",
+      "docsTags": [],
+      "usage": {},
+      "props": [
+        {
+          "name": "defaultParamValue",
+          "type": "any",
+          "mutable": true,
+          "attr": "default-param-value",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "values": [
+            {
+              "type": "any"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "gap",
+          "type": "string",
+          "mutable": true,
+          "attr": "gap",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'.5'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "groupParam",
+          "type": "string",
+          "mutable": true,
+          "attr": "group-param",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'checkboxgroup1'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "image",
+          "type": "any",
+          "mutable": true,
+          "attr": "image",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "values": [
+            {
+              "type": "any"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "label",
+          "type": "string",
+          "mutable": true,
+          "attr": "label",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "''",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "name",
+          "type": "string",
+          "mutable": true,
+          "attr": "name",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'checkboxgroup1'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "param",
+          "type": "string",
+          "mutable": true,
+          "attr": "param",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'checkbox1'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "selected",
+          "type": "string",
+          "mutable": true,
+          "attr": "selected",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'no'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "value",
+          "type": "string",
+          "mutable": true,
+          "attr": "value",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'opt1'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        }
+      ],
+      "methods": [],
+      "events": [],
+      "listeners": [
+        {
+          "event": "doogmaParametersChangeOut",
+          "target": "document",
+          "capture": false,
+          "passive": false
+        }
+      ],
+      "styles": [],
+      "slots": [],
+      "parts": [],
+      "dependents": [
+        "doogma-checkbox-group"
+      ],
+      "dependencies": [],
+      "dependencyGraph": {
+        "doogma-checkbox-group": [
+          "doogma-checkbox"
+        ]
+      }
+    },
+    {
+      "filePath": "./src/components/doogma-checkbox-counter-group/doogma-checkbox-counter.tsx",
+      "encapsulation": "none",
+      "tag": "doogma-checkbox-counter",
+      "readme": "# doogma-checkbox-counter-group\r\n\r\n\r\n\r",
+      "docs": "",
+      "docsTags": [],
+      "usage": {},
+      "props": [
+        {
+          "name": "countParam",
+          "type": "string",
+          "mutable": true,
+          "attr": "count-param",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "''",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "customParameters",
+          "type": "object",
+          "mutable": true,
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "{}",
+          "values": [
+            {
+              "type": "object"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "defaultParamValue",
+          "type": "any",
+          "mutable": true,
+          "attr": "default-param-value",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "values": [
+            {
+              "type": "any"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "gap",
+          "type": "string",
+          "mutable": true,
+          "attr": "gap",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'.5'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "groupParam",
+          "type": "string",
+          "mutable": true,
+          "attr": "group-param",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'checkboxgroup1'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "icon",
+          "type": "string",
+          "mutable": true,
+          "attr": "icon",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "''",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "iconEnd",
+          "type": "string",
+          "mutable": true,
+          "attr": "icon-end",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'+'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "iconStart",
+          "type": "string",
+          "mutable": true,
+          "attr": "icon-start",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'-'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "image",
+          "type": "any",
+          "mutable": true,
+          "attr": "image",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "values": [
+            {
+              "type": "any"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "label",
+          "type": "string",
+          "mutable": true,
+          "attr": "label",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'Checkbox Option'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "max",
+          "type": "number",
+          "mutable": true,
+          "attr": "max",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "+10",
+          "values": [
+            {
+              "type": "number"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "min",
+          "type": "number",
+          "mutable": true,
+          "attr": "min",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "-10",
+          "values": [
+            {
+              "type": "number"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "name",
+          "type": "string",
+          "mutable": true,
+          "attr": "name",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'checkboxcountergroup1'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "param",
+          "type": "string",
+          "mutable": true,
+          "attr": "param",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'checkbox-counter1'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "placeholder",
+          "type": "string",
+          "mutable": true,
+          "attr": "placeholder",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "''",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "selected",
+          "type": "string",
+          "mutable": true,
+          "attr": "selected",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'no'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "span",
+          "type": "string",
+          "mutable": true,
+          "attr": "span",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "''",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "step",
+          "type": "number",
+          "mutable": true,
+          "attr": "step",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "1",
+          "values": [
+            {
+              "type": "number"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "type",
+          "type": "string",
+          "mutable": true,
+          "attr": "type",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'number'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "value",
+          "type": "string",
+          "mutable": true,
+          "attr": "value",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'opt1'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "velocity",
+          "type": "number",
+          "mutable": true,
+          "attr": "velocity",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "50",
+          "values": [
+            {
+              "type": "number"
+            }
+          ],
+          "optional": false,
+          "required": false
+        }
+      ],
+      "methods": [],
+      "events": [],
+      "listeners": [
+        {
+          "event": "doogmaParametersChangeOut",
+          "target": "document",
+          "capture": false,
+          "passive": false
+        }
+      ],
+      "styles": [],
+      "slots": [],
+      "parts": [],
+      "dependents": [
+        "doogma-checkbox-counter-group"
+      ],
+      "dependencies": [],
+      "dependencyGraph": {
+        "doogma-checkbox-counter-group": [
+          "doogma-checkbox-counter"
+        ]
+      }
+    },
+    {
+      "filePath": "./src/components/doogma-checkbox-counter-group/doogma-checkbox-counter-group.tsx",
+      "encapsulation": "none",
+      "tag": "doogma-checkbox-counter-group",
+      "readme": "# doogma-checkbox-counter-group\r\n\r\n\r\n\r",
+      "docs": "",
+      "docsTags": [],
+      "usage": {},
+      "props": [
+        {
+          "name": "defaultParamValue",
+          "type": "any",
+          "mutable": true,
+          "attr": "default-param-value",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "values": [
+            {
+              "type": "any"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "gap",
+          "type": "string",
+          "mutable": true,
+          "attr": "gap",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'.25'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "groupParam",
+          "type": "string",
+          "mutable": true,
+          "attr": "group-param",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'checkboxcountergroup1'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "hideLabel",
+          "type": "string",
+          "mutable": true,
+          "attr": "hide-label",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'no'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "items",
+          "type": "any",
+          "mutable": true,
+          "attr": "items",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "values": [
+            {
+              "type": "any"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "itemsPlacement",
+          "type": "string",
+          "mutable": true,
+          "attr": "items-placement",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'inline'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "label",
+          "type": "string",
+          "mutable": true,
+          "attr": "label",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'Checkbox counter Group'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "labelPlacement",
+          "type": "string",
+          "mutable": true,
+          "attr": "label-placement",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'block'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "param",
+          "type": "string",
+          "mutable": true,
+          "attr": "param",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'checkboxcountergroup1'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        }
+      ],
+      "methods": [],
+      "events": [],
+      "listeners": [],
+      "styles": [],
+      "slots": [],
+      "parts": [],
+      "dependents": [],
+      "dependencies": [
+        "doogma-checkbox-counter"
+      ],
+      "dependencyGraph": {
+        "doogma-checkbox-counter-group": [
+          "doogma-checkbox-counter"
+        ]
+      }
+    },
+    {
+      "filePath": "./src/components/doogma-checkbox-group/doogma-checkbox-group.tsx",
+      "encapsulation": "none",
+      "tag": "doogma-checkbox-group",
+      "readme": "# doogma-checkbox-group\r\n\r\n\r\n\r",
+      "docs": "",
+      "docsTags": [],
+      "usage": {},
+      "props": [
+        {
+          "name": "defaultParamValue",
+          "type": "any",
+          "mutable": true,
+          "attr": "default-param-value",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "values": [
+            {
+              "type": "any"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "gap",
+          "type": "string",
+          "mutable": true,
+          "attr": "gap",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'.25'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "groupParam",
+          "type": "string",
+          "mutable": true,
+          "attr": "group-param",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'checkboxgroup1'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "hideLabel",
+          "type": "string",
+          "mutable": true,
+          "attr": "hide-label",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'no'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "items",
+          "type": "any",
+          "mutable": true,
+          "attr": "items",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "values": [
+            {
+              "type": "any"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "itemsPlacement",
+          "type": "string",
+          "mutable": true,
+          "attr": "items-placement",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'inline'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "label",
+          "type": "string",
+          "mutable": true,
+          "attr": "label",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'Checkbox Group'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "labelPlacement",
+          "type": "string",
+          "mutable": true,
+          "attr": "label-placement",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'block'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "param",
+          "type": "string",
+          "mutable": true,
+          "attr": "param",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'checkboxgroup1'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        }
+      ],
+      "methods": [],
+      "events": [],
+      "listeners": [],
+      "styles": [],
+      "slots": [],
+      "parts": [],
+      "dependents": [],
+      "dependencies": [
+        "doogma-checkbox"
+      ],
+      "dependencyGraph": {
+        "doogma-checkbox-group": [
+          "doogma-checkbox"
+        ]
+      }
+    },
+    {
+      "filePath": "./src/components/doogma-color-swatches/doogma-color-swatch.tsx",
+      "encapsulation": "none",
+      "tag": "doogma-color-swatch",
+      "readme": "# doogma-color-swatches\r\n\r\n\r\n\r",
+      "docs": "",
+      "docsTags": [],
+      "usage": {},
+      "props": [
+        {
+          "name": "circular",
+          "type": "string",
+          "mutable": true,
+          "attr": "circular",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'no'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "gap",
+          "type": "string",
+          "mutable": true,
+          "attr": "gap",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'.5'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "label",
+          "type": "string",
+          "mutable": true,
+          "attr": "label",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'Color Name'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "name",
+          "type": "string",
+          "mutable": true,
+          "attr": "name",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'Black'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "param",
+          "type": "string",
+          "mutable": true,
+          "attr": "param",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'colorSwatch1'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "selected",
+          "type": "string",
+          "mutable": true,
+          "attr": "selected",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'no'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "size",
+          "type": "string",
+          "mutable": true,
+          "attr": "size",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'32'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "value",
+          "type": "string",
+          "mutable": true,
+          "attr": "value",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'000000'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        }
+      ],
+      "methods": [],
+      "events": [],
+      "listeners": [
+        {
+          "event": "doogmaColorSwatchComponentUpdated",
+          "target": "document",
+          "capture": false,
+          "passive": false
+        },
+        {
+          "event": "doogmaParametersChangeOut",
+          "target": "document",
+          "capture": false,
+          "passive": false
+        }
+      ],
+      "styles": [],
+      "slots": [],
+      "parts": [],
+      "dependents": [
+        "doogma-color-swatches"
+      ],
+      "dependencies": [],
+      "dependencyGraph": {
+        "doogma-color-swatches": [
+          "doogma-color-swatch"
+        ]
+      }
+    },
+    {
+      "filePath": "./src/components/doogma-color-swatches/doogma-color-swatches.tsx",
+      "encapsulation": "none",
+      "tag": "doogma-color-swatches",
+      "readme": "# doogma-color-swatches\r\n\r\n\r\n\r",
+      "docs": "",
+      "docsTags": [],
+      "usage": {},
+      "props": [
+        {
+          "name": "circular",
+          "type": "string",
+          "mutable": true,
+          "attr": "circular",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'no'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "gap",
+          "type": "string",
+          "mutable": true,
+          "attr": "gap",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'.25'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "hideLabel",
+          "type": "string",
+          "mutable": true,
+          "attr": "hide-label",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'no'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "items",
+          "type": "any",
+          "mutable": true,
+          "attr": "items",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "values": [
+            {
+              "type": "any"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "itemsPlacement",
+          "type": "string",
+          "mutable": true,
+          "attr": "items-placement",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'inline'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "label",
+          "type": "string",
+          "mutable": true,
+          "attr": "label",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'Color Swatches'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "labelPlacement",
+          "type": "string",
+          "mutable": true,
+          "attr": "label-placement",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'block'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "param",
+          "type": "string",
+          "mutable": true,
+          "attr": "param",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'colorSwatch1'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "showActiveSelection",
+          "type": "string",
+          "mutable": true,
+          "attr": "show-active-selection",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'no'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "size",
+          "type": "string",
+          "mutable": true,
+          "attr": "size",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'32'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        }
+      ],
+      "methods": [],
+      "events": [],
+      "listeners": [
+        {
+          "event": "doogmaColorSwatchComponentUpdated",
+          "target": "document",
+          "capture": false,
+          "passive": false
+        }
+      ],
+      "styles": [],
+      "slots": [],
+      "parts": [],
+      "dependents": [],
+      "dependencies": [
+        "doogma-color-swatch"
+      ],
+      "dependencyGraph": {
+        "doogma-color-swatches": [
+          "doogma-color-swatch"
+        ]
+      }
+    },
+    {
+      "filePath": "./src/components/doogma-component-container/doogma-component-container.tsx",
+      "encapsulation": "none",
+      "tag": "doogma-component-container",
+      "readme": "# doogma-component-containers\r\n\r\n\r\n\r",
+      "docs": "",
+      "docsTags": [],
+      "usage": {},
+      "props": [
+        {
+          "name": "image",
+          "type": "string",
+          "mutable": true,
+          "attr": "image",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "index",
+          "type": "string",
+          "mutable": true,
+          "attr": "index",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'0'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "name",
+          "type": "string",
+          "mutable": true,
+          "attr": "name",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'Container Name'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "param",
+          "type": "string",
+          "mutable": true,
+          "attr": "param",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'component-container'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "slug",
+          "type": "string",
+          "mutable": true,
+          "attr": "slug",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'container-name'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        }
+      ],
+      "methods": [],
+      "events": [],
+      "listeners": [],
+      "styles": [],
+      "slots": [],
+      "parts": [],
+      "dependents": [
+        "doogma-component-containers"
+      ],
+      "dependencies": [],
+      "dependencyGraph": {
+        "doogma-component-containers": [
+          "doogma-component-container"
+        ]
+      }
+    },
+    {
+      "filePath": "./src/components/doogma-component-container/doogma-component-containers.tsx",
+      "encapsulation": "none",
+      "tag": "doogma-component-containers",
+      "readme": "# doogma-component-containers\r\n\r\n\r\n\r",
+      "docs": "",
+      "docsTags": [],
+      "usage": {},
+      "props": [
+        {
+          "name": "class",
+          "type": "string",
+          "mutable": true,
+          "attr": "class",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "''",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "items",
+          "type": "any",
+          "mutable": true,
+          "attr": "items",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "values": [
+            {
+              "type": "any"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "param",
+          "type": "string",
+          "mutable": true,
+          "attr": "param",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'component-containers'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        }
+      ],
+      "methods": [],
+      "events": [],
+      "listeners": [],
+      "styles": [],
+      "slots": [],
+      "parts": [],
+      "dependents": [],
+      "dependencies": [
+        "doogma-component-container"
+      ],
+      "dependencyGraph": {
+        "doogma-component-containers": [
+          "doogma-component-container"
+        ]
+      }
+    },
+    {
+      "filePath": "./src/components/doogma-counterbox/doogma-counterbox.tsx",
+      "encapsulation": "none",
+      "tag": "doogma-counterbox",
+      "readme": "# doogma-counterbox\r\n\r\n\r\n\r",
+      "docs": "",
+      "docsTags": [],
+      "usage": {},
+      "props": [
+        {
+          "name": "hideLabel",
+          "type": "string",
+          "mutable": true,
+          "attr": "hide-label",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'no'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "iconEnd",
+          "type": "string",
+          "mutable": true,
+          "attr": "icon-end",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'+'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "iconStart",
+          "type": "string",
+          "mutable": true,
+          "attr": "icon-start",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'-'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "label",
+          "type": "string",
+          "mutable": true,
+          "attr": "label",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'My Text'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "labelPlacement",
+          "type": "string",
+          "mutable": true,
+          "attr": "label-placement",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'block'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "max",
+          "type": "number",
+          "mutable": true,
+          "attr": "max",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "+10",
+          "values": [
+            {
+              "type": "number"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "min",
+          "type": "number",
+          "mutable": true,
+          "attr": "min",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "-10",
+          "values": [
+            {
+              "type": "number"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "name",
+          "type": "string",
+          "mutable": true,
+          "attr": "name",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'counter'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "param",
+          "type": "string",
+          "mutable": true,
+          "attr": "param",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'counter'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "placeholder",
+          "type": "string",
+          "mutable": true,
+          "attr": "placeholder",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "''",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "step",
+          "type": "number",
+          "mutable": true,
+          "attr": "step",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "1",
+          "values": [
+            {
+              "type": "number"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "type",
+          "type": "string",
+          "mutable": true,
+          "attr": "type",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'number'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "value",
+          "type": "number",
+          "mutable": true,
+          "attr": "value",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "0",
+          "values": [
+            {
+              "type": "number"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "velocity",
+          "type": "number",
+          "mutable": true,
+          "attr": "velocity",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "50",
+          "values": [
+            {
+              "type": "number"
+            }
+          ],
+          "optional": false,
+          "required": false
+        }
+      ],
+      "methods": [],
+      "events": [],
+      "listeners": [
+        {
+          "event": "doogmaParametersChangeOut",
+          "target": "document",
+          "capture": false,
+          "passive": false
+        }
+      ],
+      "styles": [],
+      "slots": [],
+      "parts": [],
+      "dependents": [],
+      "dependencies": [],
+      "dependencyGraph": {}
+    },
+    {
+      "filePath": "./src/components/doogma-custom-scripts/doogma-custom-scripts.tsx",
+      "encapsulation": "none",
+      "tag": "doogma-custom-scripts",
+      "readme": "# doogma-custom-scripts\r\n\r\n\r\n\r",
+      "docs": "",
+      "docsTags": [],
+      "usage": {},
+      "props": [
+        {
+          "name": "items",
+          "type": "any",
+          "mutable": true,
+          "attr": "items",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "values": [
+            {
+              "type": "any"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "label",
+          "type": "string",
+          "mutable": true,
+          "attr": "label",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'custom default scripts label'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        }
+      ],
+      "methods": [],
+      "events": [],
+      "listeners": [],
+      "styles": [],
+      "slots": [],
+      "parts": [],
+      "dependents": [],
+      "dependencies": [],
+      "dependencyGraph": {}
+    },
+    {
+      "filePath": "./src/components/doogma-download-button/doogma-download-button.tsx",
+      "encapsulation": "none",
+      "tag": "doogma-download-button",
+      "readme": "# doogma-download-button\n\n\n",
+      "docs": "",
+      "docsTags": [],
+      "usage": {},
+      "props": [
+        {
+          "name": "hideLabel",
+          "type": "string",
+          "mutable": true,
+          "attr": "hide-label",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'no'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "iconDownloadButton",
+          "type": "string",
+          "mutable": true,
+          "attr": "icon-download-button",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "defaultSvgIconDownloadButton",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "label",
+          "type": "string",
+          "mutable": true,
+          "attr": "label",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'My Download Button'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "labelDownloadButton",
+          "type": "string",
+          "mutable": true,
+          "attr": "label-download-button",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'Download'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "shapeDownloadButton",
+          "type": "string",
+          "mutable": true,
+          "attr": "shape-download-button",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'default'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        }
+      ],
+      "methods": [],
+      "events": [],
+      "listeners": [],
+      "styles": [],
+      "slots": [],
+      "parts": [],
+      "dependents": [],
+      "dependencies": [],
+      "dependencyGraph": {}
+    },
+    {
+      "filePath": "./src/components/doogma-font-swatches/doogma-font-swatch.tsx",
+      "encapsulation": "none",
+      "tag": "doogma-font-swatch",
+      "readme": "# doogma-font-swatches\r\n\r\n\r\n\r",
+      "docs": "",
+      "docsTags": [],
+      "usage": {},
+      "props": [
+        {
+          "name": "backColor",
+          "type": "string",
+          "mutable": true,
+          "attr": "back-color",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'#000000'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "circular",
+          "type": "string",
+          "mutable": true,
+          "attr": "circular",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'no'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "frontColor",
+          "type": "string",
+          "mutable": true,
+          "attr": "front-color",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'#ffffff'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "gap",
+          "type": "string",
+          "mutable": true,
+          "attr": "gap",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'.5'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "label",
+          "type": "string",
+          "mutable": true,
+          "attr": "label",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'Font Name'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "name",
+          "type": "string",
+          "mutable": true,
+          "attr": "name",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'Aa'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "param",
+          "type": "string",
+          "mutable": true,
+          "attr": "param",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'fontswatch'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "selected",
+          "type": "string",
+          "mutable": true,
+          "attr": "selected",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'no'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "size",
+          "type": "string",
+          "mutable": true,
+          "attr": "size",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'32'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "value",
+          "type": "string",
+          "mutable": true,
+          "attr": "value",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'arial'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        }
+      ],
+      "methods": [],
+      "events": [],
+      "listeners": [
+        {
+          "event": "doogmaFontSwatchComponentUpdated",
+          "target": "document",
+          "capture": false,
+          "passive": false
+        },
+        {
+          "event": "doogmaParametersChangeOut",
+          "target": "document",
+          "capture": false,
+          "passive": false
+        }
+      ],
+      "styles": [],
+      "slots": [],
+      "parts": [],
+      "dependents": [
+        "doogma-font-swatches"
+      ],
+      "dependencies": [],
+      "dependencyGraph": {
+        "doogma-font-swatches": [
+          "doogma-font-swatch"
+        ]
+      }
+    },
+    {
+      "filePath": "./src/components/doogma-font-swatches/doogma-font-swatches.tsx",
+      "encapsulation": "none",
+      "tag": "doogma-font-swatches",
+      "readme": "# doogma-font-swatches\r\n\r\n\r\n\r",
+      "docs": "",
+      "docsTags": [],
+      "usage": {},
+      "props": [
+        {
+          "name": "backColor",
+          "type": "string",
+          "mutable": true,
+          "attr": "back-color",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'#000000'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "circular",
+          "type": "string",
+          "mutable": true,
+          "attr": "circular",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'no'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "frontColor",
+          "type": "string",
+          "mutable": true,
+          "attr": "front-color",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'#ffffff'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "gap",
+          "type": "string",
+          "mutable": true,
+          "attr": "gap",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'.25'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "items",
+          "type": "any",
+          "mutable": true,
+          "attr": "items",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "values": [
+            {
+              "type": "any"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "itemsPlacement",
+          "type": "string",
+          "mutable": true,
+          "attr": "items-placement",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'inline'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "label",
+          "type": "string",
+          "mutable": true,
+          "attr": "label",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'Font Swatches'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "labelPlacement",
+          "type": "string",
+          "mutable": true,
+          "attr": "label-placement",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'block'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "name",
+          "type": "string",
+          "mutable": true,
+          "attr": "name",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'font-swatch'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "param",
+          "type": "string",
+          "mutable": true,
+          "attr": "param",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'fontswatch1'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "showActiveSelection",
+          "type": "string",
+          "mutable": true,
+          "attr": "show-active-selection",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'no'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "size",
+          "type": "string",
+          "mutable": true,
+          "attr": "size",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'32'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        }
+      ],
+      "methods": [],
+      "events": [],
+      "listeners": [
+        {
+          "event": "doogmaFontSwatchComponentUpdated",
+          "target": "document",
+          "capture": false,
+          "passive": false
+        }
+      ],
+      "styles": [],
+      "slots": [],
+      "parts": [],
+      "dependents": [],
+      "dependencies": [
+        "doogma-font-swatch"
+      ],
+      "dependencyGraph": {
+        "doogma-font-swatches": [
+          "doogma-font-swatch"
+        ]
+      }
+    },
+    {
+      "filePath": "./src/components/doogma-fullscreen-button/doogma-fullscreen-button.tsx",
+      "encapsulation": "none",
+      "tag": "doogma-fullscreen-button",
+      "readme": "# doogma-share-button\n\n\n",
+      "docs": "",
+      "docsTags": [],
+      "usage": {},
+      "props": [
+        {
+          "name": "direction",
+          "type": "string",
+          "mutable": true,
+          "attr": "direction",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'right'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "icon",
+          "type": "string",
+          "mutable": true,
+          "attr": "icon",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "defaultSvgIconFullscreenButton",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "iconCloseModal",
+          "type": "string",
+          "mutable": true,
+          "attr": "icon-close-modal",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'<svg width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" fill=\"none\" width=\"20\" height=\"20\" /><g><path d=\"M3.4 2L2 3.4l2.8 2.8L3 8h5V3L6.2 4.8 3.4 2zm11.8 4.2L18 3.4 16.6 2l-2.8 2.8L12 3v5h5l-1.8-1.8zM4.8 13.8L2 16.6 3.4 18l2.8-2.8L8 17v-5H3l1.8 1.8zM17 12h-5v5l1.8-1.8 2.8 2.8 1.4-1.4-2.8-2.8L17 12z\" /></g></svg>'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "selector",
+          "type": "string",
+          "mutable": true,
+          "attr": "selector",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "shape",
+          "type": "string",
+          "mutable": true,
+          "attr": "shape",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'default'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        }
+      ],
+      "methods": [],
+      "events": [],
+      "listeners": [],
+      "styles": [],
+      "slots": [],
+      "parts": [],
+      "dependents": [],
+      "dependencies": [],
+      "dependencyGraph": {}
+    },
+    {
+      "filePath": "./src/components/doogma-html-section/doogma-html-section.tsx",
+      "encapsulation": "none",
+      "tag": "doogma-html-section",
+      "readme": "# doogma-html-section\r\n\r\n\r\n\r",
+      "docs": "",
+      "docsTags": [],
+      "usage": {},
+      "props": [
+        {
+          "name": "class",
+          "type": "string",
+          "mutable": true,
+          "attr": "class",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "''",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "content",
+          "type": "string",
+          "mutable": true,
+          "attr": "content",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'<div></div>'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        }
+      ],
+      "methods": [],
+      "events": [],
+      "listeners": [],
+      "styles": [],
+      "slots": [],
+      "parts": [],
+      "dependents": [],
+      "dependencies": [],
+      "dependencyGraph": {}
+    },
+    {
+      "filePath": "./src/components/doogma-image-swatches/doogma-image-swatch.tsx",
+      "encapsulation": "shadow",
+      "tag": "doogma-image-swatch",
+      "readme": "# doogma-image-swatches\r\n\r\n\r\n\r",
+      "docs": "",
+      "docsTags": [],
+      "usage": {},
+      "props": [
+        {
+          "name": "circular",
+          "type": "string",
+          "mutable": true,
+          "attr": "circular",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'no'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "gap",
+          "type": "string",
+          "mutable": true,
+          "attr": "gap",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'.5'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "label",
+          "type": "string",
+          "mutable": true,
+          "attr": "label",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "''",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "name",
+          "type": "string",
+          "mutable": true,
+          "attr": "name",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'Image'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "param",
+          "type": "string",
+          "mutable": true,
+          "attr": "param",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'imageswatch1'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "selected",
+          "type": "string",
+          "mutable": true,
+          "attr": "selected",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'no'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "size",
+          "type": "string",
+          "mutable": true,
+          "attr": "size",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'32'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "src",
+          "type": "string",
+          "mutable": true,
+          "attr": "src",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'https://via.placeholder.com/150/0000FF/'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "value",
+          "type": "string",
+          "mutable": true,
+          "attr": "value",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "''",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        }
+      ],
+      "methods": [],
+      "events": [],
+      "listeners": [
+        {
+          "event": "doogmaImageSwatchComponentUpdated",
+          "target": "document",
+          "capture": false,
+          "passive": false
+        },
+        {
+          "event": "doogmaParametersChangeOut",
+          "target": "document",
+          "capture": false,
+          "passive": false
+        }
+      ],
+      "styles": [],
+      "slots": [],
+      "parts": [],
+      "dependents": [
+        "doogma-image-swatches"
+      ],
+      "dependencies": [],
+      "dependencyGraph": {
+        "doogma-image-swatches": [
+          "doogma-image-swatch"
+        ]
+      }
+    },
+    {
+      "filePath": "./src/components/doogma-image-swatches/doogma-image-swatches.tsx",
+      "encapsulation": "none",
+      "tag": "doogma-image-swatches",
+      "readme": "# doogma-image-swatches\r\n\r\n\r\n\r",
+      "docs": "",
+      "docsTags": [],
+      "usage": {},
+      "props": [
+        {
+          "name": "circular",
+          "type": "string",
+          "mutable": true,
+          "attr": "circular",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'no'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "gap",
+          "type": "string",
+          "mutable": true,
+          "attr": "gap",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'.25'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "hideLabel",
+          "type": "string",
+          "mutable": true,
+          "attr": "hide-label",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'no'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "items",
+          "type": "any",
+          "mutable": true,
+          "attr": "items",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "values": [
+            {
+              "type": "any"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "itemsPlacement",
+          "type": "string",
+          "mutable": true,
+          "attr": "items-placement",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'inline'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "label",
+          "type": "string",
+          "mutable": true,
+          "attr": "label",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'Image Swatches'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "labelPlacement",
+          "type": "string",
+          "mutable": true,
+          "attr": "label-placement",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'block'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "param",
+          "type": "string",
+          "mutable": true,
+          "attr": "param",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'imageswatch1'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "showActiveSelection",
+          "type": "string",
+          "mutable": true,
+          "attr": "show-active-selection",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'no'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "size",
+          "type": "string",
+          "mutable": true,
+          "attr": "size",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'32'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        }
+      ],
+      "methods": [],
+      "events": [],
+      "listeners": [
+        {
+          "event": "doogmaImageSwatchComponentUpdated",
+          "target": "document",
+          "capture": false,
+          "passive": false
+        }
+      ],
+      "styles": [],
+      "slots": [],
+      "parts": [],
+      "dependents": [],
+      "dependencies": [
+        "doogma-image-swatch"
+      ],
+      "dependencyGraph": {
+        "doogma-image-swatches": [
+          "doogma-image-swatch"
+        ]
+      }
+    },
+    {
+      "filePath": "./src/components/doogma-nav-control/doogma-nav-control.tsx",
+      "encapsulation": "none",
+      "tag": "doogma-nav-control",
+      "readme": "# doogma-nav-controls\r\n\r\n\r\n\r",
+      "docs": "",
+      "docsTags": [],
+      "usage": {},
+      "props": [
+        {
+          "name": "class",
+          "type": "string",
+          "mutable": true,
+          "attr": "class",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "''",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "controlId",
+          "type": "string",
+          "mutable": false,
+          "attr": "control-id",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "''",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "controlsNav",
+          "type": "string",
+          "mutable": true,
+          "attr": "controls-nav",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "''",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "label",
+          "type": "string",
+          "mutable": true,
+          "attr": "label",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'View 1'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "param",
+          "type": "string",
+          "mutable": true,
+          "attr": "param",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'control'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "selected",
+          "type": "string",
+          "mutable": true,
+          "attr": "selected",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'no'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "viewType",
+          "type": "string",
+          "mutable": true,
+          "attr": "view-type",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'button'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "zoomHeight",
+          "type": "string",
+          "mutable": true,
+          "attr": "zoom-height",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'750'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "zoomWidth",
+          "type": "string",
+          "mutable": true,
+          "attr": "zoom-width",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'750'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "zoomX",
+          "type": "string",
+          "mutable": true,
+          "attr": "zoom-x",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "''",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "zoomY",
+          "type": "string",
+          "mutable": true,
+          "attr": "zoom-y",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "''",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        }
+      ],
+      "methods": [],
+      "events": [],
+      "listeners": [
+        {
+          "event": "doogmaNavControlComponentUpdated",
+          "target": "document",
+          "capture": false,
+          "passive": false
+        }
+      ],
+      "styles": [],
+      "slots": [],
+      "parts": [],
+      "dependents": [
+        "doogma-nav-controls"
+      ],
+      "dependencies": [],
+      "dependencyGraph": {
+        "doogma-nav-controls": [
+          "doogma-nav-control"
+        ]
+      }
+    },
+    {
+      "filePath": "./src/components/doogma-nav-control/doogma-nav-controls.tsx",
+      "encapsulation": "none",
+      "tag": "doogma-nav-controls",
+      "readme": "# doogma-nav-controls\r\n\r\n\r\n\r",
+      "docs": "",
+      "docsTags": [],
+      "usage": {},
+      "props": [
+        {
+          "name": "class",
+          "type": "string",
+          "mutable": true,
+          "attr": "class",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "''",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "defZoomHeight",
+          "type": "string",
+          "mutable": true,
+          "attr": "def-zoom-height",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'750'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "defZoomWidth",
+          "type": "string",
+          "mutable": true,
+          "attr": "def-zoom-width",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'750'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "defZoomX",
+          "type": "string",
+          "mutable": true,
+          "attr": "def-zoom-x",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'0'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "defZoomY",
+          "type": "string",
+          "mutable": true,
+          "attr": "def-zoom-y",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'0'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "display",
+          "type": "string",
+          "mutable": true,
+          "attr": "display",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'inline'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "items",
+          "type": "any",
+          "mutable": true,
+          "attr": "items",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "values": [
+            {
+              "type": "any"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "param",
+          "type": "string",
+          "mutable": true,
+          "attr": "param",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'navcontrol'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "viewType",
+          "type": "string",
+          "mutable": true,
+          "attr": "view-type",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'button'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        }
+      ],
+      "methods": [],
+      "events": [],
+      "listeners": [],
+      "styles": [],
+      "slots": [],
+      "parts": [],
+      "dependents": [],
+      "dependencies": [
+        "doogma-nav-control"
+      ],
+      "dependencyGraph": {
+        "doogma-nav-controls": [
+          "doogma-nav-control"
+        ]
+      }
+    },
+    {
+      "filePath": "./src/components/doogma-nav-tabs/doogma-nav-tab.tsx",
+      "encapsulation": "none",
+      "tag": "doogma-nav-tab",
+      "readme": "# doogma-nav-tabs\r\n\r\n\r\n\r",
+      "docs": "",
+      "docsTags": [],
+      "usage": {},
+      "props": [
+        {
+          "name": "image",
+          "type": "string",
+          "mutable": true,
+          "attr": "image",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "index",
+          "type": "string",
+          "mutable": true,
+          "attr": "index",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'0'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "name",
+          "type": "string",
+          "mutable": true,
+          "attr": "name",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'Tab Name'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "param",
+          "type": "string",
+          "mutable": true,
+          "attr": "param",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'natabs'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "selected",
+          "type": "string",
+          "mutable": true,
+          "attr": "selected",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'no'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "slug",
+          "type": "string",
+          "mutable": true,
+          "attr": "slug",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'tabname'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        }
+      ],
+      "methods": [],
+      "events": [],
+      "listeners": [],
+      "styles": [],
+      "slots": [],
+      "parts": [],
+      "dependents": [
+        "doogma-nav-tabs"
+      ],
+      "dependencies": [],
+      "dependencyGraph": {
+        "doogma-nav-tabs": [
+          "doogma-nav-tab"
+        ]
+      }
+    },
+    {
+      "filePath": "./src/components/doogma-nav-tabs/doogma-nav-tabs.tsx",
+      "encapsulation": "none",
+      "tag": "doogma-nav-tabs",
+      "readme": "# doogma-nav-tabs\r\n\r\n\r\n\r",
+      "docs": "",
+      "docsTags": [],
+      "usage": {},
+      "props": [
+        {
+          "name": "class",
+          "type": "string",
+          "mutable": true,
+          "attr": "class",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "''",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "enableZoom",
+          "type": "string",
+          "mutable": true,
+          "attr": "enable-zoom",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'no'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "hideTabs",
+          "type": "string",
+          "mutable": true,
+          "attr": "hide-tabs",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'no'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "items",
+          "type": "any",
+          "mutable": true,
+          "attr": "items",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "values": [
+            {
+              "type": "any"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "maxWidth",
+          "type": "string",
+          "mutable": true,
+          "attr": "max-width",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'100%'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "param",
+          "type": "string",
+          "mutable": true,
+          "attr": "param",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'navtabs'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "viewType",
+          "type": "string",
+          "mutable": true,
+          "attr": "view-type",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'tab'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        }
+      ],
+      "methods": [],
+      "events": [],
+      "listeners": [],
+      "styles": [],
+      "slots": [],
+      "parts": [],
+      "dependents": [],
+      "dependencies": [
+        "doogma-nav-tab"
+      ],
+      "dependencyGraph": {
+        "doogma-nav-tabs": [
+          "doogma-nav-tab"
+        ]
+      }
+    },
+    {
+      "filePath": "./src/components/doogma-radio-group/doogma-radio.tsx",
+      "encapsulation": "none",
+      "tag": "doogma-radio",
+      "readme": "# doogma-radio-group\r\n\r\n\r\n\r",
+      "docs": "",
+      "docsTags": [],
+      "usage": {},
+      "props": [
+        {
+          "name": "body",
+          "type": "string[]",
+          "mutable": true,
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "[]",
+          "values": [
+            {
+              "type": "string[]"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "customParameters",
+          "type": "object",
+          "mutable": true,
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "{}",
+          "values": [
+            {
+              "type": "object"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "customtitle",
+          "type": "string",
+          "mutable": true,
+          "attr": "customtitle",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "''",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "gap",
+          "type": "string",
+          "mutable": true,
+          "attr": "gap",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'.5'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "groupParam",
+          "type": "string",
+          "mutable": true,
+          "attr": "group-param",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'radio1'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "label",
+          "type": "string",
+          "mutable": true,
+          "attr": "label",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'Radio Option'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "multiText",
+          "type": "string",
+          "mutable": true,
+          "attr": "multi-text",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'no'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "name",
+          "type": "string",
+          "mutable": true,
+          "attr": "name",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'radiogroup1'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "param",
+          "type": "string",
+          "mutable": true,
+          "attr": "param",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'radio1'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "selected",
+          "type": "string",
+          "mutable": true,
+          "attr": "selected",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'no'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "value",
+          "type": "string",
+          "mutable": true,
+          "attr": "value",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'opt1'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        }
+      ],
+      "methods": [],
+      "events": [],
+      "listeners": [
+        {
+          "event": "doogmaRadioSwatchComponentUpdated",
+          "target": "document",
+          "capture": false,
+          "passive": false
+        },
+        {
+          "event": "doogmaParametersChangeOut",
+          "target": "document",
+          "capture": false,
+          "passive": false
+        }
+      ],
+      "styles": [],
+      "slots": [],
+      "parts": [],
+      "dependents": [
+        "doogma-radio-group"
+      ],
+      "dependencies": [],
+      "dependencyGraph": {
+        "doogma-radio-group": [
+          "doogma-radio"
+        ]
+      }
+    },
+    {
+      "filePath": "./src/components/doogma-radio-group/doogma-radio-group.tsx",
+      "encapsulation": "none",
+      "tag": "doogma-radio-group",
+      "readme": "# doogma-radio-group\r\n\r\n\r\n\r",
+      "docs": "",
+      "docsTags": [],
+      "usage": {},
+      "props": [
+        {
+          "name": "gap",
+          "type": "string",
+          "mutable": true,
+          "attr": "gap",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'.25'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "groupParam",
+          "type": "string",
+          "mutable": true,
+          "attr": "group-param",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'radio1'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "hideLabel",
+          "type": "string",
+          "mutable": true,
+          "attr": "hide-label",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'no'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "items",
+          "type": "any",
+          "mutable": true,
+          "attr": "items",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "values": [
+            {
+              "type": "any"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "itemsPlacement",
+          "type": "string",
+          "mutable": true,
+          "attr": "items-placement",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'inline'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "label",
+          "type": "string",
+          "mutable": true,
+          "attr": "label",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'Radio Group'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "labelPlacement",
+          "type": "string",
+          "mutable": true,
+          "attr": "label-placement",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'block'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "param",
+          "type": "string",
+          "mutable": true,
+          "attr": "param",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'radiogroup1'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        }
+      ],
+      "methods": [],
+      "events": [],
+      "listeners": [
+        {
+          "event": "doogmaRadioSwatchComponentUpdated",
+          "target": "document",
+          "capture": false,
+          "passive": false
+        }
+      ],
+      "styles": [],
+      "slots": [],
+      "parts": [],
+      "dependents": [],
+      "dependencies": [
+        "doogma-radio"
+      ],
+      "dependencyGraph": {
+        "doogma-radio-group": [
+          "doogma-radio"
+        ]
+      }
+    },
+    {
+      "filePath": "./src/components/doogma-select/doogma-select.tsx",
+      "encapsulation": "none",
+      "tag": "doogma-select",
+      "readme": "# doogma-select-option\r\n\r\n\r\n\r",
+      "docs": "",
+      "docsTags": [],
+      "usage": {},
+      "props": [
+        {
+          "name": "dataIdentifier",
+          "type": "string",
+          "mutable": true,
+          "attr": "data-identifier",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'doogma-select'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "defaultParamValue",
+          "type": "any",
+          "mutable": true,
+          "attr": "default-param-value",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "values": [
+            {
+              "type": "any"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "hideLabel",
+          "type": "string",
+          "mutable": true,
+          "attr": "hide-label",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'no'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "items",
+          "type": "any",
+          "mutable": true,
+          "attr": "items",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "values": [
+            {
+              "type": "any"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "label",
+          "type": "string",
+          "mutable": true,
+          "attr": "label",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'Select'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "labelPlacement",
+          "type": "string",
+          "mutable": true,
+          "attr": "label-placement",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'block'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "name",
+          "type": "string",
+          "mutable": true,
+          "attr": "name",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'selectbox1'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "param",
+          "type": "string",
+          "mutable": true,
+          "attr": "param",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'selectbox1'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "value",
+          "type": "string",
+          "mutable": true,
+          "attr": "value",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "''",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        }
+      ],
+      "methods": [],
+      "events": [],
+      "listeners": [
+        {
+          "event": "doogmaParametersChangeOut",
+          "target": "document",
+          "capture": false,
+          "passive": false
+        },
+        {
+          "event": "doogmaSelectComponentUpdated",
+          "target": "document",
+          "capture": false,
+          "passive": false
+        }
+      ],
+      "styles": [],
+      "slots": [],
+      "parts": [],
+      "dependents": [],
+      "dependencies": [],
+      "dependencyGraph": {}
+    },
+    {
+      "filePath": "./src/components/doogma-shared-button/doogma-share-button.tsx",
+      "encapsulation": "none",
+      "tag": "doogma-share-button",
+      "readme": "# doogma-share-button\n\n\n",
+      "docs": "",
+      "docsTags": [],
+      "usage": {},
+      "props": [
+        {
+          "name": "hideLabel",
+          "type": "string",
+          "mutable": true,
+          "attr": "hide-label",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'no'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "iconCloseModal",
+          "type": "string",
+          "mutable": true,
+          "attr": "icon-close-modal",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "\"X\"",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "iconShareButton",
+          "type": "string",
+          "mutable": true,
+          "attr": "icon-share-button",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "defaultSvgIconShareButton",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "label",
+          "type": "string",
+          "mutable": true,
+          "attr": "label",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'My Share Button'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "labelButtonCta",
+          "type": "string",
+          "mutable": true,
+          "attr": "label-button-cta",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'Copy URL'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "labelButtonCtaClicked",
+          "type": "string",
+          "mutable": true,
+          "attr": "label-button-cta-clicked",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "labelButtonCtaTimeOut",
+          "type": "number",
+          "mutable": true,
+          "attr": "label-button-cta-time-out",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "3000",
+          "values": [
+            {
+              "type": "number"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "labelHeaderModal",
+          "type": "string",
+          "mutable": true,
+          "attr": "label-header-modal",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'Link to your saved design'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "labelShareButton",
+          "type": "string",
+          "mutable": true,
+          "attr": "label-share-button",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'Share'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "shapeShareButton",
+          "type": "string",
+          "mutable": true,
+          "attr": "shape-share-button",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'default'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        }
+      ],
+      "methods": [],
+      "events": [],
+      "listeners": [
+        {
+          "event": "click",
+          "target": "body",
+          "capture": false,
+          "passive": false
+        }
+      ],
+      "styles": [],
+      "slots": [],
+      "parts": [],
+      "dependents": [],
+      "dependencies": [],
+      "dependencyGraph": {}
+    },
+    {
+      "filePath": "./src/components/doogma-simple-text/doogma-simple-text.tsx",
+      "encapsulation": "none",
+      "tag": "doogma-simple-text",
+      "readme": "# doogma-simple-text\r\n\r\n\r\n\r",
+      "docs": "",
+      "docsTags": [],
+      "usage": {},
+      "props": [
+        {
+          "name": "hideLabel",
+          "type": "string",
+          "mutable": true,
+          "attr": "hide-label",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'no'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "label",
+          "type": "string",
+          "mutable": true,
+          "attr": "label",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'My Text'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "labelPlacement",
+          "type": "string",
+          "mutable": true,
+          "attr": "label-placement",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'block'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "name",
+          "type": "string",
+          "mutable": true,
+          "attr": "name",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'text1'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "param",
+          "type": "string",
+          "mutable": true,
+          "attr": "param",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'text1'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "placeholder",
+          "type": "string",
+          "mutable": true,
+          "attr": "placeholder",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "''",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "type",
+          "type": "string",
+          "mutable": true,
+          "attr": "type",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'text'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "value",
+          "type": "string",
+          "mutable": true,
+          "attr": "value",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "''",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        }
+      ],
+      "methods": [],
+      "events": [],
+      "listeners": [
+        {
+          "event": "doogmaParametersChangeOut",
+          "target": "document",
+          "capture": false,
+          "passive": false
+        }
+      ],
+      "styles": [],
+      "slots": [],
+      "parts": [],
+      "dependents": [],
+      "dependencies": [],
+      "dependencyGraph": {}
+    },
+    {
+      "filePath": "./src/components/doogma-style/doogma-style.tsx",
+      "encapsulation": "none",
+      "tag": "doogma-style",
+      "readme": "# doogma-style\r\n\r\n\r\n\r",
+      "docs": "",
+      "docsTags": [],
+      "usage": {},
+      "props": [
+        {
+          "name": "external",
+          "type": "string",
+          "mutable": true,
+          "attr": "external",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "''",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "internal",
+          "type": "string",
+          "mutable": true,
+          "attr": "internal",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "''",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        }
+      ],
+      "methods": [],
+      "events": [],
+      "listeners": [],
+      "styles": [],
+      "slots": [],
+      "parts": [],
+      "dependents": [],
+      "dependencies": [],
+      "dependencyGraph": {}
+    },
+    {
+      "filePath": "./src/components/doogma-wrapper/doogma-wrapper.tsx",
+      "encapsulation": "none",
+      "tag": "doogma-wrapper",
+      "readme": "# doogma-wrapper\r\n\r\n\r\n\r",
+      "docs": "",
+      "docsTags": [],
+      "usage": {},
+      "props": [
+        {
+          "name": "class",
+          "type": "string",
+          "mutable": true,
+          "attr": "class",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "''",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "gutter",
+          "type": "string",
+          "mutable": true,
+          "attr": "gutter",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'15px'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "initConfig",
+          "type": "string",
+          "mutable": true,
+          "attr": "init-config",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "''",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "maxWidth",
+          "type": "string",
+          "mutable": true,
+          "attr": "max-width",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'1200px'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "ratio",
+          "type": "string",
+          "mutable": true,
+          "attr": "ratio",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'50:50'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "ratios",
+          "type": "string",
+          "mutable": true,
+          "attr": "ratios",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'mobile=100:100|tablet=40:60|desktop=50:50'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "topOffset",
+          "type": "string",
+          "mutable": true,
+          "attr": "top-offset",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'0'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "topOffsets",
+          "type": "string",
+          "mutable": true,
+          "attr": "top-offsets",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'mobile=0px|tablet=80px|desktop=100px'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "visId",
+          "type": "string",
+          "mutable": true,
+          "attr": "vis-id",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "''",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        }
+      ],
+      "methods": [],
+      "events": [],
+      "listeners": [],
+      "styles": [],
+      "slots": [],
+      "parts": [],
+      "dependents": [],
+      "dependencies": [],
+      "dependencyGraph": {}
+    },
+    {
+      "filePath": "./src/components/my-component/my-component.tsx",
+      "encapsulation": "shadow",
+      "tag": "my-component",
+      "readme": "# my-component\r\n\r\n\r\n\r",
+      "docs": "",
+      "docsTags": [],
+      "usage": {},
+      "props": [
+        {
+          "name": "first",
+          "type": "string",
+          "mutable": false,
+          "attr": "first",
+          "reflectToAttr": false,
+          "docs": "The first name",
+          "docsTags": [],
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "last",
+          "type": "string",
+          "mutable": false,
+          "attr": "last",
+          "reflectToAttr": false,
+          "docs": "The last name",
+          "docsTags": [],
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "middle",
+          "type": "string",
+          "mutable": false,
+          "attr": "middle",
+          "reflectToAttr": false,
+          "docs": "The middle name",
+          "docsTags": [],
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        }
+      ],
+      "methods": [],
+      "events": [],
+      "listeners": [],
+      "styles": [],
+      "slots": [],
+      "parts": [],
+      "dependents": [],
+      "dependencies": [],
+      "dependencyGraph": {}
+    }
+  ]
+}
