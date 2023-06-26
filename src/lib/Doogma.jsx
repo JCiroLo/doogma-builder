@@ -101,3 +101,7 @@ export function renderComponents(components, wrapper = "div", wrapperClass = "do
 
   return doogmaComponentsWrap;
 }
+
+export async function fetchProduct(url) {
+  return await (await fetch(url, { method: "GET", headers: { "Content-type": "application/json" } })).json();
+}

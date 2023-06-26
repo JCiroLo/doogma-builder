@@ -21,39 +21,49 @@ aside.sidebar-component {
   }
 
   .sidebar-content {
-    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    gap: $unit;
+    padding: $unit;
+    width: 100%;
 
-    .sidebar-components-wrapper {
-      display: flex;
-      flex-direction: column;
-      gap: $unit;
-      padding: $unit;
-      overflow-y: overlay;
-      max-height: calc(100vh - 36px - 60px);
+    button {
+      flex-grow: 1;
+      text-align: center;
+      background-color: rgba(map-get($colors, font), 0.5);
 
-      .doogma-item-wrapper {
-        @include transition("outline");
-
-        &.clone {
-          opacity: 0.3;
-        }
+      &.active {
+        background-color: var(--color-main);
       }
+    }
+
+    input {
+      display: none;
     }
   }
 
   .sidebar-footer {
     display: flex;
     flex-direction: column;
+    gap: $unit;
     width: 100%;
     padding: $unit;
+    margin-top: auto;
+  }
 
-    button {
-      flex-grow: 1;
-      text-align: center;
-    }
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: $unit;
 
-    input {
-      display: none;
+    section {
+      display: flex;
+      flex-direction: column;
+      gap: $unit * 0.5;
+
+      label{
+        font-size: small;
+      }
     }
   }
 }

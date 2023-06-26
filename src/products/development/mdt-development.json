@@ -1,0 +1,232 @@
+{
+  "id": "mdt-development",
+  "wrapper": {
+    "maxWidth": "1800px",
+    "ratio": "50:40",
+    "ratios": "mobile=100:100|tablet=100:100|desktop=100:100",
+    "topOffset": "0px",
+    "topOffsets": "mobile=0px|tablet=0px|desktop=0px",
+    "gutter": "0px",
+    "version": "0.1"
+  },
+  "visualisation": {
+    "visualisationId": "n21.mdt-demo",
+    "initConfig": "0lbb3cavuxj",
+    "beforeVis": {},
+    "afterVis": {}
+  },
+  "hiddenParams": [
+    {
+      "class": "doogma-view-x",
+      "value": "0"
+    },
+    {
+      "class": "doogma-view-y",
+      "value": "1000"
+    },
+    {
+      "class": "doogma-view-width",
+      "value": "1000"
+    },
+    {
+      "class": "doogma-view-height",
+      "value": "1000"
+    },
+    {
+      "id": "uploadedimagecookie",
+      "class": "uploadedimagecookie",
+      "value": ""
+    },
+    {
+      "id": "uploadedimagepackage",
+      "class": "uploadedimagepackage",
+      "value": ""
+    },
+    {
+      "id": "savedDesign",
+      "class": "saved-design",
+      "value": ""
+    }
+  ],
+  "navigation": {
+    "components": [
+      {
+        "type": "doogma-simple-text",
+        "attributes": {
+          "label": "Select Action",
+          "placeholder": "",
+          "labelPlacement": "block",
+          "param": "selectaction",
+          "name": "selectaction",
+          "value": "none"
+        }
+      },
+      {
+        "type": "doogma-simple-text",
+        "attributes": {
+          "label": "Select Chassis",
+          "placeholder": "",
+          "labelPlacement": "block",
+          "param": "selectchassis",
+          "name": "selectchassis",
+          "value": "none"
+        }
+      },
+      {
+        "type": "doogma-simple-text",
+        "attributes": {
+          "label": "Select Buttstock",
+          "placeholder": "",
+          "labelPlacement": "block",
+          "param": "selectbuttstock",
+          "name": "selectbuttstock",
+          "value": "none"
+        }
+      },
+      {
+        "type": "doogma-simple-text",
+        "attributes": {
+          "label": "Select Grip",
+          "placeholder": "",
+          "labelPlacement": "block",
+          "param": "selectgrip",
+          "name": "selectgrip",
+          "value": "none"
+        }
+      },
+      {
+        "type": "doogma-simple-text",
+        "attributes": {
+          "label": "Select Magazine",
+          "placeholder": "",
+          "labelPlacement": "block",
+          "param": "selectmagazine",
+          "name": "selectmagazine",
+          "value": "none"
+        }
+      },
+      {
+        "type": "doogma-simple-text",
+        "attributes": {
+          "label": "Select Scope Base",
+          "placeholder": "",
+          "labelPlacement": "block",
+          "param": "selectscopebase",
+          "name": "selectscopebase",
+          "value": "none"
+        }
+      },
+      {
+        "type": "doogma-simple-text",
+        "attributes": {
+          "label": "Select Scope Rings",
+          "placeholder": "",
+          "labelPlacement": "block",
+          "param": "selectscoperings",
+          "name": "selectscoperings",
+          "value": "none"
+        }
+      },
+      {
+        "type": "doogma-simple-text",
+        "attributes": {
+          "label": "Select Muzzle Break",
+          "placeholder": "",
+          "labelPlacement": "block",
+          "param": "selectmuzzlebreak",
+          "name": "selectmuzzlebreak",
+          "value": "none"
+        }
+      },
+      {
+        "type": "doogma-simple-text",
+        "attributes": {
+          "label": "Select Bipods",
+          "placeholder": "",
+          "labelPlacement": "block",
+          "param": "selectbipods",
+          "name": "selectbipods",
+          "value": "none"
+        }
+      },
+      {
+        "type": "doogma-simple-text",
+        "attributes": {
+          "label": "Select Add Ons",
+          "placeholder": "",
+          "labelPlacement": "block",
+          "param": "selectaddons",
+          "name": "selectaddons",
+          "value": "none"
+        }
+      },
+      {
+        "type": "doogma-simple-text",
+        "attributes": {
+          "label": "Select Chassis Color",
+          "placeholder": "",
+          "labelPlacement": "block",
+          "param": "selectchassiscolor",
+          "name": "selectchassiscolor",
+          "value": "none"
+        }
+      },
+      {
+        "type": "doogma-simple-text",
+        "attributes": {
+          "label": "Select Buttstock Type",
+          "placeholder": "",
+          "labelPlacement": "block",
+          "param": "selectbuttstocktype",
+          "name": "selectbuttstocktype",
+          "value": "none"
+        }
+      },
+      {
+        "type": "doogma-simple-text",
+        "attributes": {
+          "label": "Select Capacity",
+          "placeholder": "",
+          "labelPlacement": "block",
+          "param": "selectcapacity",
+          "name": "selectcapacity",
+          "value": "none"
+        }
+      },
+      {
+        "type": "doogma-simple-text",
+        "attributes": {
+          "label": "Select Forend",
+          "placeholder": "",
+          "labelPlacement": "block",
+          "param": "selectforend",
+          "name": "selectforend",
+          "value": "none"
+        }
+      },
+      {
+        "type": "doogma-simple-text",
+        "attributes": {
+          "label": "Select Buttstock Color",
+          "placeholder": "",
+          "labelPlacement": "block",
+          "param": "selectbuttstockcolor",
+          "name": "selectbuttstockcolor",
+          "value": "none"
+        }
+      },
+      {
+        "type": "doogma-simple-text",
+        "attributes": {
+          "label": "Select Caliber",
+          "placeholder": "",
+          "labelPlacement": "block",
+          "param": "selectcaliber",
+          "name": "selectcaliber",
+          "value": "none"
+        }
+      }
+    ]
+  },
+  "_comment": "Components END"
+}

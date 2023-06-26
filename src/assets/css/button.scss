@@ -7,57 +7,27 @@ a.link-component {
   align-items: center;
   gap: $unit * 0.5;
   cursor: pointer;
-  border: 2px solid transparent;
+  border: 1.5px solid transparent;
+  background-color: transparent;
+  color: white;
   @include border-radius(1);
   @include transition("background-color", "color");
-
-  &::before {
-    content: "";
-    position: absolute;
-    z-index: -1;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    @include border-radius(1);
-    @include transition("background-color", "scale");
-  }
 
   &.text {
     color: var(--color-font);
 
-    &::before {
-      scale: 0.75;
-    }
-
     &:hover {
       color: var(--color-main);
-
-      &::before {
-        scale: 1;
-      }
-    }
-
-    &:active {
-      &::before {
-        scale: 0.9;
-      }
     }
   }
 
   &.filled {
     color: var(--color-background);
-
-    &::before {
-      background-color: var(--color-main);
-    }
+    background-color: var(--color-main);
 
     &:hover {
       color: var(--color-background);
-
-      &::before {
-        background-color: var(--color-main);
-      }
+      background-color: var(--color-main);
     }
   }
 
@@ -65,18 +35,11 @@ a.link-component {
     color: var(--color-main);
     border-color: var(--color-main);
 
-    &::before {
-      scale: 1.05;
-      background-color: transparent;
-    }
-
     &:hover {
       color: var(--color-background);
       border-color: var(--color-main);
 
-      &::before {
-        background-color: var(--color-main);
-      }
+      background-color: var(--color-main);
     }
   }
 
@@ -101,7 +64,7 @@ a.link-component {
   }
 
   &.small {
-    padding: $unit * 0.75 $unit;
+    padding: $unit * 0.25 $unit * 0.75;
 
     span {
       font-size: 0.9em;
@@ -109,7 +72,7 @@ a.link-component {
   }
 
   &.medium {
-    padding: $unit;
+    padding: $unit * 0.5 $unit;
   }
 
   &.large {
@@ -123,7 +86,7 @@ a.link-component {
 
   span {
     font-weight: 600;
-    color: white;
+    color: inherit;
 
     &:empty {
       display: none;

@@ -1,0 +1,112 @@
+{
+  "id": "oreoweddings-development",
+  "wrapper": {
+    "maxWidth": "1600px",
+    "ratio": "50:40",
+    "ratios": "mobile=100:100|tablet=100:100|desktop=50:50",
+    "topOffset": "0px",
+    "topOffsets": "mobile=0px|tablet=0px|desktop=0px",
+    "gutter": "0px",
+    "version": "0.1"
+  },
+  "visualisation": {
+    "visualisationId": "n21.pasties-customizer",
+    "initConfig": "0lbb3cavuxj",
+    "beforeVis": {},
+    "afterVis": {}
+  },
+  "hiddenParams": [
+    {
+      "class": "doogma-view-x",
+      "value": "0"
+    },
+    {
+      "class": "doogma-view-y",
+      "value": "1000"
+    },
+    {
+      "class": "doogma-view-width",
+      "value": "1000"
+    },
+    {
+      "class": "doogma-view-height",
+      "value": "1000"
+    },
+    {
+      "id": "uploadedimagecookie",
+      "class": "uploadedimagecookie",
+      "value": ""
+    },
+    {
+      "id": "uploadedimagepackage",
+      "class": "uploadedimagepackage",
+      "value": ""
+    },
+    {
+      "id": "savedDesign",
+      "class": "saved-design",
+      "value": ""
+    }
+  ],
+  "navigation": {
+    "components": [
+      {
+        "type": "doogma-html-section",
+        "attributes": {
+          "content": "<h3 class='doogma-subtitle'>Custom Pastease by Pastease™</h3>"
+        }
+      },
+      {
+        "type": "doogma-image-swatches",
+        "attributes": {
+          "label": "Pick Your Shape",
+          "param": "shape",
+          "labelPlacement": "block",
+          "size": "32",
+          "gap": "0.5",
+          "circular": "no",
+          "showActiveSelection": "yes",
+          "items": [
+            {
+              "name": "flr",
+              "value": "flr",
+              "src": "https://utils.doogma.com/nav-loader/assets/pastease/shape/573.preview.png",
+              "selected": "yes"
+            },
+            {
+              "name": "hrt",
+              "value": "hrt",
+              "src": "https://utils.doogma.com/nav-loader/assets/pastease/shape/574.preview.png"
+            }
+          ]
+        }
+      },
+      {
+        "type": "doogma-image-swatches",
+        "attributes": {
+          "label": "Choose a Material:*",
+          "param": "material",
+          "labelPlacement": "block",
+          "size": "32",
+          "gap": "0.5",
+          "circular": "no",
+          "showActiveSelection": "yes",
+          "items": [
+            {
+              "name": "matte white",
+              "value": "mattewhite",
+              "src": "https://utils.doogma.com/nav-loader/assets/pastease/material/614.webp",
+              "selected": "yes"
+            },
+            {
+              "name": "disco white",
+              "value": "discowhite",
+              "src": "https://utils.doogma.com/nav-loader/assets/pastease/material/616.preview.png"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "_comment": "Components END"
+}

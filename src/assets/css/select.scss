@@ -1,0 +1,10 @@
+.select-component {
+  padding: $unit;
+  border: 1.5px solid var(--color-font);
+  outline: none;
+  @include border-radius(0.5);
+
+  &:focus {
+    border-color: var(--color-main);
+  }
+}

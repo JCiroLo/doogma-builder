@@ -3,6 +3,7 @@
 @import "sidebar.scss";
 @import "modal.scss";
 @import "button.scss";
+@import "select.scss";
 @import "builder.scss";
 @import "doogmaItem.scss";
 @import "doogmaComponent.scss";
@@ -13,7 +14,7 @@
   --color-font: #{map-get($colors, font)};
 }
 
-::-webkit-scrollbar{
+::-webkit-scrollbar {
   display: initial !important;
 }
 
