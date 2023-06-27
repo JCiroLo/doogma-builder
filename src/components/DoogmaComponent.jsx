@@ -26,7 +26,7 @@ function DoogmaComponent({ component, path, onReorder, onDelete, onEdit, onAddCo
     <div className={classnames("doogma-component-wrapper", { active })}>
       <div className="doogma-component-header">
         <div className="doogma-component-info" onClick={() => setActive((prev) => !prev)}>
-          <small className="component-type">{component.attributes.label || component.type}</small>
+          <small className="component-type">Component: {component.attributes.label || component.type}</small>
           <div className="doogma-component-actions">
             <div className="doogma-component-actions-multiple">
               <button className="doogma-component-action" onClick={(event) => handleReorder(event, "up")}>
@@ -62,7 +62,7 @@ function DoogmaComponent({ component, path, onReorder, onDelete, onEdit, onAddCo
                 className={classnames("doogma-component-item", { "with-components": canSaveComponents })}
                 key={item.id}
               >
-                <small className="item-type">{item.attributes.name || `Item ${itemIntex}`}</small>
+                <small className="item-type">Item: {item.attributes.name || `Item ${itemIntex}`}</small>
                 <div className={classnames("doogma-component-drop-zone")}>
                   {item.components.map((component, index) => (
                     <DoogmaComponent

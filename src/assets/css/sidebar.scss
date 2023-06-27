@@ -74,6 +74,7 @@ aside.sidebar-component {
     .doogma-component-items-allow-components {
       display: flex;
       align-items: center;
+      justify-content: space-between;
       gap: $unit;
       font-size: small;
       font-weight: 500;

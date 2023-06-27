@@ -2,6 +2,9 @@ input.checkbox-component {
   position: relative;
   display: flex;
   align-items: center;
+  width: calc($unit * 1.5 + 3px);
+  height: calc($unit * 1.5 + 3px);
+  margin: 0 $unit * 0.25;
   -webkit-appearance: none;
   appearance: none;
   cursor: pointer;
