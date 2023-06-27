@@ -77,7 +77,7 @@ export function renderComponents(components, wrapper = "div", wrapperClass = "do
     }
   });
 
-  document.addEventListener("doogmaNavNestedElmRendered", function (ev) {
+  /* document.addEventListener("doogmaNavNestedElmRendered", function (ev) {
     const param = ev.detail.param;
     const index = ev.detail.index;
     const key = param + index;
@@ -97,7 +97,7 @@ export function renderComponents(components, wrapper = "div", wrapperClass = "do
       document.querySelector("[data-nested-content='" + key + "'] > .doogma-container-content-inner").innerHTML =
         innerComponents[key].innerHTML;
     }
-  });
+  }); */
 
   return doogmaComponentsWrap;
 }

@@ -1,7 +1,7 @@
 import MonacoEditor from "./Editor";
 import useTheme from "../hooks/useTheme";
 import Builder from "./Builder";
-import Preview from "./Preview";
+// import Preview from "./Preview";
 
 function BuilderWrapper() {
   const [theme] = useTheme();
@@ -15,7 +15,7 @@ function BuilderWrapper() {
   ) : theme.view === "builder" ? (
     <Builder />
   ) : (
-    <Preview />
+    <></>
   );
 }
 

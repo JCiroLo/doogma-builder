@@ -63,7 +63,7 @@ a.link-component {
     justify-content: flex-end;
   }
 
-  &.small {
+  &.size-small {
     padding: $unit * 0.25 $unit * 0.75;
 
     span {
@@ -71,12 +71,16 @@ a.link-component {
     }
   }
 
-  &.medium {
+  &.size-medium {
     padding: $unit * 0.5 $unit;
   }
 
-  &.large {
+  &.size-large {
     padding: $unit;
+  }
+
+  &.size-empty {
+    padding: 0;
   }
 
   .button-icon-element {

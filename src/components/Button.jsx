@@ -5,7 +5,7 @@ import classNames from "classnames";
 import Icon from "./Icon";
 
 function Button({
-  variant = "text",
+  variant = "filled",
   size = "medium",
   textAlign = "center",
   icon,
@@ -19,13 +19,7 @@ function Button({
   onClick,
 }) {
   const classnames = classNames(
-    [
-      className,
-      to ? "link-component" : "button-component",
-      variant,
-      textAlign,
-      size,
-    ],
+    [className, to ? "link-component" : "button-component", variant, textAlign, `size-${size}`],
     {
       "is-circle": circle,
     }
@@ -47,12 +41,7 @@ function Button({
       {elements}
     </Link>
   ) : (
-    <button
-      className={classnames}
-      type={submit ? "submit" : "button"}
-      disabled={disabled}
-      onClick={onClick}
-    >
+    <button className={classnames} type={submit ? "submit" : "button"} disabled={disabled} onClick={onClick}>
       {elements}
     </button>
   );

@@ -22,7 +22,7 @@ function Modal({ show, size = "medium", children, onClose }) {
   return (
     <div className={classnames("modal-component", [size], { show })}>
       <div className="modal-content">
-        <Button className={classnames("moda-close-button")} icon={<Icon name="times" />} onClick={onClose} />
+        <Button className={classnames("moda-close-button")} variant="text" icon={<Icon name="times" />} onClick={onClose} />
         {children}
       </div>
     </div>

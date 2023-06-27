@@ -11,7 +11,7 @@ function Doogma() {
 
   return (
     <div className="doogma-builder">
-      <Sidebar title="Doogma builder" />
+      <Sidebar />
       <BuilderWrapper />
     </div>
   );

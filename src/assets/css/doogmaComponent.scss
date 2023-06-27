@@ -1,85 +1,94 @@
 .doogma-component-wrapper {
   display: flex;
   flex-direction: column;
+  padding: $unit * 0.5;
   user-select: none;
+  border: 1px solid rgba(map-get($colors, font), 0.25);
   background-color: white;
+  @include border-radius(1);
 
   &:hover {
-    & > .doogma-component-header {
-      border-color: var(--color-main);
-
-      .doogma-component-handle,
-      .doogma-component-remove {
-        opacity: 1;
-        visibility: visible;
-      }
-    }
-
-    &.with-dropzone {
-      & > .doogma-component-items {
-        border-color: var(--color-main);
-      }
-    }
-  }
-
-  &.is-dragging {
     border-color: var(--color-main);
-  }
 
-  &.with-dropzone {
-    .doogma-component-header {
-      border-radius: $unit $unit 0 0;
-    }
+    > .doogma-component-header {
+      > .doogma-component-info {
+        > .doogma-component-actions {
+          > .doogma-component-actions-multiple {
+            > .doogma-component-action {
+              opacity: 1;
+              visibility: visible;
+            }
+          }
 
-    .doogma-component-items {
-      padding: $unit;
-      border-radius: 0 0 $unit $unit;
-      border: 1px solid rgba(map-get($colors, font), 0.5);
-      border-top: none;
+          > .doogma-component-action {
+            opacity: 1;
+            visibility: visible;
+          }
+        }
+      }
     }
   }
 
   &.active {
-    .doogma-component-header {
-      border-radius: $unit;
-    }
-
-    .doogma-component-items {
+    > .doogma-component-content {
       display: none;
     }
   }
 
   .doogma-component-header {
     display: flex;
+    flex-direction: column;
     align-items: center;
     gap: $unit;
-    padding: $unit * 0.5;
-    border: 1px solid rgba(map-get($colors, font), 0.5);
-    border-radius: $unit $unit 0 0;
-    overflow: hidden;
 
-    p {
-    }
-
-    .doogma-component-handle,
-    .doogma-component-remove {
+    .doogma-component-info {
       display: flex;
-      justify-content: center;
-      align-items: center;
-      user-select: none;
-      height: $unit * 3;
-      aspect-ratio: 1;
-      color: white;
-      background-color: rgba(map-get($colors, font), 0.5);
-      @include border-radius(0.5);
-      @include transition("opacity", "visibility", "background-color");
+      justify-content: space-between;
+      gap: $unit;
+      width: 100%;
+      cursor: pointer;
 
-      &:hover {
-        background-color: rgba(map-get($colors, main), 0.75);
+      small.component-type {
+        font-size: small;
+        color: rgba(map-get($colors, font), 0.5);
       }
-    }
 
-    .doogma-component-handle {
+      .doogma-component-actions {
+        display: flex;
+        gap: $unit;
+        z-index: 1;
+
+        .doogma-component-action {
+          all: unset;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          user-select: none;
+          height: $unit * 3;
+          aspect-ratio: 1;
+          color: white;
+          opacity: 0;
+          visibility: hidden;
+          background-color: rgba(map-get($colors, font), 0.5);
+          @include border-radius(0.5);
+          @include transition("opacity", "visibility", "background-color");
+
+          &:hover {
+            background-color: rgba(map-get($colors, main), 0.75);
+          }
+        }
+
+        .doogma-component-actions-multiple {
+          display: flex;
+          flex-direction: column;
+          gap: $unit * 0.25;
+          height: 24px;
+
+          .doogma-component-action {
+            font-size: x-small;
+          }
+        }
+      }
     }
 
     .doogma-component-remove {
@@ -88,32 +97,40 @@
     }
   }
 
-  .doogma-component-items {
+  .doogma-component-content {
     display: flex;
     flex-direction: column;
-    gap: $unit;
-    padding: $unit;
-    border-radius: 0 0 $unit $unit;
-    border: 1px solid rgba(map-get($colors, font), 0.5);
-    // background-color: #00000011;
 
-    .doogma-component-item {
+    .doogma-component-preview {
+      padding: $unit * 0.5;
+    }
+
+    .doogma-component-items {
       display: flex;
       flex-direction: column;
-      width: 100%;
+      gap: $unit;
       padding: $unit * 0.5;
-      border: 1px solid rgba(map-get($colors, font), 0.5);
-      @include border-radius(0.5);
+      border-radius: 0 0 $unit $unit;
 
-      small {
-        font-size: x-small;
-      }
-
-      .doogma-component-drop-zone {
+      .doogma-component-item {
         display: flex;
         flex-direction: column;
         gap: $unit;
+        width: 100%;
         padding: $unit;
+        border: 1px solid rgba(map-get($colors, font), 0.25);
+        @include border-radius(1);
+
+        small.item-type {
+          font-size: x-small;
+          color: rgba(map-get($colors, font), 0.5);
+        }
+
+        .doogma-component-drop-zone {
+          display: flex;
+          flex-direction: column;
+          gap: $unit;
+        }
       }
     }
   }

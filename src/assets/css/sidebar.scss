@@ -1,3 +1,28 @@
+@mixin prop {
+  display: flex;
+  align-items: center;
+
+  label {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    width: 0;
+    font-size: small;
+    font-weight: 500;
+  }
+
+  input {
+    all: unset;
+    flex-grow: 1;
+    width: 0;
+    padding: $unit * 0.5 $unit;
+    cursor: text;
+    border: 1px solid #bdc6ce;
+    background: #fff;
+    @include border-radius(0.5);
+  }
+}
+
 aside.sidebar-component {
   display: flex;
   flex-direction: column;
@@ -20,12 +45,65 @@ aside.sidebar-component {
     }
   }
 
+  .sidebar-editor-label {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: $unit * 0.5;
+    border-bottom: 1px solid rgba(map-get($colors, font), 0.5);
+
+    h3 {
+      font-size: medium;
+      font-weight: 700;
+    }
+  }
+
+  .sidebar-editor {
+    display: flex;
+    flex-direction: column;
+    gap: $unit;
+    width: 100%;
+    max-height: calc(100vh - 16px - 43px);
+    padding: $unit;
+    overflow-y: overlay;
+
+    .doogma-component-editor {
+      @include prop;
+    }
+
+    .doogma-component-items-allow-components {
+      display: flex;
+      align-items: center;
+      gap: $unit;
+      font-size: small;
+      font-weight: 500;
+    }
+
+    .doogma-component-item {
+      display: flex;
+      flex-direction: column;
+      gap: $unit;
+      padding: $unit * 2 0;
+      @include border-radius(1);
+
+      .sidebar-editor-label {
+        h3 {
+          font-size: small;
+        }
+      }
+
+      .doogma-component-item-editor {
+        @include prop;
+      }
+    }
+  }
+
   .sidebar-content {
     display: flex;
     flex-direction: column;
     gap: $unit;
-    padding: $unit;
     width: 100%;
+    padding: $unit;
 
     button {
       flex-grow: 1;
@@ -56,13 +134,43 @@ aside.sidebar-component {
     flex-direction: column;
     gap: $unit;
 
+    h4 {
+      font-size: medium;
+      font-weight: 600;
+    }
+
     section {
       display: flex;
       flex-direction: column;
       gap: $unit * 0.5;
 
-      label{
+      label {
         font-size: small;
+      }
+    }
+
+    section.item-attribute {
+      label {
+        display: flex;
+        justify-content: space-between;
+        padding: $unit;
+        border-radius: $unit;
+        background-color: rgba(map-get($colors, font), 0.1);
+        border: 1px solid rgba(map-get($colors, font), 0.5);
+      }
+    }
+
+    section.item-new-attribute {
+      flex-direction: row;
+
+      input {
+        all: unset;
+        flex-grow: 1;
+        width: 0;
+        padding: $unit;
+        border-radius: $unit;
+        font-size: small;
+        border: 1px solid rgba(map-get($colors, font), 0.5);
       }
     }
   }

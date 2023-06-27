@@ -7,10 +7,12 @@ import DoogmaItem from "./DoogmaItem";
 import { useState } from "react";
 import Button from "./Button";
 import useBuilder from "../hooks/useBuilder";
+import useEditor from "../hooks/useEditor";
 
 function Builder() {
   const [components, setComponent] = useDoogma();
   const [{ parsed, json }, setCode] = useBuilder();
+  const [, setEditor] = useEditor();
   const [showModal, setShowModal] = useState(false);
   const [path, setPath] = useState("");
 
@@ -43,11 +45,39 @@ function Builder() {
     setShowModal(false);
   };
 
+  const handleEditComponent = (component) => {
+    setEditor(null);
+    setTimeout(() => {
+      setEditor(component);
+    }, 10);
+  };
+
+  const handleReorderComponent = (path, direction) => {
+    const newJson = { ...json };
+    const paths = path.split(":");
+    const index = parseInt(paths.pop());
+    const nextIndex = (direction === "up" ? -1 : 1) + index;
+    const components = paths.reduce((a, c) => a[c], newJson.navigation);
+
+    const [removed] = components.splice(index, 1);
+    components.splice(nextIndex < 0 ? 0 : nextIndex, 0, removed);
+
+    setCode(JSON.stringify(newJson));
+  };
+
+  const handleDeleteComponent = (path) => {
+    const newJson = { ...json };
+    const paths = path.split(":");
+    const index = paths.pop();
+
+    paths.reduce((a, c) => a[c], newJson.navigation).splice(parseInt(index), 1);
+
+    setCode(JSON.stringify(newJson));
+  };
+
   if (!parsed) {
     return <h1>Loading</h1>;
   }
-
-  console.log(parsed);
 
   return (
     <>
@@ -58,6 +88,9 @@ function Builder() {
               key={item.id}
               component={item}
               path={`components:${index}`}
+              onEdit={handleEditComponent}
+              onReorder={handleReorderComponent}
+              onDelete={handleDeleteComponent}
               onAddComponent={handleOpenModal}
             />
           ))}
@@ -73,7 +106,7 @@ function Builder() {
           >
             {components.map((item) => (
               <div key={item.id} className={classnames("doogma-item-wrapper")}>
-                <DoogmaItem data={item} onChange={handleItemUpdate} onAdd={handleAddItem} />
+                <DoogmaItem data={item} onChange={handleItemUpdate} onAddComponent={handleAddItem} />
               </div>
             ))}
           </div>

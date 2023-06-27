@@ -34,7 +34,6 @@ export const BuilderProvider = ({ children }) => {
   }, [code]);
 
   useEffect(() => {
-    console.log("Render");
     localStorage.setItem("doogma_styles", css);
 
     const head = document.head;
@@ -43,8 +42,6 @@ export const BuilderProvider = ({ children }) => {
     link.type = "text/css";
     link.rel = "stylesheet";
     link.href = css;
-
-    console.log(link);
 
     head.appendChild(link);
 

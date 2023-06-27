@@ -5,7 +5,7 @@ import Icon from "./Icon";
 import useTheme from "../hooks/useTheme";
 import Button from "./Button";
 
-function DoogmaItem({ data, onChange, onAdd }) {
+function DoogmaItem({ data, onChange, onAddComponent }) {
   const [active, setActive] = useState(false);
   const [theme] = useTheme();
 
@@ -42,7 +42,7 @@ function DoogmaItem({ data, onChange, onAdd }) {
             />
           </div>
         ))}
-        <Button variant="filled" size="small" onClick={() => onAdd(data)}>
+        <Button variant="filled" size="small" onClick={() => onAddComponent(data)}>
           Add
         </Button>
       </div>
@@ -53,7 +53,7 @@ function DoogmaItem({ data, onChange, onAdd }) {
 DoogmaItem.propTypes = {
   data: PropTypes.object.isRequired,
   onChange: PropTypes.func.isRequired,
-  onAdd: PropTypes.func.isRequired,
+  onAddComponent: PropTypes.func.isRequired,
 };
 
 export default DoogmaItem;

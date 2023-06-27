@@ -1,0 +1,39 @@
+input.checkbox-component {
+  position: relative;
+  display: flex;
+  align-items: center;
+  -webkit-appearance: none;
+  appearance: none;
+  cursor: pointer;
+
+  &:checked {
+    &::before {
+      transform: scale(0.6);
+    }
+
+    &::after {
+      border: 1.5px solid var(--color-main);
+    }
+  }
+
+  &::before {
+    content: "";
+    position: absolute;
+    width: $unit * 1.5;
+    height: $unit * 1.5;
+    border-radius: $unit * 0.5;
+    border: 1.5px solid transparent;
+    background-color: var(--color-main);
+    transform: scale(0);
+    transition: transform 0.1s ease-out;
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    width: $unit * 1.5;
+    height: $unit * 1.5;
+    border-radius: $unit * 0.5;
+    border: 1.5px solid rgba(map-get($colors, font), 0.5);
+  }
+}
