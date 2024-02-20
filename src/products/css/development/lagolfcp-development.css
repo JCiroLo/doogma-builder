@@ -1,0 +1,523 @@
+/*
+! tailwindcss v3.1.4 | MIT License | https://tailwindcss.com
+*/
+
+/*
+1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)
+2. Allow adding a border to an element by just adding a border-width. (https://github.com/tailwindcss/tailwindcss/pull/116)
+*/
+
+/*
+1. Use a consistent sensible line-height in all browsers.
+2. Prevent adjustments of font size after orientation changes in iOS.
+3. Use a more readable tab size.
+4. Use the user's configured `sans` font-family by default.
+*/
+
+html {
+  line-height: 1.5;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+  -moz-tab-size: 4;
+  /* 3 */
+  -o-tab-size: 4;
+  tab-size: 4;
+  /* 3 */
+  font-family: "Unica One", ui-sans-serif, system-ui, -apple-system,
+    BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans",
+    sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+    "Noto Color Emoji";
+  /* 4 */
+}
+
+/*
+  1. Remove the margin in all browsers.
+  2. Inherit line-height from `html` so users can set them as a class directly on the `html` element.
+  */
+
+body {
+  margin: 0;
+  /* 1 */
+  line-height: inherit;
+  /* 2 */
+}
+
+/* custom css */
+
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 99;
+}
+
+.div_1 {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 10%;
+  height: 800px;
+}
+
+.doogma-navigation-container {
+  max-width: 484px;
+}
+
+/***
+  TABS
+   */
+
+.tabs {
+  border-bottom: 2px solid #000;
+}
+
+.tabs .tab {
+  background-color: #e3e3e3;
+  color: #000;
+  margin-top: 1px;
+  margin-bottom: 0;
+  margin-left: 1px;
+  margin-right: 0;
+}
+
+.tabs .tab.active {
+  background-color: #3c3c3c !important;
+  color: #fff;
+}
+
+.doogma-nav-tabs li.active a {
+  background-color: #3c3c3c;
+}
+
+.tab-content {
+  display: none;
+}
+
+.tab-content.active {
+  display: block;
+}
+
+/* Media Query */
+
+@media screen and (max-width: 767px) {
+  .main {
+    flex-wrap: wrap !important;
+  }
+
+  .div_1,
+  .div_2 {
+    position: relative;
+    width: 100%;
+    height: auto !important;
+  }
+
+  .div_2 {
+    overflow: hidden !important;
+  }
+}
+
+.hover\:bg-indigo-700:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(67 56 202 / var(--tw-bg-opacity));
+}
+
+@media (min-width: 640px) {
+  .sm\:flex-row {
+    flex-direction: row;
+  }
+
+  .sm\:px-6 {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:mr-1 {
+    margin-right: 0.25rem;
+  }
+
+  .md\:mt-0 {
+    margin-top: 0px;
+  }
+
+  .md\:ml-1 {
+    margin-left: 0.25rem;
+  }
+
+  .md\:flex {
+    display: flex;
+  }
+
+  .md\:flex-1 {
+    flex: 1 1 0%;
+  }
+
+  .md\:justify-start {
+    justify-content: flex-start;
+  }
+
+  .md\:space-x-10 > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-x-reverse: 0;
+    margin-right: calc(2.5rem * var(--tw-space-x-reverse));
+    margin-left: calc(2.5rem * calc(1 - var(--tw-space-x-reverse)));
+  }
+  .doogma-nav-tabs-content::-webkit-scrollbar,
+  .doogma-nav-tabs-content::-webkit-scrollbar-thumb {
+    width: 25px;
+    position: absolute;
+    border-radius: 13px;
+    background-clip: padding-box;
+    border: 10px solid transparent;
+    color: #424b5a;
+    height: 100px;
+  }
+  .doogma-nav-tabs-content {
+    scrollbar-width: thin;
+  }
+
+  .doogma-nav-tabs-content::-webkit-scrollbar-thumb {
+    box-shadow: inset 0 0 0 10px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:w-0 {
+    width: 0px;
+  }
+
+  .lg\:flex-1 {
+    flex: 1 1 0%;
+  }
+}
+.doogma-nav-component-container input[type="text"],
+.doogma-nav-component-container input[type="number"] {
+  border: 1px solid #e5ebf2;
+  border-radius: 0.25rem;
+  height: 3.125rem;
+  padding: 0 1.25rem !important;
+  font-size: 1rem;
+  width: 100%;
+}
+.doogma-nav-component-container .multitext-container {
+  margin: 0.5rem 1rem;
+  font-size: 0.9rem;
+}
+.multitext-container .title {
+  font-weight: 700;
+  padding: 5px 0;
+}
+.multitext-container .body {
+  padding: 5px 0;
+}
+
+.doogma-control-wrapper .alert {
+  margin: 10px 0;
+  color: red;
+}
+
+.doogma-html-section p {
+  font-size: 0.9rem;
+  margin-bottom: 15px;
+}
+
+.doogma-html-section a {
+  color: #23bffd;
+}
+
+.doogma-html-section a:hover {
+  color: #1c1c1c;
+}
+
+.doogma-title {
+  font-size: 2.625rem;
+  font-weight: 700;
+  margin-bottom: 0.625rem;
+}
+
+.doogma-nav-component-container
+  .doogma-swatch-list
+  .doogma-swatch-list--item.active {
+  border: 2px rgba(0, 0, 0, 0) !important;
+}
+
+.doogma-nav-tabs {
+  justify-content: space-between;
+  overflow-x: scroll;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+.doogma-nav-tabs::-webkit-scrollbar {
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .doogma-nav-tabs li {
+    min-width: 60px;
+  }
+  .doogma-nav-tabs li a {
+    /* padding: 4px 10px;
+      font-size: 0.8rem; */
+  }
+}
+
+.doogma-select-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+doogma-html-section .finished-length-list {
+  /* width: 5rem; */
+}
+
+.doogma-radio input[type="radio"] {
+  margin: 0 5px;
+}
+
+doogma-html-section .angle-list {
+}
+
+.doogma-nav-tabs-container-navtabs {
+  overflow-y: scroll;
+  height: 400px;
+}
+
+.doogma-nav-tabs-content {
+  padding: 0 1rem;
+  overflow-y: scroll;
+  max-height: 50vh;
+}
+
+@media only screen and (min-width: 768px) {
+  .doogma-wrapper-row .doogma-col-2 {
+    max-width: 550px;
+    margin-left: 1rem;
+  }
+}
+
+/* No Wrapper */
+
+.doogma-wrapper .doogma-wrapper-row {
+  /*   justify-content: space-between; */
+}
+
+/* .doogma-wrapper-row .doogma-col-1 {
+    width: 47%;
+  }
+  
+  .doogma-wrapper-row .doogma-col-2 {
+    width: 47%;
+    max-width: 500px;
+    margin-left: 1rem;
+  } */
+
+.doogma-nav-tabs-content:hover {
+  /* overflow-y: scroll; */
+}
+
+/*
+    new
+  */
+
+.doogma-subtitle h2 {
+  font-size: 21px;
+  text-transform: uppercase;
+  color: black;
+  font-weight: bold;
+}
+
+.doogma-subtitle h2.disclaimer {
+  font-size: 21px;
+  color: #00734e;
+  margin: 0;
+  font-weight: normal;
+  margin-bottom: 0.5rem;
+}
+
+.doogma-nav-tabs {
+  border-bottom: 0px;
+}
+
+.doogma-nav-tabs li {
+  width: 20%;
+  min-width: 90px;
+  margin-right: 0px;
+}
+
+.doogma-nav-tabs li a {
+  padding: 8px 20px;
+  font-size: 1rem;
+  background-color: white;
+  border: 1px solid #424b5a;
+  color: #424b5a;
+  justify-content: space-between;
+  text-transform: uppercase;
+  width: 100%;
+  text-align: center;
+}
+
+.doogma-nav-tabs li:not(:last-child) a,
+.doogma-nav-tabs li.active:not(:last-child) a {
+  border-right: 0px;
+}
+
+.doogma-nav-tabs li.active a {
+  background-color: #cbcbcb !important;
+  color: #00734e;
+  border: 1px solid #00734e;
+  text-decoration: underline;
+}
+
+.doogma-nav-component-container {
+  font-weight: normal !important;
+  text-transform: uppercase;
+  font-size: 21px !important;
+}
+
+.doogma-font-swatches-container > label {
+  border-bottom: 1px solid #d9d7d7;
+}
+
+doogma-font-swatch span {
+  height: auto !important;
+  min-width: 150px;
+  min-height: 2rem !important;
+  width: 100% !important;
+  justify-content: space-between;
+  padding: 0 1rem;
+  background-color: white !important;
+  color: #424b5a !important;
+  text-transform: uppercase;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+doogma-font-swatch.active span {
+  border: 1px solid #00734e !important;
+  text-decoration: underline;
+  color: #00734e !important;
+}
+
+.doogma-nav-component-container label > .selection {
+  display: block;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.doogma-nav-component-container label span {
+  border-top: 1px solid #d9d7d7;
+  font-size: 16px;
+  color: #8f8f8f;
+}
+
+.doogma-select-container > label {
+  border-bottom: 1px solid #d9d7d7;
+}
+
+.doogma-select-container select {
+  border: 1px solid #00734e;
+  padding: 10px;
+  height: 2.5rem;
+  background-color: #ffffff;
+  color: #8f8f8f;
+  width: 100%;
+}
+
+doogma-radio {
+  margin-bottom: 0rem !important;
+}
+
+doogma-color-swatch {
+  margin-right: 0.5rem !important;
+  margin-bottom: 0.5rem !important;
+  margin-left: 5px;
+}
+
+.doogma-color-swatch-list .doogma-swatch-list--item {
+  border-radius: 7px;
+}
+
+.doogma-color-swatch-list span {
+  border-radius: 7px;
+}
+
+.doogma-color-swatch-list .doogma-swatch-list--item.active {
+  outline: 1.5px solid #000;
+  border-radius: 6px;
+  outline-offset: 4px;
+}
+
+.doogma-color-swatch-list .doogma-swatch-list--item.color-swatch {
+  border: 0px;
+}
+
+doogma-color-swatch span {
+  width: 28px !important;
+  height: 28px !important;
+}
+
+doogma-color-swatch span[title="White"] {
+  background-color: #ffffff !important;
+  border: 1px solid #ccc;
+}
+
+.doogma-add-to-cart-button-container button {
+  background-color: #ffffff !important;
+  color: #00734e !important;
+  border-color: #00734e !important;
+  text-decoration: underline;
+  text-transform: uppercase;
+  margin-left: 1rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .doogma-nav-tabs li {
+    min-width: 60px;
+  }
+  .doogma-nav-tabs li a {
+    padding: 4px 10px;
+    font-size: 0.8rem;
+  }
+
+  .doogma-nav-tabs-content {
+    padding: 0 10px;
+    max-height: 100vh;
+    max-height: 40vh;
+    overflow: auto;
+    overflow-y: scroll;
+  }
+
+  .doogma-sticky {
+    position: static;
+  }
+
+  .doogma-nav-tabs-content {
+    overflow-y: scroll;
+  }
+
+  .doogma-nav-tabs-content::-webkit-scrollbar,
+  .doogma-nav-tabs-content::-webkit-scrollbar-thumb {
+    width: 25px;
+    position: absolute;
+    border-radius: 13px;
+    background-clip: padding-box;
+    border: 10px solid transparent;
+    color: #424b5a;
+    height: 100px;
+  }
+  .doogma-nav-tabs-content {
+    scrollbar-width: thin;
+  }
+}
+
+doogma-color-swatches[param="weight-screw-fill-circle-color"]
+  doogma-color-swatch:has(span[title="18k Gold"]),
+doogma-color-swatches[param="weight-screw-lagp-logo"]
+  doogma-color-swatch:has(span[title="18k Gold"]) {
+  display: none !important;
+}
+
+.hidden {
+  display: none !important;
+}

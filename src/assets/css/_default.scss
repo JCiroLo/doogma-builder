@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
+@import "config";
+
+:root {
+  --color-background: #e7eaed;
+}
+
+body {
+  background-color: var(--color-background);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.doogma-builder {
+  display: flex;
+  flex-direction: column;
+}
+

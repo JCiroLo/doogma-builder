@@ -1,0 +1,438 @@
+{
+  "id": "dog-tag-development",
+  "wrapper": {
+    "maxWidth": "1600px",
+    "ratio": "50:40",
+    "ratios": "mobile=100:100|tablet=100:100|desktop=50:50",
+    "topOffset": "0px",
+    "topOffsets": "mobile=0px|tablet=0px|desktop=0px",
+    "gutter": "0px",
+    "version": "0.1"
+  },
+  "visualisation": {
+    "visualisationId": "n21.dogtagart",
+    "initConfig": "0lbb3cavuxj",
+    "beforeVis": {},
+    "afterVis": {}
+  },
+  "hiddenParams": [
+    {
+      "class": "doogma-view-x",
+      "value": "0"
+    },
+    {
+      "class": "doogma-view-y",
+      "value": "1000"
+    },
+    {
+      "class": "doogma-view-width",
+      "value": "1000"
+    },
+    {
+      "class": "doogma-view-height",
+      "value": "1000"
+    },
+    {
+      "id": "uploadedimagecookie",
+      "class": "uploadedimagecookie",
+      "value": ""
+    },
+    {
+      "id": "uploadedimagepackage",
+      "class": "uploadedimagepackage",
+      "value": ""
+    },
+    {
+      "id": "savedDesign",
+      "class": "saved-design",
+      "value": ""
+    }
+  ],
+  "navigation": {
+    "components": [
+      {
+        "type": "doogma-html-section",
+        "attributes": {
+          "content": "<h1 class='doogma-title'>CREATE YOUR OWN CUSTOM DOG TAG</h1>"
+        }
+      },
+      {
+        "type": "doogma-nav-tabs",
+        "attributes": {
+          "param": "navtabs",
+          "viewType": "tabs",
+          "maxWidth": "100%",
+          "hideTabs": "no",
+          "enableZoom": "yes",
+          "items": [
+            {
+              "name": "Select Size",
+              "selected": "yes",
+              "zoomX": "0",
+              "zoomY": "0",
+              "zoomWidth": "720",
+              "zoomHeight": "720",
+              "components": [
+                {
+                  "type": "doogma-image-swatches",
+                  "attributes": {
+                    "param": "size",
+                    "label": "",
+                    "labelPlacement": "block",
+                    "size": "80",
+                    "gap": "1.5",
+                    "circular": "no",
+                    "showActiveSelection": "no",
+                    "items": [
+                      {
+                        "name": "small",
+                        "param": "size",
+                        "label": "Small",
+                        "value": "small",
+                        "src": "https://utils.doogma.com/nav-loader/assets/dogtag/small.png",
+                        "selected": "yes",
+                        "width": "60"
+                      },
+                      {
+                        "name": "large",
+                        "param": "size",
+                        "label": "Large",
+                        "value": "large",
+                        "src": "https://utils.doogma.com/nav-loader/assets/dogtag/big.png"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "type": "doogma-html-section",
+                  "attributes": {
+                    "content": "<div class='box'><p class='detail'>Small is 7/8 (22 cm) in diameter. <span class='name'>Recomended for pets under 15lbs (7kg) & Up</span> </p><p class='detail'>Large is 1.7 (318 cm) in diameter <span class='name'>Recomended for pets under 15lbs (7kg) & Up</span> </p></div>"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "Upload Image (front)",
+              "selected": "no",
+              "zoomX": "0",
+              "zoomY": "0",
+              "zoomWidth": "720",
+              "zoomHeight": "720",
+              "components": [
+                {
+                  "type": "doogma-html-section",
+                  "attributes": {
+                    "content": "<p class='center-text'>Click on the tag to upload your image, adjust size and position using the controls panel</p>"
+                  }
+                },
+                {
+                  "type": "doogma-html-section",
+                  "attributes": {
+                    "content": "<p class='center-text2'>Respect the rights of others. Ensure that you have the right to use the images you upload.</p>"
+                  }
+                },
+                {
+                  "type": "doogma-color-swatches",
+                  "attributes": {
+                    "label": "Select background color",
+                    "labelPlacement": "block",
+                    "param": "background",
+                    "size": "24",
+                    "gap": ".25",
+                    "circular": "yes",
+                    "value": "",
+                    "showActiveSelection": "yes",
+                    "itemsPlacement": "inline",
+                    "items": [
+                      {
+                        "name": "#ffffff",
+                        "param": "background",
+                        "value": "ffffff",
+                        "label": "white",
+                        "selected": "yes"
+                      },
+                      {
+                        "name": "#000000",
+                        "param": "background",
+                        "value": "000000",
+                        "label": "Black"
+                      },
+                      {
+                        "name": "#ff0000",
+                        "param": "background",
+                        "value": "ff0000",
+                        "label": "red"
+                      },
+                      {
+                        "name": "#ff9900",
+                        "param": "background",
+                        "value": "ff9900",
+                        "label": "orange"
+                      },
+                      {
+                        "name": "#caa72d",
+                        "param": "background",
+                        "value": "caa72d",
+                        "label": "gold"
+                      },
+                      {
+                        "name": "#77c652",
+                        "param": "background",
+                        "value": "77c652",
+                        "label": "green"
+                      },
+                      {
+                        "name": "#2B5da7",
+                        "param": "background",
+                        "value": "2B5da7",
+                        "label": "blue"
+                      },
+                      {
+                        "name": "#782db2",
+                        "param": "background",
+                        "value": "782db2",
+                        "label": "purple"
+                      },
+                      {
+                        "name": "#c72bc0",
+                        "param": "background",
+                        "value": "c72bc0",
+                        "label": "magenta"
+                      },
+                      {
+                        "name": "#e13c8b",
+                        "param": "background",
+                        "value": "e13c8b",
+                        "label": "pink"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "type": "doogma-html-section",
+                  "attributes": {
+                    "content": "<p class='center-text3'>*Only applicable if uploaded image has a transparent backgroundl</p>"
+                  }
+                }
+              ]
+            },
+
+            {
+              "name": "Custom Text (Back)",
+              "selected": "no",
+              "zoomX": "720",
+              "zoomY": "0",
+              "zoomWidth": "720",
+              "zoomHeight": "720",
+              "components": [
+                {
+                  "type": "doogma-html-section",
+                  "attributes": {
+                    "content": "<h4 class='doogma-subtitle-description'>Add Custom Text</h4>"
+                  }
+                },
+
+                {
+                  "type": "doogma-simple-text",
+                  "attributes": {
+                    "label": "",
+                    "placeholder": "Name",
+                    "labelPlacement": "block",
+                    "param": "text1",
+                    "name": "text1"
+                  }
+                },
+                {
+                  "type": "doogma-simple-text",
+                  "attributes": {
+                    "label": "",
+                    "placeholder": "000-0000",
+                    "labelPlacement": "block",
+                    "param": "text2",
+                    "name": "text2"
+                  }
+                },
+                {
+                  "type": "doogma-simple-text",
+                  "attributes": {
+                    "label": "",
+                    "placeholder": "Line 3 (optional)",
+                    "labelPlacement": "block",
+                    "param": "text3",
+                    "name": "text3"
+                  }
+                },
+                {
+                  "type": "doogma-simple-text",
+                  "attributes": {
+                    "label": "",
+                    "placeholder": "Line 4 (optional)",
+                    "labelPlacement": "block",
+                    "param": "text4",
+                    "name": "text4"
+                  }
+                },
+                {
+                  "type": "doogma-image-swatches",
+                  "attributes": {
+                    "label": "Select Font",
+                    "param": "selectfont",
+                    "labelPlacement": "block",
+                    "size": "32",
+                    "gap": "0.5",
+                    "circular": "yes",
+                    "showActiveSelection": "yes",
+                    "items": [
+                      {
+                        "name": "Noto sans",
+                        "value": "notosans",
+                        "src": "https://vip.doogma.com/dzine1/dogtagart/notos.png",
+                        "selected": "yes"
+                      },
+                      {
+                        "name": "Noto Serif",
+                        "value": "notoserif",
+                        "src": "https://vip.doogma.com/dzine1/dogtagart/noto.png"
+                      },
+                      {
+                        "name": "Comic Neue",
+                        "value": "comicneue",
+                        "src": "https://vip.doogma.com/dzine1/dogtagart/comic.png"
+                      },
+                      {
+                        "name": "Ariano",
+                        "value": "ariano",
+                        "src": "https://vip.doogma.com/dzine1/dogtagart/arimo.png"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "type": "doogma-color-swatches",
+                  "attributes": {
+                    "label": "Select Text Color",
+                    "labelPlacement": "block",
+                    "param": "textcolor",
+                    "size": "24",
+                    "gap": ".25",
+                    "circular": "yes",
+                    "value": "",
+                    "showActiveSelection": "yes",
+                    "itemsPlacement": "inline",
+                    "items": [
+                      {
+                        "name": "#000000",
+                        "param": "textcolor",
+                        "value": "000000",
+                        "label": "Black",
+                        "selected": "yes"
+                      },
+                      {
+                        "name": "#FF0000",
+                        "param": "textcolor",
+                        "value": "FF0000",
+                        "label": "Red"
+                      },
+                      {
+                        "name": "#FF9900",
+                        "param": "textcolor",
+                        "value": "FF9900",
+                        "label": "Yellow"
+                      },
+                      {
+                        "name": "#CAA72D",
+                        "param": "textcolor",
+                        "value": "CAA72D",
+                        "label": "Gold"
+                      },
+                      {
+                        "name": "#77C652",
+                        "param": "textcolor",
+                        "value": "77C652",
+                        "label": "Green"
+                      },
+                      {
+                        "name": "#2B5DA7",
+                        "param": "textcolor",
+                        "value": "2B5DA7",
+                        "label": "Blue"
+                      },
+                      {
+                        "name": "#782DB2",
+                        "param": "textcolor",
+                        "value": "782DB2",
+                        "label": "Purple"
+                      },
+                      {
+                        "name": "#C72BC0",
+                        "param": "textcolor",
+                        "value": "C72BC0",
+                        "label": "Magenta"
+                      },
+                      {
+                        "name": "#E13C8B",
+                        "param": "textcolor",
+                        "value": "E13C8B",
+                        "label": "Pink"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "type": "doogma-component-containers",
+        "attributes": {
+          "param": "dog-tag-container-cta",
+          "name": "dog-tag-container-buttons-cta",
+          "items": [
+            {
+              "name": "Container1",
+              "components": [
+                {
+                  "type": "doogma-html-section",
+                  "attributes": {
+                    "content": "<p class='price'>$19.00</p>"
+                  }
+                },
+                {
+                  "type": "doogma-add-to-cart-button",
+                  "attributes": {
+                    "label": "Add to bag",
+                    "param": "button"
+                  }
+                },
+                {
+                  "type": "doogma-share-button",
+                  "attributes": {
+                    "hideLabel": "yes",
+                    "labelSahreButton": "Share",
+                    "shapeShareButton": "rounded",
+                    "labelButtonCtaClicked": "URL Copied!",
+                    "labelButtonCtaTimeOut": 3000
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "type": "doogma-custom-scripts",
+        "attributes": {
+          "items": [
+            {
+              "name": "dog-tag-script ",
+              "source": "https://cxb.doogma.com.s3.amazonaws.com/development/scripts/dog-tag-scripts.esm.js"
+            }
+          ]
+        }
+      }
+    ]
+  },
+
+  "_comment": "Components END"
+}

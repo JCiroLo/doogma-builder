@@ -1,0 +1,2088 @@
+{
+  "id": "lagolfcp",
+  "wrapper": {
+    "maxWidth": "1600px",
+    "ratio": "50:40",
+    "ratios": "mobile=100:100|tablet=100:100|desktop=50:50",
+    "topOffset": "0px",
+    "topOffsets": "mobile=0px|tablet=0px|desktop=0px",
+    "gutter": "0px",
+    "version": "0.1"
+  },
+  "visualisation": {
+    "visualisationId": "n21.lagolf.2",
+    "initConfig": "0lbb3cavuxj",
+    "beforeVis": {},
+    "afterVis": {}
+  },
+  "hiddenParams": [
+    {
+      "class": "doogma-view-x",
+      "value": "0"
+    },
+    {
+      "class": "doogma-view-y",
+      "value": "1000"
+    },
+    {
+      "class": "doogma-view-width",
+      "value": "1000"
+    },
+    {
+      "class": "doogma-view-height",
+      "value": "1000"
+    },
+    {
+      "id": "uploadedimagecookie",
+      "class": "uploadedimagecookie",
+      "value": ""
+    },
+    {
+      "id": "uploadedimagepackage",
+      "class": "uploadedimagepackage",
+      "value": ""
+    },
+    {
+      "id": "savedDesign",
+      "class": "saved-design",
+      "value": ""
+    }
+  ],
+  "navigation": {
+    "components": [
+      {
+        "type": "doogma-nav-tabs",
+        "attributes": {
+          "param": "navtabs",
+          "viewType": "tabs",
+          "maxWidth": "100%",
+          "hideTabs": "no",
+          "enableZoom": "yes",
+          "items": [
+            {
+              "name": "base",
+              "selected": "yes",
+              "zoomX": "0",
+              "zoomY": "0",
+              "zoomWidth": "1000",
+              "zoomHeight": "1000",
+              "components": [
+                {
+                  "type": "doogma-font-swatches",
+                  "attributes": {
+                    "label": "Head",
+                    "param": "head-type",
+                    "name": "head-type",
+                    "labelPlacement": "block",
+                    "size": "90",
+                    "gap": "0.15",
+                    "circular": "no",
+                    "showActiveSelection": true,
+                    "items": [
+                      {
+                        "name": "Mallet",
+                        "label": "Mallet",
+                        "value": "Mallet"
+                      },
+                      {
+                        "name": "Blade",
+                        "label": "Blade",
+                        "value": "Blade",
+                        "selected": "yes"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "type": "doogma-font-swatches",
+                  "attributes": {
+                    "label": "Putter Type",
+                    "param": "putter-type",
+                    "name": "putter-type",
+                    "labelPlacement": "block",
+                    "size": "90",
+                    "gap": "0.15",
+                    "circular": "no",
+                    "showActiveSelection": true,
+                    "items": [
+                      {
+                        "name": "Standard",
+                        "label": "Standard",
+                        "value": "Standard",
+                        "selected": "yes"
+                      },
+                      {
+                        "name": "Armlock",
+                        "label": "Armlock",
+                        "value": "Armlock",
+                        "selected": "no"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "type": "doogma-font-swatches",
+                  "attributes": {
+                    "label": "Neck",
+                    "param": "neck-type",
+                    "name": "neck-type",
+                    "labelPlacement": "block",
+                    "size": "90",
+                    "gap": "0.15",
+                    "circular": "no",
+                    "showActiveSelection": true,
+                    "items": [
+                      {
+                        "name": "Plumbers",
+                        "label": "Plumbers",
+                        "value": "Plumbers",
+                        "selected": "no"
+                      },
+                      {
+                        "name": "Short Slant Face Balanced",
+                        "label": "Short Slant Face Balanced",
+                        "value": "Short Slant Face Balanced",
+                        "selected": "no"
+                      },
+                      {
+                        "name": "Short Slant Non-Face Balanced",
+                        "label": "Short Slant Non-Face Balanced",
+                        "value": "Short Slant Non-Face Balanced",
+                        "selected": "no"
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "name": "Colors",
+              "zoomX": "0",
+              "zoomY": "1000",
+              "zoomWidth": "1000",
+              "zoomHeight": "1000",
+              "components": [
+                {
+                  "type": "doogma-color-swatches",
+                  "attributes": {
+                    "label": "Neck Color",
+                    "labelPlacement": "block",
+                    "param": "neck-color",
+                    "size": "24",
+                    "gap": ".25",
+                    "circular": "no",
+                    "value": "",
+                    "showActiveSelection": "yes",
+                    "itemsPlacement": "inline",
+                    "items": [
+                      {
+                        "name": "Hot Pink",
+                        "param": "neck-color",
+                        "value": "e14aa1",
+                        "label": "Hot Pink",
+                        "selected": "yes"
+                      },
+
+                      {
+                        "name": "Red",
+                        "param": "neck-color",
+                        "value": "b62d26",
+                        "label": "Red"
+                      },
+                      {
+                        "name": "Purple",
+                        "param": "neck-color",
+                        "value": "513b62",
+                        "label": "Purple"
+                      },
+                      {
+                        "name": "White",
+                        "param": "neck-color",
+                        "value": "ffffff",
+                        "label": "White"
+                      },
+                      {
+                        "name": "Black",
+                        "param": "neck-color",
+                        "value": "000000",
+                        "label": "Black"
+                      },
+
+                      {
+                        "name": "Neon Yellow",
+                        "param": "neck-color",
+                        "value": "cbe74a",
+                        "label": "Neon Yellow"
+                      },
+                      {
+                        "name": "Metallic Blue",
+                        "param": "neck-color",
+                        "value": "488bc7",
+                        "label": "Metallic Blue"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "type": "doogma-color-swatches",
+                  "attributes": {
+                    "label": "Weight Screw Base Color",
+                    "labelPlacement": "block",
+                    "param": "weight-screw-base-color",
+                    "size": "24",
+                    "gap": ".25",
+                    "circular": "no",
+                    "value": "",
+                    "showActiveSelection": "yes",
+                    "itemsPlacement": "inline",
+                    "items": [
+                      {
+                        "name": "Hot Pink",
+                        "param": "weight-screw-base-color-swatch",
+                        "value": "e14aa1",
+                        "label": "Hot Pink",
+                        "selected": "yes"
+                      },
+
+                      {
+                        "name": "Red",
+                        "param": "weight-screw-base-color-swatch",
+                        "value": "b62d26",
+                        "label": "Red"
+                      },
+                      {
+                        "name": "Purple",
+                        "param": "weight-screw-base-color-swatch",
+                        "value": "513b62",
+                        "label": "Purple"
+                      },
+                      {
+                        "name": "White",
+                        "param": "weight-screw-base-color-swatch",
+                        "value": "ffffff",
+                        "label": "White"
+                      },
+                      {
+                        "name": "Black",
+                        "param": "weight-screw-base-color-swatch",
+                        "value": "000000",
+                        "label": "Black"
+                      },
+
+                      {
+                        "name": "Neon Yellow",
+                        "param": "weight-screw-base-color-swatch",
+                        "value": "cbe74a",
+                        "label": "Neon Yellow"
+                      },
+                      {
+                        "name": "Metallic Blue",
+                        "param": "weight-screw-base-color-swatch",
+                        "value": "488bc7",
+                        "label": "Metallic Blue"
+                      },
+                      {
+                        "name": "18k Gold",
+                        "param": "weight-screw-base-color-swatch",
+                        "value": "daac18",
+                        "label": "18k Gold (70g only, changes price to $25,000)"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "type": "doogma-color-swatches",
+                  "attributes": {
+                    "label": "Weight Screw Fill Circle Color",
+                    "labelPlacement": "block",
+                    "param": "weight-screw-fill-circle-color",
+                    "size": "24",
+                    "gap": ".25",
+                    "circular": "no",
+                    "value": "",
+                    "showActiveSelection": "yes",
+                    "itemsPlacement": "inline",
+                    "items": [
+                      {
+                        "name": "Hot Pink",
+                        "param": "weight-screw-fill-circle-color-swatch",
+                        "value": "e14aa1",
+                        "label": "Hot Pink",
+                        "selected": "yes"
+                      },
+                      {
+                        "name": "Metallic Gold",
+                        "param": "weight-screw-fill-circle-color-swatch",
+                        "value": "a78636",
+                        "label": "Metallic Gold"
+                      },
+                      {
+                        "name": "Red",
+                        "param": "weight-screw-fill-circle-color-swatch",
+                        "value": "b62d26",
+                        "label": "Red"
+                      },
+                      {
+                        "name": "Purple",
+                        "param": "weight-screw-fill-circle-color-swatch",
+                        "value": "513b62",
+                        "label": "Purple"
+                      },
+                      {
+                        "name": "White",
+                        "param": "weight-screw-fill-circle-color-swatch",
+                        "value": "ffffff",
+                        "label": "White"
+                      },
+                      {
+                        "name": "Black",
+                        "param": "weight-screw-fill-circle-color-swatch",
+                        "value": "000000",
+                        "label": "Black"
+                      },
+                      {
+                        "name": "Orange",
+                        "param": "weight-screw-fill-circle-color-swatch",
+                        "value": "FF5910",
+                        "label": "Orange"
+                      },
+                      {
+                        "name": "Neon Yellow",
+                        "param": "weight-screw-fill-circle-color-swatch",
+                        "value": "cbe74a",
+                        "label": "Neon Yellow"
+                      },
+                      {
+                        "name": "Blue",
+                        "param": "weight-screw-fill-circle-color-swatch",
+                        "value": "0076B6",
+                        "label": "Blue"
+                      },
+                      {
+                        "name": "Yellow",
+                        "param": "weight-screw-fill-circle-color-swatch",
+                        "value": "FFD100",
+                        "label": "Yellow"
+                      },
+                      {
+                        "name": "18k Gold",
+                        "param": "weight-screw-fill-circle-color-swatch",
+                        "value": "daac18",
+                        "label": "18k Gold"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "type": "doogma-color-swatches",
+                  "attributes": {
+                    "label": "Weight Screw LAGP Logo",
+                    "labelPlacement": "block",
+                    "param": "weight-screw-lagp-logo",
+                    "size": "24",
+                    "gap": ".25",
+                    "circular": "no",
+                    "value": "",
+                    "showActiveSelection": "yes",
+                    "itemsPlacement": "inline",
+                    "items": [
+                      {
+                        "name": "Hot Pink",
+                        "param": "weight-screw-lagp-logo-swatch",
+                        "value": "e14aa1",
+                        "label": "Hot Pink",
+                        "selected": "yes"
+                      },
+                      {
+                        "name": "Metallic Gold",
+                        "param": "weight-screw-lagp-logo-swatch",
+                        "value": "a78636",
+                        "label": "Metallic Gold"
+                      },
+                      {
+                        "name": "Red",
+                        "param": "weight-screw-lagp-logo-swatch",
+                        "value": "b62d26",
+                        "label": "Red"
+                      },
+                      {
+                        "name": "Purple",
+                        "param": "weight-screw-lagp-logo-swatch",
+                        "value": "513b62",
+                        "label": "Purple"
+                      },
+                      {
+                        "name": "White",
+                        "param": "weight-screw-lagp-logo-swatch",
+                        "value": "ffffff",
+                        "label": "White"
+                      },
+                      {
+                        "name": "Black",
+                        "param": "weight-screw-lagp-logo-swatch",
+                        "value": "000000",
+                        "label": "Black"
+                      },
+                      {
+                        "name": "Orange",
+                        "param": "weight-screw-lagp-logo-swatch",
+                        "value": "FF5910",
+                        "label": "Orange"
+                      },
+                      {
+                        "name": "Neon Yellow",
+                        "param": "weight-screw-lagp-logo-swatch",
+                        "value": "cbe74a",
+                        "label": "Neon Yellow"
+                      },
+                      {
+                        "name": "Blue",
+                        "param": "weight-screw-lagp-logo-swatch",
+                        "value": "0076B6",
+                        "label": "Blue"
+                      },
+                      {
+                        "name": "Yellow",
+                        "param": "weight-screw-lagp-logo-swatch",
+                        "value": "FFD100",
+                        "label": "Yellow"
+                      },
+                      {
+                        "name": "18k Gold",
+                        "param": "weight-screw-lagp-logo-swatch",
+                        "value": "daac18",
+                        "label": "18k Gold"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "type": "doogma-radio-group",
+                  "attributes": {
+                    "group-param": "screw-weight",
+                    "param": "screw-weight",
+                    "label": "Weights Screw: Weight",
+                    "label-placement": "block",
+                    "items-placement": "inline",
+                    "gap": "2",
+                    "items": [
+                      {
+                        "name": "screw-weight",
+                        "param": "screw-weight",
+                        "selected": "yes",
+                        "value": "70g",
+                        "title": "70g"
+                      },
+                      {
+                        "name": "screw-weight",
+                        "param": "screw-weight",
+                        "value": "80g",
+                        "title": "80g"
+                      },
+                      {
+                        "name": "screw-weight",
+                        "param": "screw-weight",
+                        "value": "90g",
+                        "title": "90g"
+                      },
+                      {
+                        "name": "screw-weight",
+                        "param": "screw-weight",
+                        "value": "100g",
+                        "title": "100g"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "type": "doogma-color-swatches",
+                  "attributes": {
+                    "label": "Face Insert Color",
+                    "labelPlacement": "block",
+                    "param": "face-insert-color",
+                    "size": "24",
+                    "gap": ".25",
+                    "circular": "no",
+                    "value": "",
+                    "showActiveSelection": "yes",
+                    "itemsPlacement": "inline",
+                    "items": [
+                      {
+                        "name": "Hot Pink",
+                        "param": "face-insert-color-swatch",
+                        "value": "e14aa1",
+                        "label": "Hot Pink",
+                        "selected": "yes"
+                      },
+
+                      {
+                        "name": "Red",
+                        "param": "face-insert-color-swatch",
+                        "value": "b62d26",
+                        "label": "Red"
+                      },
+                      {
+                        "name": "Purple",
+                        "param": "face-insert-color-swatch",
+                        "value": "513b62",
+                        "label": "Purple"
+                      },
+                      {
+                        "name": "White",
+                        "param": "face-insert-color-swatch",
+                        "value": "ffffff",
+                        "label": "White"
+                      },
+                      {
+                        "name": "Black",
+                        "param": "face-insert-color-swatch",
+                        "value": "000000",
+                        "label": "Black"
+                      },
+
+                      {
+                        "name": "Neon Yellow",
+                        "param": "face-insert-color-swatch",
+                        "value": "cbe74a",
+                        "label": "Neon Yellow"
+                      },
+                      {
+                        "name": "Metallic Blue",
+                        "param": "face-insert-color-swatch",
+                        "value": "488bc7",
+                        "label": "Metallic Blue"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "type": "doogma-color-swatches",
+                  "attributes": {
+                    "label": "Back Cavity Logo Color",
+                    "labelPlacement": "block",
+                    "param": "back-cavity-logo-color",
+                    "size": "24",
+                    "gap": ".25",
+                    "circular": "no",
+                    "value": "",
+                    "showActiveSelection": "yes",
+                    "itemsPlacement": "inline",
+                    "items": [
+                      {
+                        "name": "Hot Pink",
+                        "param": "back-cavity-logo-color-swatch",
+                        "value": "e14aa1",
+                        "label": "Hot Pink",
+                        "selected": "yes"
+                      },
+                      {
+                        "name": "Metallic Gold",
+                        "param": "back-cavity-logo-color-swatch",
+                        "value": "a78636",
+                        "label": "Metallic Gold"
+                      },
+                      {
+                        "name": "Red",
+                        "param": "back-cavity-logo-color-swatch",
+                        "value": "b62d26",
+                        "label": "Red"
+                      },
+                      {
+                        "name": "Purple",
+                        "param": "back-cavity-logo-color-swatch",
+                        "value": "513b62",
+                        "label": "Purple"
+                      },
+                      {
+                        "name": "White",
+                        "param": "back-cavity-logo-color-swatch",
+                        "value": "ffffff",
+                        "label": "White"
+                      },
+                      {
+                        "name": "Black",
+                        "param": "back-cavity-logo-color-swatch",
+                        "value": "000000",
+                        "label": "Black"
+                      },
+                      {
+                        "name": "Military Green",
+                        "param": "back-cavity-logo-color-swatch",
+                        "value": "54592d",
+                        "label": "Military Green"
+                      },
+                      {
+                        "name": "Neon Yellow",
+                        "param": "back-cavity-logo-color-swatch",
+                        "value": "cbe74a",
+                        "label": "Neon Yellow"
+                      },
+                      {
+                        "name": "Blue",
+                        "param": "back-cavity-logo-color-swatch",
+                        "value": "488bc7",
+                        "label": "Blue"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "type": "doogma-color-swatches",
+                  "attributes": {
+                    "label": "Back Cavity Sight Line Color",
+                    "labelPlacement": "block",
+                    "param": "back-cavity-sight-line-swatch",
+                    "size": "24",
+                    "gap": ".25",
+                    "circular": "no",
+                    "value": "",
+                    "showActiveSelection": "yes",
+                    "itemsPlacement": "inline",
+                    "items": [
+                      {
+                        "name": "Hot Pink",
+                        "param": "back-cavity-sight-line-swatch",
+                        "value": "e14aa1",
+                        "label": "Hot Pink",
+                        "selected": "yes"
+                      },
+                      {
+                        "name": "Metallic Gold",
+                        "param": "back-cavity-sight-line-swatch",
+                        "value": "a78636",
+                        "label": "Metallic Gold"
+                      },
+                      {
+                        "name": "Red",
+                        "param": "back-cavity-sight-line-swatch",
+                        "value": "b62d26",
+                        "label": "Red"
+                      },
+                      {
+                        "name": "Purple",
+                        "param": "back-cavity-sight-line-swatch",
+                        "value": "513b62",
+                        "label": "Purple"
+                      },
+                      {
+                        "name": "White",
+                        "param": "back-cavity-sight-line-swatch",
+                        "value": "ffffff",
+                        "label": "White"
+                      },
+                      {
+                        "name": "Black",
+                        "param": "back-cavity-sight-line-swatch",
+                        "value": "000000",
+                        "label": "Black"
+                      },
+                      {
+                        "name": "Military Green",
+                        "param": "back-cavity-sight-line-swatch",
+                        "value": "54592d",
+                        "label": "Military Green"
+                      },
+                      {
+                        "name": "Neon Yellow",
+                        "param": "back-cavity-sight-line-swatch",
+                        "value": "cbe74a",
+                        "label": "Neon Yellow"
+                      },
+                      {
+                        "name": "Blue",
+                        "param": "back-cavity-sight-line-swatch",
+                        "value": "488bc7",
+                        "label": "Blue"
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "name": "shaft",
+              "zoomX": "0",
+              "zoomY": "2000",
+              "zoomWidth": "1000",
+              "zoomHeight": "1000",
+              "components": [
+                {
+                  "type": "doogma-color-swatches",
+                  "attributes": {
+                    "label": "Shaft Base Color",
+                    "labelPlacement": "block",
+                    "param": "shaft-base-color",
+                    "size": "24",
+                    "gap": ".25",
+                    "circular": "no",
+                    "value": "",
+                    "showActiveSelection": "yes",
+                    "itemsPlacement": "inline",
+                    "items": [
+                      {
+                        "name": "Hot Pink",
+                        "param": "shaft-base-color-swatch",
+                        "value": "e14aa1",
+                        "label": "Hot Pink",
+                        "selected": "yes"
+                      },
+
+                      {
+                        "name": "Red",
+                        "param": "shaft-base-color-swatch",
+                        "value": "b62d26",
+                        "label": "Red"
+                      },
+                      {
+                        "name": "Purple",
+                        "param": "shaft-base-color-swatch",
+                        "value": "513b62",
+                        "label": "Purple"
+                      },
+                      {
+                        "name": "White",
+                        "param": "shaft-base-color-swatch",
+                        "value": "ffffff",
+                        "label": "White"
+                      },
+                      {
+                        "name": "Black",
+                        "param": "shaft-base-color-swatch",
+                        "value": "000000",
+                        "label": "Black"
+                      },
+
+                      {
+                        "name": "Neon Yellow",
+                        "param": "shaft-base-color-swatch",
+                        "value": "cbe74a",
+                        "label": "Neon Yellow"
+                      },
+                      {
+                        "name": "Metallic Blue",
+                        "param": "shaft-base-color-swatch",
+                        "value": "488bc7",
+                        "label": "Metallic Blue"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "type": "doogma-color-swatches",
+                  "attributes": {
+                    "label": "Shaft Tip Logo",
+                    "labelPlacement": "block",
+                    "param": "shaft-tip-logo-color",
+                    "size": "24",
+                    "gap": ".25",
+                    "circular": "no",
+                    "value": "",
+                    "showActiveSelection": "yes",
+                    "itemsPlacement": "inline",
+                    "items": [
+                      {
+                        "name": "Black",
+                        "param": "shaft-tip-logo-color-swatch",
+                        "value": "252525",
+                        "label": "Black",
+                        "selected": "yes"
+                      },
+                      {
+                        "name": "White",
+                        "param": "shaft-tip-logo-color-swatch",
+                        "value": "ffffff",
+                        "label": "White"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "type": "doogma-simple-text",
+                  "attributes": {
+                    "label": "Shaft Engraving",
+                    "labelPlacement": "block",
+                    "placeholder": "UP TO 30 CHARACTERS",
+                    "param": "shaft-engraving-text",
+                    "name": "shaft-engraving-text"
+                  }
+                },
+                {
+                  "type": "doogma-font-swatches",
+                  "attributes": {
+                    "label": "Shaft Decal",
+                    "param": "shaft-decal",
+                    "name": "shaft-decal",
+                    "labelPlacement": "block",
+                    "size": "90",
+                    "gap": "0.15",
+                    "circular": "no",
+                    "showActiveSelection": true,
+                    "items": [
+                      {
+                        "name": "Black/Silver",
+                        "label": "Black/Silver",
+                        "value": "Black/Silver",
+                        "selected": "yes"
+                      },
+                      {
+                        "name": "White/Silver",
+                        "label": "White/Silver",
+                        "value": "White/Silver"
+                      },
+                      {
+                        "name": "Pink/Silver",
+                        "label": "Pink/Silver",
+                        "value": "Pink/Silver"
+                      },
+                      {
+                        "name": "Red/White/Silver",
+                        "label": "Red/White/Silver",
+                        "value": "Red/White/Silver"
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "name": "Extras",
+              "zoomX": "0",
+              "zoomY": "3000",
+              "zoomWidth": "1000",
+              "zoomHeight": "1000",
+              "components": [
+                {
+                  "type": "doogma-html-section",
+                  "attributes": {
+                    "class": "doogma-subtitle",
+                    "content": "<h2 class='section-title disclaimer'>Weight kit and wrench will be shipped separately at a later date</h2>"
+                  }
+                },
+                {
+                  "type": "doogma-html-section",
+                  "attributes": {
+                    "class": "doogma-subtitle",
+                    "content": "<h2 class='section-title'>Set One</h2>"
+                  }
+                },
+                {
+                  "type": "doogma-color-swatches",
+                  "attributes": {
+                    "label": "Weight Screw Base Color Set One",
+                    "labelPlacement": "block",
+                    "param": "weight-screw-base-color-kit-one",
+                    "size": "24",
+                    "gap": ".25",
+                    "circular": "no",
+                    "value": "",
+                    "showActiveSelection": "yes",
+                    "itemsPlacement": "inline",
+                    "items": [
+                      {
+                        "name": "Hot Pink",
+                        "param": "weight-screw-base-color-swatch-kit-one",
+                        "value": "e14aa1",
+                        "label": "Hot Pink",
+                        "selected": "no"
+                      },
+
+                      {
+                        "name": "Red",
+                        "param": "weight-screw-base-color-swatch-kit-one",
+                        "value": "b62d26",
+                        "label": "Red"
+                      },
+                      {
+                        "name": "Purple",
+                        "param": "weight-screw-base-color-swatch-kit-one",
+                        "value": "513b62",
+                        "label": "Purple"
+                      },
+                      {
+                        "name": "White",
+                        "param": "weight-screw-base-color-swatch-kit-one",
+                        "value": "ffffff",
+                        "label": "White"
+                      },
+                      {
+                        "name": "Black",
+                        "param": "weight-screw-base-color-swatch-kit-one",
+                        "value": "000000",
+                        "label": "Black",
+                        "selected": "yes"
+                      },
+
+                      {
+                        "name": "Neon Yellow",
+                        "param": "weight-screw-base-color-swatch-kit-one",
+                        "value": "cbe74a",
+                        "label": "Neon Yellow"
+                      },
+                      {
+                        "name": "Metallic Blue",
+                        "param": "weight-screw-base-color-swatch-kit-one",
+                        "value": "488bc7",
+                        "label": "Metallic Blue"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "type": "doogma-color-swatches",
+                  "attributes": {
+                    "label": "Weight Screw Fill Circle Color Set One",
+                    "labelPlacement": "block",
+                    "param": "weight-screw-fill-circle-color-kit-one",
+                    "size": "24",
+                    "gap": ".25",
+                    "circular": "no",
+                    "value": "",
+                    "showActiveSelection": "yes",
+                    "itemsPlacement": "inline",
+                    "items": [
+                      {
+                        "name": "Hot Pink",
+                        "param": "weight-screw-fill-circle-color-swatch-kit-one",
+                        "value": "e14aa1",
+                        "label": "Hot Pink",
+                        "selected": "yes"
+                      },
+                      {
+                        "name": "Metallic Gold",
+                        "param": "weight-screw-fill-circle-color-swatch-kit-one",
+                        "value": "a78636",
+                        "label": "Metallic Gold"
+                      },
+                      {
+                        "name": "Red",
+                        "param": "weight-screw-fill-circle-color-swatch-kit-one",
+                        "value": "b62d26",
+                        "label": "Red"
+                      },
+                      {
+                        "name": "Purple",
+                        "param": "weight-screw-fill-circle-color-swatch-kit-one",
+                        "value": "513b62",
+                        "label": "Purple"
+                      },
+                      {
+                        "name": "White",
+                        "param": "weight-screw-fill-circle-color-swatch-kit-one",
+                        "value": "ffffff",
+                        "label": "White"
+                      },
+                      {
+                        "name": "Black",
+                        "param": "weight-screw-fill-circle-color-swatch-kit-one",
+                        "value": "000000",
+                        "label": "Black"
+                      },
+                      {
+                        "name": "Orange",
+                        "param": "weight-screw-fill-circle-color-swatch-kit-one",
+                        "value": "FF5910",
+                        "label": "Orange"
+                      },
+                      {
+                        "name": "Neon Yellow",
+                        "param": "weight-screw-fill-circle-color-swatch-kit-one",
+                        "value": "cbe74a",
+                        "label": "Neon Yellow"
+                      },
+                      {
+                        "name": "Blue",
+                        "param": "weight-screw-fill-circle-color-swatch-kit-one",
+                        "value": "0076B6",
+                        "label": "Blue"
+                      },
+                      {
+                        "name": "Yellow",
+                        "param": "weight-screw-fill-circle-color-swatch-kit-one",
+                        "value": "FFD100",
+                        "label": "Yellow"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "type": "doogma-color-swatches",
+                  "attributes": {
+                    "label": "Weight Screw LAGP Logo Set One",
+                    "labelPlacement": "block",
+                    "param": "weight-screw-lagp-logo-kit-one",
+                    "size": "24",
+                    "gap": ".25",
+                    "circular": "no",
+                    "value": "",
+                    "showActiveSelection": "yes",
+                    "itemsPlacement": "inline",
+                    "items": [
+                      {
+                        "name": "Hot Pink",
+                        "param": "weight-screw-lagp-logo-swatch-kit-one",
+                        "value": "e14aa1",
+                        "label": "Hot Pink",
+                        "selected": "yes"
+                      },
+                      {
+                        "name": "Metallic Gold",
+                        "param": "weight-screw-lagp-logo-swatch-kit-one",
+                        "value": "a78636",
+                        "label": "Metallic Gold"
+                      },
+                      {
+                        "name": "Red",
+                        "param": "weight-screw-lagp-logo-swatch-kit-one",
+                        "value": "b62d26",
+                        "label": "Red"
+                      },
+                      {
+                        "name": "Purple",
+                        "param": "weight-screw-lagp-logo-swatch-kit-one",
+                        "value": "513b62",
+                        "label": "Purple"
+                      },
+                      {
+                        "name": "White",
+                        "param": "weight-screw-lagp-logo-swatch-kit-one",
+                        "value": "ffffff",
+                        "label": "White"
+                      },
+                      {
+                        "name": "Black",
+                        "param": "weight-screw-lagp-logo-swatch-kit-one",
+                        "value": "000000",
+                        "label": "Black"
+                      },
+                      {
+                        "name": "Orange",
+                        "param": "weight-screw-lagp-logo-swatch-kit-one",
+                        "value": "FF5910",
+                        "label": "Orange"
+                      },
+                      {
+                        "name": "Neon Yellow",
+                        "param": "weight-screw-lagp-logo-swatch-kit-one",
+                        "value": "cbe74a",
+                        "label": "Neon Yellow"
+                      },
+                      {
+                        "name": "Blue",
+                        "param": "weight-screw-lagp-logo-swatch-kit-one",
+                        "value": "0076B6",
+                        "label": "Blue"
+                      },
+                      {
+                        "name": "Yellow",
+                        "param": "weight-screw-lagp-logo-swatch-kit-one",
+                        "value": "FFD100",
+                        "label": "Yellow"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "type": "doogma-radio-group",
+                  "attributes": {
+                    "group-param": "screw-weight-kit-one",
+                    "param": "screw-weight-kit-one",
+                    "label": "Weights Screw: Weight Set One",
+                    "label-placement": "block",
+                    "items-placement": "inline",
+                    "gap": "2",
+                    "items": [
+                      {
+                        "name": "weight-options-kit-one",
+                        "param": "screw-weight-kit-one",
+                        "selected": "yes",
+                        "value": "70g",
+                        "title": "70g"
+                      },
+                      {
+                        "name": "weight-options-kit-one",
+                        "param": "screw-weight-kit-one",
+                        "value": "80g",
+                        "title": "80g"
+                      },
+                      {
+                        "name": "weight-options-kit-one",
+                        "param": "screw-weight-kit-one",
+                        "value": "90g",
+                        "title": "90g"
+                      },
+                      {
+                        "name": "weight-options-kit-one",
+                        "param": "screw-weight-kit-one",
+                        "value": "100g",
+                        "title": "100g"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "type": "doogma-html-section",
+                  "attributes": {
+                    "class": "doogma-subtitle",
+                    "content": "<h2 class='section-title'>Set Two</h2>"
+                  }
+                },
+                {
+                  "type": "doogma-color-swatches",
+                  "attributes": {
+                    "label": "Weight Screw Base Color Set Two",
+                    "labelPlacement": "block",
+                    "param": "weight-screw-base-color-kit-two",
+                    "size": "24",
+                    "gap": ".25",
+                    "circular": "no",
+                    "value": "",
+                    "showActiveSelection": "yes",
+                    "itemsPlacement": "inline",
+                    "items": [
+                      {
+                        "name": "Hot Pink",
+                        "param": "weight-screw-base-color-swatch-kit-two",
+                        "value": "e14aa1",
+                        "label": "Hot Pink",
+                        "selected": "yes"
+                      },
+
+                      {
+                        "name": "Red",
+                        "param": "weight-screw-base-color-swatch-kit-two",
+                        "value": "b62d26",
+                        "label": "Red"
+                      },
+                      {
+                        "name": "Purple",
+                        "param": "weight-screw-base-color-swatch-kit-two",
+                        "value": "513b62",
+                        "label": "Purple"
+                      },
+                      {
+                        "name": "White",
+                        "param": "weight-screw-base-color-swatch-kit-two",
+                        "value": "ffffff",
+                        "label": "White"
+                      },
+                      {
+                        "name": "Black",
+                        "param": "weight-screw-base-color-swatch-kit-two",
+                        "value": "000000",
+                        "label": "Black"
+                      },
+
+                      {
+                        "name": "Neon Yellow",
+                        "param": "weight-screw-base-color-swatch-kit-two",
+                        "value": "cbe74a",
+                        "label": "Neon Yellow"
+                      },
+                      {
+                        "name": "Metallic Blue",
+                        "param": "weight-screw-base-color-swatch-kit-two",
+                        "value": "488bc7",
+                        "label": "Metallic Blue"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "type": "doogma-color-swatches",
+                  "attributes": {
+                    "label": "Weight Screw Fill Circle Color Set Two",
+                    "labelPlacement": "block",
+                    "param": "weight-screw-fill-circle-color-kit-two",
+                    "size": "24",
+                    "gap": ".25",
+                    "circular": "no",
+                    "value": "",
+                    "showActiveSelection": "yes",
+                    "itemsPlacement": "inline",
+                    "items": [
+                      {
+                        "name": "Hot Pink",
+                        "param": "weight-screw-fill-circle-color-swatch-kit-two",
+                        "value": "e14aa1",
+                        "label": "Hot Pink",
+                        "selected": "yes"
+                      },
+                      {
+                        "name": "Metallic Gold",
+                        "param": "weight-screw-fill-circle-color-swatch-kit-two",
+                        "value": "a78636",
+                        "label": "Metallic Gold"
+                      },
+                      {
+                        "name": "Red",
+                        "param": "weight-screw-fill-circle-color-swatch-kit-two",
+                        "value": "b62d26",
+                        "label": "Red"
+                      },
+                      {
+                        "name": "Purple",
+                        "param": "weight-screw-fill-circle-color-swatch-kit-two",
+                        "value": "513b62",
+                        "label": "Purple"
+                      },
+                      {
+                        "name": "White",
+                        "param": "weight-screw-fill-circle-color-swatch-kit-two",
+                        "value": "ffffff",
+                        "label": "White"
+                      },
+                      {
+                        "name": "Black",
+                        "param": "weight-screw-fill-circle-color-swatch-kit-two",
+                        "value": "000000",
+                        "label": "Black"
+                      },
+                      {
+                        "name": "Orange",
+                        "param": "weight-screw-fill-circle-color-swatch-kit-two",
+                        "value": "FF5910",
+                        "label": "Orange"
+                      },
+                      {
+                        "name": "Neon Yellow",
+                        "param": "weight-screw-fill-circle-color-swatch-kit-two",
+                        "value": "cbe74a",
+                        "label": "Neon Yellow"
+                      },
+                      {
+                        "name": "Blue",
+                        "param": "weight-screw-fill-circle-color-swatch-kit-two",
+                        "value": "0076B6",
+                        "label": "Blue"
+                      },
+                      {
+                        "name": "Yellow",
+                        "param": "weight-screw-fill-circle-color-swatch-kit-two",
+                        "value": "FFD100",
+                        "label": "Yellow"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "type": "doogma-color-swatches",
+                  "attributes": {
+                    "label": "Weight Screw LAGP Logo Set Two",
+                    "labelPlacement": "block",
+                    "param": "weight-screw-lagp-logo-kit-two",
+                    "size": "24",
+                    "gap": ".25",
+                    "circular": "no",
+                    "value": "",
+                    "showActiveSelection": "yes",
+                    "itemsPlacement": "inline",
+                    "items": [
+                      {
+                        "name": "Hot Pink",
+                        "param": "weight-screw-lagp-logo-swatch-kit-two",
+                        "value": "e14aa1",
+                        "label": "Hot Pink",
+                        "selected": "yes"
+                      },
+                      {
+                        "name": "Metallic Gold",
+                        "param": "weight-screw-lagp-logo-swatch-kit-two",
+                        "value": "a78636",
+                        "label": "Metallic Gold"
+                      },
+                      {
+                        "name": "Red",
+                        "param": "weight-screw-lagp-logo-swatch-kit-two",
+                        "value": "b62d26",
+                        "label": "Red"
+                      },
+                      {
+                        "name": "Purple",
+                        "param": "weight-screw-lagp-logo-swatch-kit-two",
+                        "value": "513b62",
+                        "label": "Purple"
+                      },
+                      {
+                        "name": "White",
+                        "param": "weight-screw-lagp-logo-swatch-kit-two",
+                        "value": "ffffff",
+                        "label": "White"
+                      },
+                      {
+                        "name": "Black",
+                        "param": "weight-screw-lagp-logo-swatch-kit-two",
+                        "value": "000000",
+                        "label": "Black"
+                      },
+                      {
+                        "name": "Orange",
+                        "param": "weight-screw-lagp-logo-swatch-kit-two",
+                        "value": "FF5910",
+                        "label": "Orange"
+                      },
+                      {
+                        "name": "Neon Yellow",
+                        "param": "weight-screw-lagp-logo-swatch-kit-two",
+                        "value": "cbe74a",
+                        "label": "Neon Yellow"
+                      },
+                      {
+                        "name": "Blue",
+                        "param": "weight-screw-lagp-logo-swatch-kit-two",
+                        "value": "0076B6",
+                        "label": "Blue"
+                      },
+                      {
+                        "name": "Yellow",
+                        "param": "weight-screw-lagp-logo-swatch-kit-two",
+                        "value": "FFD100",
+                        "label": "Yellow"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "type": "doogma-radio-group",
+                  "attributes": {
+                    "group-param": "screw-weight-kit-two",
+                    "param": "screw-weight-kit-two",
+                    "label": "Weights Screw: Weight Set Two",
+                    "showActiveSelection": "yes",
+                    "label-placement": "block",
+                    "items-placement": "inline",
+                    "gap": "2",
+                    "items": [
+                      {
+                        "name": "screw-weight-options-kit-two",
+                        "param": "screw-weight-kit-two",
+                        "selected": "yes",
+                        "value": "70g",
+                        "title": "70g"
+                      },
+                      {
+                        "name": "screw-weight-options-kit-two",
+                        "param": "screw-weight-kit-two",
+                        "value": "80g",
+                        "title": "80g"
+                      },
+                      {
+                        "name": "screw-weight-options-kit-two",
+                        "param": "screw-weight-kit-two",
+                        "value": "90g",
+                        "title": "90g"
+                      },
+                      {
+                        "name": "screw-weight-options-kit-two",
+                        "param": "screw-weight-kit-two",
+                        "value": "100g",
+                        "title": "100g"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "type": "doogma-html-section",
+                  "attributes": {
+                    "class": "doogma-subtitle",
+                    "content": "<h2 class='section-title'>Set Three</h2>"
+                  }
+                },
+                {
+                  "type": "doogma-color-swatches",
+                  "attributes": {
+                    "label": "Weight Screw Base Color Set Three",
+                    "labelPlacement": "block",
+                    "param": "weight-screw-base-color-kit-three",
+                    "size": "24",
+                    "gap": ".25",
+                    "circular": "no",
+                    "value": "",
+                    "showActiveSelection": "yes",
+                    "itemsPlacement": "inline",
+                    "items": [
+                      {
+                        "name": "Hot Pink",
+                        "param": "weight-screw-base-color-swatch-kit-three",
+                        "value": "e14aa1",
+                        "label": "Hot Pink",
+                        "selected": "yes"
+                      },
+
+                      {
+                        "name": "Red",
+                        "param": "weight-screw-base-color-swatch-kit-three",
+                        "value": "b62d26",
+                        "label": "Red"
+                      },
+                      {
+                        "name": "Purple",
+                        "param": "weight-screw-base-color-swatch-kit-three",
+                        "value": "513b62",
+                        "label": "Purple"
+                      },
+                      {
+                        "name": "White",
+                        "param": "weight-screw-base-color-swatch-kit-three",
+                        "value": "ffffff",
+                        "label": "White"
+                      },
+                      {
+                        "name": "Black",
+                        "param": "weight-screw-base-color-swatch-kit-three",
+                        "value": "000000",
+                        "label": "Black"
+                      },
+
+                      {
+                        "name": "Neon Yellow",
+                        "param": "weight-screw-base-color-swatch-kit-three",
+                        "value": "cbe74a",
+                        "label": "Neon Yellow"
+                      },
+                      {
+                        "name": "Metallic Blue",
+                        "param": "weight-screw-base-color-swatch-kit-three",
+                        "value": "488bc7",
+                        "label": "Metallic Blue"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "type": "doogma-color-swatches",
+                  "attributes": {
+                    "label": "Weight Screw Fill Circle Color Set Three",
+                    "labelPlacement": "block",
+                    "param": "weight-screw-fill-circle-color-kit-three",
+                    "size": "24",
+                    "gap": ".25",
+                    "circular": "no",
+                    "value": "",
+                    "showActiveSelection": "yes",
+                    "itemsPlacement": "inline",
+                    "items": [
+                      {
+                        "name": "Hot Pink",
+                        "param": "weight-screw-fill-circle-color-swatch-kit-three",
+                        "value": "e14aa1",
+                        "label": "Hot Pink",
+                        "selected": "yes"
+                      },
+                      {
+                        "name": "Metallic Gold",
+                        "param": "weight-screw-fill-circle-color-swatch-kit-three",
+                        "value": "a78636",
+                        "label": "Metallic Gold"
+                      },
+                      {
+                        "name": "Red",
+                        "param": "weight-screw-fill-circle-color-swatch-kit-three",
+                        "value": "b62d26",
+                        "label": "Red"
+                      },
+                      {
+                        "name": "Purple",
+                        "param": "weight-screw-fill-circle-color-swatch-kit-three",
+                        "value": "513b62",
+                        "label": "Purple"
+                      },
+                      {
+                        "name": "White",
+                        "param": "weight-screw-fill-circle-color-swatch-kit-three",
+                        "value": "ffffff",
+                        "label": "White"
+                      },
+                      {
+                        "name": "Black",
+                        "param": "weight-screw-fill-circle-color-swatch-kit-three",
+                        "value": "000000",
+                        "label": "Black"
+                      },
+                      {
+                        "name": "Orange",
+                        "param": "weight-screw-fill-circle-color-swatch-kit-three",
+                        "value": "FF5910",
+                        "label": "Orange"
+                      },
+                      {
+                        "name": "Neon Yellow",
+                        "param": "weight-screw-fill-circle-color-swatch-kit-three",
+                        "value": "cbe74a",
+                        "label": "Neon Yellow"
+                      },
+                      {
+                        "name": "Blue",
+                        "param": "weight-screw-fill-circle-color-swatch-kit-three",
+                        "value": "0076B6",
+                        "label": "Blue"
+                      },
+                      {
+                        "name": "Yellow",
+                        "param": "weight-screw-fill-circle-color-swatch-kit-three",
+                        "value": "FFD100",
+                        "label": "Yellow"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "type": "doogma-color-swatches",
+                  "attributes": {
+                    "label": "Weight Screw LAGP Logo Set Three",
+                    "labelPlacement": "block",
+                    "param": "weight-screw-lagp-logo-kit-three",
+                    "size": "24",
+                    "gap": ".25",
+                    "circular": "no",
+                    "value": "",
+                    "showActiveSelection": "yes",
+                    "itemsPlacement": "inline",
+                    "items": [
+                      {
+                        "name": "Hot Pink",
+                        "param": "weight-screw-lagp-logo-swatch-kit-three",
+                        "value": "e14aa1",
+                        "label": "Hot Pink",
+                        "selected": "yes"
+                      },
+                      {
+                        "name": "Metallic Gold",
+                        "param": "weight-screw-lagp-logo-swatch-kit-three",
+                        "value": "a78636",
+                        "label": "Metallic Gold"
+                      },
+                      {
+                        "name": "Red",
+                        "param": "weight-screw-lagp-logo-swatch-kit-three",
+                        "value": "b62d26",
+                        "label": "Red"
+                      },
+                      {
+                        "name": "Purple",
+                        "param": "weight-screw-lagp-logo-swatch-kit-three",
+                        "value": "513b62",
+                        "label": "Purple"
+                      },
+                      {
+                        "name": "White",
+                        "param": "weight-screw-lagp-logo-swatch-kit-three",
+                        "value": "ffffff",
+                        "label": "White"
+                      },
+                      {
+                        "name": "Black",
+                        "param": "weight-screw-lagp-logo-swatch-kit-three",
+                        "value": "000000",
+                        "label": "Black"
+                      },
+                      {
+                        "name": "Orange",
+                        "param": "weight-screw-lagp-logo-swatch-kit-three",
+                        "value": "FF5910",
+                        "label": "Orange"
+                      },
+                      {
+                        "name": "Neon Yellow",
+                        "param": "weight-screw-lagp-logo-swatch-kit-three",
+                        "value": "cbe74a",
+                        "label": "Neon Yellow"
+                      },
+                      {
+                        "name": "Blue",
+                        "param": "weight-screw-lagp-logo-swatch-kit-three",
+                        "value": "0076B6",
+                        "label": "Blue"
+                      },
+                      {
+                        "name": "Yellow",
+                        "param": "weight-screw-lagp-logo-swatch-kit-three",
+                        "value": "FFD100",
+                        "label": "Yellow"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "type": "doogma-radio-group",
+                  "attributes": {
+                    "group-param": "screw-weight-kit-three",
+                    "param": "screw-weight-kit-three",
+                    "label": "Weights Screw: Weight Set Three",
+                    "label-placement": "block",
+                    "items-placement": "inline",
+                    "gap": "2",
+                    "items": [
+                      {
+                        "name": "screw-weight-options-kit-three",
+                        "param": "screw-weight-kit-three",
+                        "value": "70g",
+                        "selected": "yes",
+                        "title": "70g"
+                      },
+                      {
+                        "name": "screw-weight-options-kit-three",
+                        "param": "screw-weight-kit-three",
+                        "value": "80g",
+                        "title": "80g"
+                      },
+                      {
+                        "name": "screw-weight-options-kit-three",
+                        "param": "screw-weight-kit-three",
+                        "value": "90g",
+                        "title": "90g"
+                      },
+                      {
+                        "name": "screw-weight-options-kit-three",
+                        "param": "screw-weight-kit-three",
+                        "value": "100g",
+                        "title": "100g"
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "name": "specs",
+              "zoomX": "0",
+              "zoomY": "2000",
+              "zoomWidth": "1000",
+              "zoomHeight": "1000",
+              "components": [
+                {
+                  "type": "doogma-font-swatches",
+                  "attributes": {
+                    "label": "Hand",
+                    "param": "hand",
+                    "labelPlacement": "block",
+                    "size": "90",
+                    "gap": "0.15",
+                    "circular": "no",
+                    "showActiveSelection": true,
+                    "items": [
+                      {
+                        "name": "Right",
+                        "label": "Right",
+                        "value": "Right",
+                        "selected": "yes"
+                      },
+                      {
+                        "name": "Left",
+                        "label": "Left",
+                        "value": "Left"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "type": "doogma-select",
+                  "attributes": {
+                    "label": "Finished Length",
+                    "default-param-value": "34",
+                    "label-placement": "block",
+                    "param": "finished-length",
+                    "name": "finished-length-standard",
+                    "items": [
+                      {
+                        "name": "32",
+                        "param": "finished-length-swatch",
+
+                        "value": "32",
+                        "label": "32"
+                      },
+                      {
+                        "name": "325",
+                        "param": "finished-length-swatch",
+                        "value": "32.5",
+                        "label": "32.5"
+                      },
+                      {
+                        "name": "33",
+                        "param": "finished-length-swatch",
+                        "value": "33",
+                        "label": "33"
+                      },
+                      {
+                        "name": "335",
+                        "param": "finished-length-swatch",
+                        "value": "33.5",
+                        "label": "33.5"
+                      },
+                      {
+                        "name": "34 (Standard Length)",
+                        "param": "finished-length-swatch",
+                        "selected": "yes",
+                        "value": "34 (Standard Length)",
+                        "label": "34 (STANDARD LENGTH)"
+                      },
+                      {
+                        "name": "345",
+                        "param": "finished-length-swatch",
+                        "value": "34.5",
+                        "label": "34.5"
+                      },
+                      {
+                        "name": "35",
+                        "param": "finished-length-swatch",
+                        "value": "35",
+                        "label": "35"
+                      },
+                      {
+                        "name": "355",
+                        "param": "finished-length-swatch",
+                        "value": "35.5",
+                        "label": "35.5"
+                      },
+                      {
+                        "name": "36",
+                        "param": "finished-length-swatch",
+                        "value": "36",
+                        "label": "36"
+                      },
+                      {
+                        "name": "365",
+                        "param": "finished-length-swatch",
+                        "value": "36.5",
+                        "label": "36.5"
+                      },
+                      {
+                        "name": "37",
+                        "param": "finished-length-swatch",
+                        "value": "37",
+                        "label": "37"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "type": "doogma-select",
+                  "attributes": {
+                    "label": "Finished Length",
+                    "default-param-value": "no",
+                    "label-placement": "block",
+                    "param": "finished-length",
+                    "name": "finished-length-armlock",
+                    "items": [
+                      {
+                        "name": "38",
+                        "selected": "yes",
+                        "param": "finished-length-swatch",
+                        "value": "38",
+                        "label": "38"
+                      },
+                      {
+                        "name": "385",
+                        "param": "finished-length-swatch",
+                        "value": "38.5",
+                        "label": "38.5"
+                      },
+                      {
+                        "name": "39",
+                        "param": "finished-length-swatch",
+                        "value": "39",
+                        "label": "39"
+                      },
+                      {
+                        "name": "395",
+                        "param": "finished-length-swatch",
+                        "value": "39.5",
+                        "label": "39.5"
+                      },
+                      {
+                        "name": "40",
+                        "param": "finished-length-swatch",
+                        "value": "40",
+                        "label": "40"
+                      },
+                      {
+                        "name": "405",
+                        "param": "finished-length-swatch",
+                        "value": "40.5",
+                        "label": "40.5"
+                      },
+                      {
+                        "name": "41",
+                        "param": "finished-length-swatch",
+                        "value": "41",
+                        "label": "41"
+                      },
+                      {
+                        "name": "415",
+                        "param": "finished-length-swatch",
+                        "value": "41.5",
+                        "label": "41.5"
+                      },
+                      {
+                        "name": "42",
+                        "param": "finished-length-swatch",
+                        "value": "42",
+                        "label": "42"
+                      },
+                      {
+                        "name": "425",
+                        "param": "finished-length-swatch",
+                        "value": "42.5",
+                        "label": "42.5"
+                      },
+                      {
+                        "name": "43",
+                        "param": "finished-length-swatch",
+                        "value": "43",
+                        "label": "43"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "type": "doogma-select",
+                  "attributes": {
+                    "label": "Lie Angle",
+                    "default-param-value": "no",
+                    "label-placement": "block",
+                    "param": "lie-angle",
+                    "name": "lie-angle-standard",
+                    "items": [
+                      {
+                        "name": "plus-2-degrees",
+                        "param": "lie-angle-swatch",
+                        "value": "+2°",
+                        "label": "+2°"
+                      },
+                      {
+                        "name": "plus-1-degrees",
+                        "param": "lie-angle-swatch",
+                        "value": "+1°",
+                        "label": "+1°"
+                      },
+                      {
+                        "name": "no-adjustment (71°)",
+                        "param": "lie-angle-swatch",
+                        "selected": "yes",
+                        "value": "No Adjustment (71°)",
+                        "label": "NO ADJUSTMENT (71°)"
+                      },
+                      {
+                        "name": "minus-1-degree",
+                        "param": "lie-angle-swatch",
+                        "value": "-1°",
+                        "label": "-1°"
+                      },
+                      {
+                        "name": "minus-2-degrees",
+                        "param": "lie-angle-swatch",
+                        "value": "-2°",
+                        "label": "-2°"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "type": "doogma-select",
+                  "attributes": {
+                    "label": "Lie Angle",
+                    "default-param-value": "no",
+                    "label-placement": "block",
+                    "param": "lie-angle",
+                    "name": "lie-angle-armlock",
+                    "items": [
+                      {
+                        "name": "No Adjustment (71°)",
+                        "param": "lie-angle-swatch",
+                        "selected": "yes",
+                        "value": "No Adjustment (71°)",
+                        "label": "NO ADJUSTMENT (71°)"
+                      },
+                      {
+                        "name": "minus-1-degree",
+                        "param": "lie-angle-swatch",
+                        "value": "-1°",
+                        "label": "-1°"
+                      },
+                      {
+                        "name": "minus-2-degrees",
+                        "param": "lie-angle-swatch",
+                        "value": "-2°",
+                        "label": "-2°"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "type": "doogma-select",
+                  "attributes": {
+                    "label": "LOFT",
+                    "default-param-value": "yes",
+                    "label-placement": "block",
+                    "param": "loft-angle",
+                    "name": "loft-angle",
+                    "items": [
+                      {
+                        "name": "plus-2-degrees",
+                        "param": "loft-angle-swatch",
+                        "value": "+2°",
+                        "label": "+2°"
+                      },
+                      {
+                        "name": "plus-1-degrees",
+                        "param": "loft-angle-swatch",
+                        "value": "+1°",
+                        "label": "+1°"
+                      },
+                      {
+                        "name": "no-adjustment",
+                        "param": "loft-angle-swatch",
+                        "selected": "yes",
+                        "value": "No Adjustment",
+                        "label": "NO ADJUSTMENT"
+                      },
+                      {
+                        "name": "minus-1-degree",
+                        "param": "loft-angle-swatch",
+                        "value": "-1°",
+                        "label": "-1°"
+                      },
+                      {
+                        "name": "minus-2-degrees",
+                        "param": "loft-angle-swatch",
+                        "value": "-2°",
+                        "label": "-2°"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "type": "doogma-font-swatches",
+                  "attributes": {
+                    "label": "Grip Type",
+                    "param": "grip-type",
+                    "name": "grip-type-standard",
+                    "labelPlacement": "block",
+                    "size": "90",
+                    "gap": "0.15",
+                    "circular": "no",
+                    "showActiveSelection": true,
+                    "items": [
+                      {
+                        "name": "Jumbo Lite",
+                        "label": "Jumbo Lite",
+                        "value": "Jumbo Lite",
+                        "selected": "yes"
+                      },
+                      {
+                        "name": "Jumbo Max",
+                        "label": "Jumbo Max",
+                        "value": "Jumbo Max"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "type": "doogma-select",
+                  "attributes": {
+                    "label": "Shaft Options",
+                    "default-param-value": "no",
+                    "label-placement": "block",
+                    "param": "shaft-option",
+                    "name": "shaft-option-standard-plumbers",
+                    "items": [
+                      {
+                        "name": "135Option",
+                        "param": "shaft-option-swatch",
+                        "selected": "yes",
+                        "value": "P-Series 135",
+                        "label": "P-Series 135"
+                      },
+                      {
+                        "name": "C2LOption",
+                        "param": "shaft-option-swatch",
+                        "selected": "no",
+                        "value": "C2L",
+                        "label": "C2L"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "type": "doogma-select",
+                  "attributes": {
+                    "label": "Shaft Options",
+                    "default-param-value": "no",
+                    "label-placement": "block",
+                    "param": "shaft-option",
+                    "name": "shaft-option-standard-face",
+                    "items": [
+                      {
+                        "name": "C2LOption",
+                        "param": "shaft-option-swatch",
+                        "selected": "yes",
+                        "value": "C2L",
+                        "label": "C2L"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "type": "doogma-select",
+                  "attributes": {
+                    "label": "Shaft Options",
+                    "default-param-value": "no",
+                    "label-placement": "block",
+                    "param": "shaft-option",
+                    "name": "shaft-option-standard-non-face",
+                    "items": [
+                      {
+                        "name": "C2LOption",
+                        "param": "shaft-option-swatch",
+                        "selected": "yes",
+                        "value": "C2L",
+                        "label": "C2L"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "type": "doogma-select",
+                  "attributes": {
+                    "label": "Shaft Options",
+                    "default-param-value": "no",
+                    "label-placement": "block",
+                    "param": "shaft-option",
+                    "name": "shaft-option-armlock",
+                    "items": [
+                      {
+                        "name": "C2LOption",
+                        "param": "shaft-option-swatch",
+                        "selected": "yes",
+                        "value": "C2L",
+                        "label": "C2L"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "type": "doogma-custom-scripts",
+                  "attributes": {
+                    "items": [
+                      {
+                        "name": "source2",
+                        "source": "https://utils.doogma.com/nav-loader/production/scripts/lagolf-custom-scripts/doogma-lagolf-scripts-live1.esm.js"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "type": "doogma-add-to-cart-button",
+        "attributes": {
+          "label": "Add to bag",
+          "param": "button"
+        }
+      }
+    ]
+  },
+  "_comment": "Components END"
+}

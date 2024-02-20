@@ -1,0 +1,2295 @@
+{
+  "id": "oreoweddings-development",
+  "wrapper": {
+    "maxWidth": "1600px",
+    "ratio": "50:40",
+    "ratios": "mobile=100:100|tablet=100:100|desktop=50:50",
+    "topOffset": "0px",
+    "topOffsets": "mobile=0px|tablet=0px|desktop=0px",
+    "gutter": "0px",
+    "version": "0.1"
+  },
+  "visualisation": {
+    "visualisationId": "n21.oreo-weddings-templates",
+    "initConfig": "0lbb3cavuxj",
+    "beforeVis": {},
+    "afterVis": {}
+  },
+  "hiddenParams": [
+    {
+      "class": "doogma-view-x",
+      "value": "0"
+    },
+    {
+      "class": "doogma-view-y",
+      "value": "1000"
+    },
+    {
+      "class": "doogma-view-width",
+      "value": "1000"
+    },
+    {
+      "class": "doogma-view-height",
+      "value": "1000"
+    },
+    {
+      "id": "uploadedimagecookie",
+      "class": "uploadedimagecookie",
+      "value": ""
+    },
+    {
+      "id": "uploadedimagepackage",
+      "class": "uploadedimagepackage",
+      "value": ""
+    },
+    {
+      "id": "savedDesign",
+      "class": "saved-design",
+      "value": ""
+    },
+    {
+      "class": "doogma-export-data",
+      "value": ""
+    },
+    {
+      "id": "uploadedimagecookie",
+      "class": "uploadedimagecookie",
+      "value": ""
+    },
+    {
+      "id": "uploadedimagepackage-24ct-box-band-black",
+      "class": "uploadedimagepackage-24ct-box-band-black",
+      "value": ""
+    },
+    {
+      "id": "uploadedimagepackage-4ct-box-band-black",
+      "class": "uploadedimagepackage-4ct-box-band-black",
+      "value": ""
+    },
+    {
+      "id": "uploadedimagepackage-4ct-box-band-white",
+      "class": "uploadedimagepackage-4ct-box-band-white",
+      "value": ""
+    },
+    {
+      "id": "uploadedimagepackage-12ct-box-band-black",
+      "class": "uploadedimagepackage-12ct-box-band-black",
+      "value": ""
+    }
+  ],
+  "navigation": {
+    "components": [
+      {
+        "type": "doogma-nav-tabs",
+        "attributes": {
+          "param": "navtabs",
+          "viewType": "tabs",
+          "maxWidth": "100%",
+          "hideTabs": "no",
+          "enableZoom": "yes",
+          "items": [
+            {
+              "name": "Design",
+              "svg": "<svg width='22' fill='#A9A9A9' height='20' viewBox='0 0 22 20' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M18.3254 0H3.67391C1.99106 0 0.621094 1.27117 0.621094 2.83475V16.4406C0.621094 18.0033 1.99005 19.2754 3.67391 19.2754H18.3264C20.0092 19.2754 21.3792 18.0042 21.3792 16.4406V2.83475C21.3782 1.27117 20.0092 0 18.3254 0ZM20.1571 16.4397C20.1571 17.3771 19.3359 18.1405 18.3254 18.1405H3.67391C2.6644 18.1405 1.84222 17.378 1.84222 16.4397V14.3891L6.76925 9.30533L13.4247 14.9231L17.1053 12.0752L20.1581 14.437V16.4397H20.1571ZM20.1571 12.9618L17.1043 10.6L13.4581 13.4207L6.68318 7.70038L1.84222 12.6948V2.83475C1.84222 1.89736 2.66339 1.1339 3.67391 1.1339H18.3264C19.3359 1.1339 20.1581 1.89642 20.1581 2.83475V12.9618H20.1571Z'/><path d='M5.49989 6.86767C6.61128 6.47794 7.20657 5.27818 6.82592 4.19268C6.44526 3.10718 5.23171 2.54171 4.11966 2.93167C3.00827 3.3214 2.41298 4.52117 2.79363 5.60667C3.17428 6.69217 4.38783 7.25764 5.49989 6.86767ZM4.39593 3.71953C5.06263 3.48574 5.79125 3.8247 6.01969 4.47613C6.24812 5.12756 5.89144 5.8471 5.22407 6.08113C4.55671 6.31515 3.82875 5.97596 3.60032 5.32453C3.37188 4.67309 3.72857 3.95355 4.39593 3.71953Z'/></svg>",
+              "selected": "yes",
+              "zoomX": "0",
+              "zoomY": "0",
+              "underText": "Design",
+              "zoomWidth": "750",
+              "zoomHeight": "750",
+              "components": [
+                {
+                  "type": "doogma-html-section",
+                  "attributes": {
+                    "content": "<div class='oreo-weddings-admin'></div><h2 class='doogma-subtitle'><span>Start your Design</span><span class='blue-color'>ADMIN UX</span></h2><h3>set the defaults and save design for a starting point</h3>"
+                  }
+                },
+                {
+                  "type": "doogma-radio-group",
+                  "attributes": {
+                    "label": "Select Personalization",
+                    "labelPlacement": "block",
+                    "param": "personalization-lines",
+                    "groupParam": "personalization-lines",
+                    "gap": ".5",
+                    "itemsPlacement": "inline",
+                    "items": [
+                      {
+                        "name": "personalization-lines",
+                        "param": "personalization-lines",
+                        "value": "1",
+                        "multiText": "no",
+                        "title": "1 Line",
+                        "selected": "Yes"
+                      },
+                      {
+                        "name": "personalization-lines",
+                        "param": "personalization-lines",
+                        "value": "2",
+                        "multiText": "no",
+                        "title": "2 Lines"
+                      },
+                      {
+                        "name": "personalization-lines",
+                        "param": "personalization-lines",
+                        "value": "3",
+                        "multiText": "no",
+                        "title": "3 Lines"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "type": "doogma-simple-text",
+                  "attributes": {
+                    "label": "Add Personalization Line 1",
+                    "placeholder": "",
+                    "labelPlacement": "block",
+                    "param": "text1",
+                    "name": "text1-personalization"
+                  }
+                },
+                {
+                  "type": "doogma-image-swatches",
+                  "attributes": {
+                    "label": "Select Font Line 1",
+                    "param": "font-line-1",
+                    "labelPlacement": "block",
+                    "size": "32",
+                    "gap": "0.5",
+                    "circular": "yes",
+                    "showActiveSelection": "no",
+                    "items": [
+                      {
+                        "name": "oreosans",
+                        "value": "oreosans",
+                        "src": "https://vip.doogma.com/dzine1/oreo-corporate/th-oreosans.png",
+                        "selected": "yes"
+                      },
+                      {
+                        "name": "pluto",
+                        "value": "pluto",
+                        "src": "https://vip.doogma.com/dzine1/oreo-corporate/th-pluto.png"
+                      },
+                      {
+                        "name": "librebaskervillebold",
+                        "value": "librebaskervillebold",
+                        "src": "https://vip.doogma.com/dzine1/oreo-corporate/th-librebaskervillebold.png"
+                      },
+                      {
+                        "name": "dominebold",
+                        "value": "dominebold",
+                        "src": "https://utils.doogma.com/nav-loader/assets/oreo/fonts/th-domine.png"
+                      },
+                      {
+                        "name": "montserratmedium",
+                        "value": "montserratmedium",
+                        "src": "https://utils.doogma.com/nav-loader/assets/oreo/fonts/th-montserrat.png"
+                      },
+                      {
+                        "name": "dmserifdisplay",
+                        "value": "dmserifdisplay",
+                        "src": "https://utils.doogma.com/nav-loader/assets/oreo/fonts/th-dmserifdisplay.png"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "type": "doogma-simple-text",
+                  "attributes": {
+                    "label": "Add Personalization Line 2",
+                    "placeholder": "",
+                    "labelPlacement": "block",
+                    "param": "text2",
+                    "name": "text2-personalization"
+                  }
+                },
+                {
+                  "type": "doogma-image-swatches",
+                  "attributes": {
+                    "label": "Select Font Line 2",
+                    "param": "font-line-2",
+                    "labelPlacement": "block",
+                    "size": "32",
+                    "gap": "0.5",
+                    "circular": "yes",
+                    "showActiveSelection": "no",
+                    "items": [
+                      {
+                        "name": "oreosans",
+                        "value": "oreosans",
+                        "src": "https://vip.doogma.com/dzine1/oreo-corporate/th-oreosans.png",
+                        "selected": "yes"
+                      },
+                      {
+                        "name": "pluto",
+                        "value": "pluto",
+                        "src": "https://vip.doogma.com/dzine1/oreo-corporate/th-pluto.png"
+                      },
+                      {
+                        "name": "librebaskervillebold",
+                        "value": "librebaskervillebold",
+                        "src": "https://vip.doogma.com/dzine1/oreo-corporate/th-librebaskervillebold.png"
+                      },
+                      {
+                        "name": "dominebold",
+                        "value": "dominebold",
+                        "src": "https://utils.doogma.com/nav-loader/assets/oreo/fonts/th-domine.png"
+                      },
+                      {
+                        "name": "montserratmedium",
+                        "value": "montserratmedium",
+                        "src": "https://utils.doogma.com/nav-loader/assets/oreo/fonts/th-montserrat.png"
+                      },
+                      {
+                        "name": "dmserifdisplay",
+                        "value": "dmserifdisplay",
+                        "src": "https://utils.doogma.com/nav-loader/assets/oreo/fonts/th-dmserifdisplay.png"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "type": "doogma-simple-text",
+                  "attributes": {
+                    "label": "Add Personalization Line 3",
+                    "placeholder": "",
+                    "labelPlacement": "block",
+                    "param": "text3",
+                    "name": "text3-personalization"
+                  }
+                },
+                {
+                  "type": "doogma-image-swatches",
+                  "attributes": {
+                    "label": "Select Font Line 3",
+                    "param": "font-line-3",
+                    "labelPlacement": "block",
+                    "size": "32",
+                    "gap": "0.5",
+                    "circular": "yes",
+                    "showActiveSelection": "no",
+                    "items": [
+                      {
+                        "name": "oreosans",
+                        "value": "oreosans",
+                        "src": "https://vip.doogma.com/dzine1/oreo-corporate/th-oreosans.png",
+                        "selected": "yes"
+                      },
+                      {
+                        "name": "pluto",
+                        "value": "pluto",
+                        "src": "https://vip.doogma.com/dzine1/oreo-corporate/th-pluto.png"
+                      },
+                      {
+                        "name": "librebaskervillebold",
+                        "value": "librebaskervillebold",
+                        "src": "https://vip.doogma.com/dzine1/oreo-corporate/th-librebaskervillebold.png"
+                      },
+                      {
+                        "name": "dominebold",
+                        "value": "dominebold",
+                        "src": "https://utils.doogma.com/nav-loader/assets/oreo/fonts/th-domine.png"
+                      },
+                      {
+                        "name": "montserratmedium",
+                        "value": "montserratmedium",
+                        "src": "https://utils.doogma.com/nav-loader/assets/oreo/fonts/th-montserrat.png"
+                      },
+                      {
+                        "name": "dmserifdisplay",
+                        "value": "dmserifdisplay",
+                        "src": "https://utils.doogma.com/nav-loader/assets/oreo/fonts/th-dmserifdisplay.png"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "type": "doogma-image-swatches",
+                  "attributes": {
+                    "label": "Select Design",
+                    "param": "design",
+                    "labelPlacement": "block",
+                    "size": "32",
+                    "gap": "0.5",
+                    "circular": "yes",
+                    "showActiveSelection": "no",
+                    "items": [
+                      {
+                        "name": "001",
+                        "value": "001",
+                        "src": "https://utils.doogma.com/nav-loader/assets/oreo/swatches/001-weddings-swatch.png",
+                        "selected": "yes"
+                      },
+                      {
+                        "name": "002",
+                        "value": "002",
+                        "src": "https://utils.doogma.com/nav-loader/assets/oreo/swatches/002-weddings-swatch.png"
+                      },
+                      {
+                        "name": "003",
+                        "value": "003",
+                        "src": "https://utils.doogma.com/nav-loader/assets/oreo/swatches/003-weddings-swatch.png"
+                      },
+                      {
+                        "name": "004",
+                        "value": "004",
+                        "src": "https://utils.doogma.com/nav-loader/assets/oreo/swatches/004-weddings-swatch.png"
+                      },
+                      {
+                        "name": "005",
+                        "value": "005",
+                        "src": "https://utils.doogma.com/nav-loader/assets/oreo/swatches/005-weddings-swatch.png"
+                      },
+                      {
+                        "name": "006",
+                        "value": "006",
+                        "src": "https://utils.doogma.com/nav-loader/assets/oreo/swatches/006-weddings-swatch.png"
+                      },
+                      {
+                        "name": "007",
+                        "value": "007",
+                        "src": "https://utils.doogma.com/nav-loader/assets/oreo/swatches/007-weddings-swatch.png"
+                      },
+
+                      {
+                        "name": "008",
+                        "value": "008",
+                        "src": "https://utils.doogma.com/nav-loader/assets/oreo/swatches/008-weddings-swatch.png"
+                      },
+                      {
+                        "name": "009",
+                        "value": "009",
+                        "src": "https://utils.doogma.com/nav-loader/assets/oreo/swatches/009-weddings-swatch.png"
+                      },
+                      {
+                        "name": "010",
+                        "value": "010",
+                        "src": "https://utils.doogma.com/nav-loader/assets/oreo/swatches/010-weddings-swatch.png"
+                      },
+                      {
+                        "name": "011",
+                        "value": "011",
+                        "src": "https://utils.doogma.com/nav-loader/assets/oreo/swatches/011-weddings-swatch.png"
+                      },
+                      {
+                        "name": "012",
+                        "value": "012",
+                        "src": "https://utils.doogma.com/nav-loader/assets/oreo/swatches/012a-weddings-swatch.png"
+                      },
+
+                      {
+                        "name": "013",
+                        "value": "013",
+                        "src": "https://utils.doogma.com/nav-loader/assets/oreo/swatches/013-weddings-swatch.png"
+                      },
+                      {
+                        "name": "014",
+                        "value": "014",
+                        "src": "https://utils.doogma.com/nav-loader/assets/oreo/swatches/014-weddings-swatch.png"
+                      },
+                      {
+                        "name": "015",
+                        "value": "015",
+                        "src": "https://utils.doogma.com/nav-loader/assets/oreo/swatches/015-weddings-swatch.png"
+                      },
+                      {
+                        "name": "016",
+                        "value": "016",
+                        "src": "https://utils.doogma.com/nav-loader/assets/oreo/swatches/016-weddings-swatch.png"
+                      },
+                      {
+                        "name": "017",
+                        "value": "017",
+                        "src": "https://utils.doogma.com/nav-loader/assets/oreo/swatches/017-weddings-swatch.png"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "type": "doogma-color-swatches",
+                  "attributes": {
+                    "label": "Select Text Color",
+                    "labelPlacement": "block",
+                    "param": "textcolor",
+                    "size": "24",
+                    "gap": ".25",
+                    "circular": "yes",
+                    "value": "",
+                    "showActiveSelection": "no",
+                    "itemsPlacement": "inline",
+                    "items": [
+                      {
+                        "name": "ffffff",
+                        "param": "textcolor",
+                        "value": "ffffff",
+                        "label": "White",
+                        "selected": "yes"
+                      },
+                      {
+                        "name": "303030",
+                        "param": "textcolor",
+                        "value": "303030",
+                        "label": "Black"
+                      },
+                      {
+                        "name": "815D00",
+                        "param": "textcolor",
+                        "value": "815D00",
+                        "label": ""
+                      },
+                      {
+                        "name": "000000",
+                        "param": "textcolor",
+                        "value": "000000",
+                        "label": "Black"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "type": "doogma-color-swatches",
+                  "attributes": {
+                    "label": "Select Background Color",
+                    "labelPlacement": "block",
+                    "param": "background",
+                    "size": "24",
+                    "gap": ".25",
+                    "circular": "yes",
+                    "value": "",
+                    "showActiveSelection": "no",
+                    "itemsPlacement": "inline",
+                    "items": [
+                      {
+                        "name": "ffffff",
+                        "param": "textcolor",
+                        "value": "ffffff",
+                        "label": "White",
+                        "selected": "yes"
+                      },
+                      {
+                        "name": "B8B8B8",
+                        "param": "textcolor",
+                        "value": "B8B8B8",
+                        "label": ""
+                      },
+                      {
+                        "name": "D0B276",
+                        "param": "textcolor",
+                        "value": "D0B276",
+                        "label": ""
+                      },
+                      {
+                        "name": "FFEE97",
+                        "param": "textcolor",
+                        "value": "FFEE97",
+                        "label": ""
+                      },
+                      {
+                        "name": "FEC277",
+                        "param": "textcolor",
+                        "value": "FEC277",
+                        "label": ""
+                      },
+                      {
+                        "name": "FD9D70",
+                        "param": "textcolor",
+                        "value": "FD9D70",
+                        "label": ""
+                      },
+                      {
+                        "name": "FF8A8A",
+                        "param": "textcolor",
+                        "value": "FF8A8A",
+                        "label": ""
+                      },
+                      {
+                        "name": "DA8C8C",
+                        "param": "textcolor",
+                        "value": "DA8C8C",
+                        "label": ""
+                      },
+                      {
+                        "name": "F397C9",
+                        "param": "textcolor",
+                        "value": "F397C9",
+                        "label": ""
+                      },
+                      {
+                        "name": "CC95D6",
+                        "param": "textcolor",
+                        "value": "CC95D6",
+                        "label": ""
+                      },
+                      {
+                        "name": "9B91B6",
+                        "param": "textcolor",
+                        "value": "9B91B6",
+                        "label": ""
+                      },
+                      {
+                        "name": "84B1D5",
+                        "param": "textcolor",
+                        "value": "84B1D5",
+                        "label": ""
+                      },
+                      {
+                        "name": "9CDCF1",
+                        "param": "textcolor",
+                        "value": "9CDCF1",
+                        "label": ""
+                      },
+                      {
+                        "name": "85CFC2",
+                        "param": "textcolor",
+                        "value": "85CFC2",
+                        "label": ""
+                      },
+                      {
+                        "name": "ADC89E",
+                        "param": "textcolor",
+                        "value": "ADC89E",
+                        "label": ""
+                      },
+                      {
+                        "name": "C1DF97",
+                        "param": "textcolor",
+                        "value": "C1DF97",
+                        "label": ""
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "name": "Sprinkles",
+              "underText": "Sprinkles",
+              "svg": "<svg fill='#A9A9A9' width='800px' height='800px' viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'><path d='M 16 3 C 8.832 3 3 8.832 3 16 C 3 23.168 8.832 29 16 29 C 23.168 29 29 23.168 29 16 C 29 8.832 23.168 3 16 3 z M 16 5 C 22.065 5 27 9.935 27 16 C 27 22.065 22.065 27 16 27 C 9.935 27 5 22.065 5 16 C 5 9.935 9.935 5 16 5 z M 14 9 A 1 1 0 0 0 14 11 A 1 1 0 0 0 14 9 z M 19.5 10 A 1.5 1.5 0 0 0 19.5 13 A 1.5 1.5 0 0 0 19.5 10 z M 11 13 A 2 2 0 0 0 11 17 A 2 2 0 0 0 11 13 z M 17 15 A 1 1 0 0 0 17 17 A 1 1 0 0 0 17 15 z M 22 16 A 1 1 0 0 0 22 18 A 1 1 0 0 0 22 16 z M 12.5 19 A 1.5 1.5 0 0 0 12.5 22 A 1.5 1.5 0 0 0 12.5 19 z M 19.5 20 A 1.5 1.5 0 0 0 19.5 23 A 1.5 1.5 0 0 0 19.5 20 z'/></svg>",
+              "zoomX": "0",
+              "zoomY": "750",
+              "zoomWidth": "750",
+              "zoomHeight": "750",
+              "components": [
+                {
+                  "type": "doogma-html-section",
+                  "attributes": {
+                    "content": "<h2 class='doogma-subtitle'>Sprinkle on the fun</h2><h3 class='doogma-subtitle-description'>Choose Up To 4 Or Select Rainbow For All Colors</h3>"
+                  }
+                },
+                {
+                  "type": "doogma-checkbox-group",
+                  "attributes": {
+                    "label": "",
+                    "labelPlacement": "block",
+                    "param": "sprinkles",
+                    "groupParam": "sprinkles",
+                    "gap": "1.7",
+                    "itemsPlacement": "inline",
+                    "items": [
+                      {
+                        "name": "sprinklesred",
+                        "param": "sprinklesred",
+                        "value": "true",
+                        "label": "Red",
+                        "image": "https://www.oreo.com/media/catalog/product/s/p/vsprinkles-red_7.png.pagespeed.ic.iZ_9g4U5RQ.webp"
+                      },
+                      {
+                        "name": "sprinklesorange",
+                        "param": "sprinklesorange",
+                        "value": "true",
+                        "label": "Orange",
+                        "image": "https://www.oreo.com/media/catalog/product/s/p/vsprinkles-orange_7.png.pagespeed.ic.oAv8tJ-zhj.webp"
+                      },
+                      {
+                        "name": "sprinklesyellow",
+                        "param": "sprinklesyellow",
+                        "value": "true",
+                        "label": "Yellow",
+                        "image": "https://www.oreo.com/media/catalog/product/s/p/vsprinkles-yellow_7.png.pagespeed.ic.OMGPq0Vkd6.webp"
+                      },
+                      {
+                        "name": "sprinklesgreen",
+                        "param": "sprinklesgreen",
+                        "value": "true",
+                        "label": "Green",
+                        "image": "https://www.oreo.com/media/catalog/product/s/p/vsprinkles-green_7.png.pagespeed.ic.diXlP-v96e.webp"
+                      },
+                      {
+                        "name": "sprinklesblue",
+                        "param": "sprinklesblue",
+                        "value": "true",
+                        "label": "Blue",
+                        "image": "https://www.oreo.com/media/catalog/product/s/p/vsprinkles-blue_7.png.pagespeed.ic.IoDWK9Yx9J.webp"
+                      },
+                      {
+                        "name": "sprinklespink",
+                        "param": "sprinklespink",
+                        "value": "true",
+                        "label": "Pink",
+                        "image": "https://www.oreo.com/media/catalog/product/s/p/vsprinkles-pink_7.png.pagespeed.ic.iCeeQxEZBa.webp"
+                      },
+                      {
+                        "name": "sprinklespurple",
+                        "param": "sprinklespurple",
+                        "value": "true",
+                        "label": "Purple",
+                        "image": "https://www.oreo.com/media/catalog/product/s/p/vsprinkles-purple_7.png.pagespeed.ic.BPjRtugLEV.webp"
+                      },
+                      {
+                        "name": "sprinkleswhite",
+                        "param": "sprinkleswhite",
+                        "value": "true",
+                        "label": "White",
+                        "selected": "true",
+                        "image": "https://www.oreo.com/media/catalog/product/s/p/vsprinkles-white_7.png.pagespeed.ic.hpBya58CQw.webp"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "type": "doogma-checkbox-group",
+                  "attributes": {
+                    "labelPlacement": "block",
+                    "label": "",
+                    "param": "rainbow-sprinkles",
+                    "gap": ".85",
+                    "itemsPlacement": "inline",
+                    "items": [
+                      {
+                        "name": "sprinklesrainbow",
+                        "param": "sprinklesrainbow",
+                        "value": "true",
+                        "label": "Rainbow Mix",
+                        "image": "https://utils.doogma.com/nav-loader/assets/oreo/sprinkle_rainbow.png"
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "name": "Flavors",
+              "underText": "Flavors",
+              "svg": "<svg width='25' height='28' viewBox='0 0 25 28' fill='#A9A9A9' xmlns='http://www.w3.org/2000/svg'><mask id='path-1-inside-1_1187_3448'><path fill-rule='evenodd' clip-rule='evenodd' d='M12.653 1.43107C13.3946 2.26976 13.9904 2.98189 14.4668 3.59643C14.858 4.10117 15.1736 4.54492 15.4219 4.93835C16.4243 6.52806 16.3999 7.36295 16.3999 8.62404C16.3999 10.961 14.7106 12.8511 12.65 12.8511C10.5887 12.8511 8.90012 10.9602 8.90012 8.62404C8.90012 7.48951 9.30912 6.26425 10.0678 4.93606C10.3183 4.49841 10.608 4.04933 10.9355 3.58804C11.4252 2.8965 11.9965 2.17903 12.653 1.4303M23.4781 17.2436C24.0175 16.6603 24.3198 15.8849 24.3198 15.063C24.3198 14.2563 24.0256 13.4915 23.5003 12.9098C23.4736 12.8793 23.4662 12.848 23.4744 12.8282C23.7626 12.0734 23.7559 11.2301 23.4484 10.4646C23.1491 9.72197 22.5919 9.13031 21.8902 8.79864C21.8539 8.78111 21.8362 8.75442 21.8362 8.73384C21.8213 7.92182 21.502 7.14488 20.9329 6.55856L20.8892 6.51739C20.7485 6.40073 20.5143 6.23985 20.2031 6.0805C19.7882 5.86854 19.3451 5.72139 18.882 5.67106C18.8479 5.66725 18.8198 5.6459 18.8087 5.61769C18.4975 4.86286 17.9092 4.26205 17.1571 3.9403C16.7326 3.76036 16.2739 3.69631 15.8183 3.72147C15.1522 2.67386 14.2978 1.58127 13.2702 0.427679C13.1198 0.266039 12.9234 0.16997 12.7152 0.153196C12.4611 0.131847 12.2062 0.233254 12.0321 0.426154C11.0162 1.56602 10.1701 2.64489 9.50695 3.68183C9.07053 3.66581 8.6319 3.73291 8.22438 3.90599C7.50123 4.21325 6.92848 4.78281 6.60617 5.5018C6.59136 5.53611 6.55579 5.55975 6.498 5.56203C5.99712 5.58491 5.51922 5.75493 5.07243 6.01874C4.78865 6.18648 4.57452 6.35422 4.44486 6.4785L4.42856 6.49375C3.86841 7.07016 3.54981 7.8349 3.52684 8.63548C3.5261 8.65759 3.50831 8.68428 3.47423 8.69952C2.75774 9.02738 2.18796 9.62514 1.88492 10.38C1.58187 11.134 1.57076 11.9636 1.84787 12.7123C1.85454 12.7329 1.84861 12.7642 1.82194 12.7924C1.28179 13.3756 0.979492 14.1518 0.979492 14.9722C0.979492 15.7797 1.27364 16.5452 1.79897 17.1269C1.82564 17.1566 1.83305 17.1879 1.82564 17.2077C1.53668 17.9626 1.5426 18.8066 1.85084 19.5713C2.15017 20.3155 2.70736 20.9079 3.40903 21.2388C3.44459 21.2556 3.46237 21.2823 3.46237 21.3013C3.47719 22.1149 3.79654 22.8911 4.36558 23.4774C4.50487 23.6139 4.72567 23.7839 5.03242 23.9493C5.44661 24.1727 5.91266 24.3229 6.42538 24.3702C6.4528 24.3725 6.47873 24.3923 6.49059 24.4198C6.804 25.1746 7.39231 25.7762 8.14288 26.0956C8.85937 26.4006 9.67736 26.4098 10.4072 26.1299C10.4257 26.1223 10.4561 26.1299 10.4835 26.1566C11.0503 26.7132 11.8046 27.0258 12.6048 27.0258H12.6055C13.3924 27.0258 14.1385 26.7224 14.7039 26.1787C14.732 26.1521 14.7617 26.1452 14.7795 26.1521C15.5145 26.4448 16.3451 26.4403 17.0734 26.1307C17.8084 25.8181 18.3878 25.2356 18.7072 24.5014C18.722 24.4663 18.7538 24.4434 18.7857 24.4419C19.4526 24.4114 19.9838 24.2505 20.3876 23.992C20.6195 23.8441 20.7677 23.6871 20.8715 23.5414C20.8929 23.5201 20.9085 23.4934 20.9285 23.4705C21.4494 22.9025 21.7495 22.1713 21.7724 21.4005C21.7732 21.3791 21.791 21.3532 21.8258 21.3372C22.5423 21.0093 23.1113 20.4116 23.4158 19.6567C23.7174 18.9034 23.7278 18.0739 23.4521 17.3251C23.4447 17.3046 23.4514 17.2733 23.4781 17.2443'/></mask><path d='M14.4668 3.59643L15.2572 2.98382L15.2571 2.98373L14.4668 3.59643ZM15.4219 4.93835L16.2677 4.40494L16.2676 4.40476L15.4219 4.93835ZM10.0678 4.93606L9.19989 4.43939L9.19952 4.44004L10.0678 4.93606ZM10.9355 3.58804L11.7509 4.16695L11.7515 4.166L10.9355 3.58804ZM23.5003 12.9098L22.7476 13.5681L22.7528 13.5741L22.7581 13.58L23.5003 12.9098ZM23.4744 12.8282L24.3992 13.2085L24.4041 13.1968L24.4086 13.1849L23.4744 12.8282ZM23.4484 10.4646L24.3764 10.0919L24.3759 10.0907L23.4484 10.4646ZM21.8902 8.79864L21.4553 9.69914L21.4629 9.70273L21.8902 8.79864ZM21.8362 8.73384H22.8362V8.72471L22.836 8.71559L21.8362 8.73384ZM20.9329 6.55856L21.6506 5.86211L21.6349 5.84599L21.6186 5.8306L20.9329 6.55856ZM20.8892 6.51739L21.5748 5.78942L21.5517 5.76765L21.5273 5.74739L20.8892 6.51739ZM20.2031 6.0805L20.6589 5.19041L20.658 5.18997L20.2031 6.0805ZM18.882 5.67106L18.7709 6.66487L18.774 6.66521L18.882 5.67106ZM18.8087 5.61769L19.7391 5.25115L19.7362 5.24382L19.7332 5.23654L18.8087 5.61769ZM17.1571 3.9403L17.5505 3.0209L17.5474 3.01958L17.1571 3.9403ZM15.8183 3.72147L14.9744 4.25803L15.2886 4.75224L15.8734 4.71995L15.8183 3.72147ZM13.2702 0.427679L14.0168 -0.237504L14.0096 -0.245602L14.0022 -0.253541L13.2702 0.427679ZM12.7152 0.153196L12.6315 1.14969L12.6349 1.14997L12.7152 0.153196ZM12.0321 0.426154L11.2897 -0.243908L11.2855 -0.239165L12.0321 0.426154ZM9.50695 3.68183L9.47028 4.68115L10.0415 4.70211L10.3494 4.22059L9.50695 3.68183ZM8.22438 3.90599L7.83347 2.98556L7.83332 2.98562L8.22438 3.90599ZM6.60617 5.5018L5.69358 5.0927L5.68814 5.1053L6.60617 5.5018ZM6.498 5.56203L6.45845 4.5628L6.45238 4.56307L6.498 5.56203ZM5.07243 6.01874L4.56399 5.15765L4.56359 5.15788L5.07243 6.01874ZM4.44486 6.4785L5.12806 7.20883L5.13682 7.20044L4.44486 6.4785ZM4.42856 6.49375L3.74541 5.76347L3.72801 5.77975L3.71141 5.79683L4.42856 6.49375ZM3.52684 8.63548L4.52629 8.66897L4.52643 8.66416L3.52684 8.63548ZM3.47423 8.69952L3.06582 7.78669L3.05814 7.7902L3.47423 8.69952ZM1.88492 10.38L2.81279 10.7529L2.81292 10.7525L1.88492 10.38ZM1.84787 12.7123L2.7992 12.4041L2.79285 12.3845L2.7857 12.3652L1.84787 12.7123ZM1.82194 12.7924L1.09528 12.1053L1.08822 12.1129L1.82194 12.7924ZM1.79897 17.1269L2.54337 16.4592L2.54115 16.4567L1.79897 17.1269ZM1.82564 17.2077L2.75958 17.5653L2.76235 17.5578L1.82564 17.2077ZM1.85084 19.5713L2.77859 19.1981L2.77833 19.1975L1.85084 19.5713ZM3.40903 21.2388L3.8356 20.3344L3.83557 20.3343L3.40903 21.2388ZM3.46237 21.3013H2.46237V21.3104L2.46254 21.3195L3.46237 21.3013ZM4.36558 23.4774L3.64797 24.1738L3.65674 24.1829L3.66573 24.1917L4.36558 23.4774ZM5.03242 23.9493L4.5577 24.8295L4.5577 24.8295L5.03242 23.9493ZM6.42538 24.3702L6.33357 25.366L6.34224 25.3667L6.42538 24.3702ZM6.49059 24.4198L7.41414 24.0363L7.41143 24.0298L7.40862 24.0233L6.49059 24.4198ZM8.14288 26.0956L8.53454 25.1755L8.53451 25.1755L8.14288 26.0956ZM10.4072 26.1299L10.7652 27.0637L10.7766 27.0593L10.7878 27.0547L10.4072 26.1299ZM10.4835 26.1566L11.1841 25.4431L11.181 25.4401L10.4835 26.1566ZM14.7039 26.1787L14.016 25.4529L14.0108 25.4579L14.7039 26.1787ZM14.7795 26.1521L15.1495 25.223L15.1395 25.2191L14.7795 26.1521ZM17.0734 26.1307L17.4646 27.051L17.4648 27.0509L17.0734 26.1307ZM18.7072 24.5014L19.6242 24.9002L19.6283 24.8906L18.7072 24.5014ZM18.7857 24.4419L18.74 23.4429L18.7379 23.443L18.7857 24.4419ZM20.3876 23.992L19.8499 23.1489L19.8485 23.1498L20.3876 23.992ZM20.8715 23.5414L20.1666 22.832L20.1063 22.892L20.057 22.9613L20.8715 23.5414ZM20.9285 23.4705L20.1915 22.7947L20.1835 22.8033L20.1758 22.8122L20.9285 23.4705ZM21.7724 21.4005L20.773 21.3658L20.7729 21.3707L21.7724 21.4005ZM21.8258 21.3372L21.4097 20.4278L21.408 20.4286L21.8258 21.3372ZM23.4158 19.6567L24.3432 20.0309L24.3442 20.0284L23.4158 19.6567ZM23.4521 17.3251L22.5112 17.6638L22.5137 17.6706L23.4521 17.3251ZM11.9039 2.09352C12.6364 2.92185 13.2172 3.61678 13.6765 4.20913L15.2571 2.98373C14.7635 2.34701 14.1529 1.61767 13.4021 0.768616L11.9039 2.09352ZM13.6764 4.20904C14.0544 4.69674 14.3499 5.11342 14.5761 5.47193L16.2676 4.40476C15.9974 3.97642 15.6616 3.50561 15.2572 2.98382L13.6764 4.20904ZM14.576 5.47175C15.0308 6.19303 15.2194 6.68907 15.3083 7.11083C15.4019 7.55414 15.3999 7.96705 15.3999 8.62404H17.3999C17.3999 8.01994 17.4102 7.38486 17.2653 6.69802C17.1158 5.98964 16.8154 5.27338 16.2677 4.40494L14.576 5.47175ZM15.3999 8.62404C15.3999 10.5223 14.0511 11.8511 12.65 11.8511V13.8511C15.37 13.8511 17.3999 11.3996 17.3999 8.62404H15.3999ZM12.65 11.8511C11.2484 11.8511 9.90012 10.5218 9.90012 8.62404H7.90012C7.90012 11.3986 9.92901 13.8511 12.65 13.8511V11.8511ZM9.90012 8.62404C9.90012 7.72709 10.2255 6.67617 10.9361 5.43208L9.19952 4.44004C8.39276 5.85233 7.90012 7.25194 7.90012 8.62404H9.90012ZM10.9358 5.43273C11.1678 5.02733 11.4393 4.60573 11.7509 4.16695L10.1201 3.00914C9.77661 3.49292 9.46879 3.9695 9.19989 4.43939L10.9358 5.43273ZM11.7515 4.166C12.2182 3.50713 12.7673 2.8168 13.4049 2.08957L11.9011 0.771041C11.2257 1.54126 10.6323 2.28587 10.1194 3.01009L11.7515 4.166ZM24.2122 17.9225C24.9263 17.1504 25.3198 16.131 25.3198 15.063H23.3198C23.3198 15.6388 23.1086 16.1702 22.7439 16.5646L24.2122 17.9225ZM25.3198 15.063C25.3198 14.0125 24.9363 13.0079 24.2425 12.2396L22.7581 13.58C23.115 13.9752 23.3198 14.5001 23.3198 15.063H25.3198ZM24.253 12.2515C24.3181 12.3258 24.39 12.435 24.4333 12.5816C24.4742 12.7201 24.5049 12.9516 24.3992 13.2085L22.5495 12.4479C22.3312 12.9789 22.6105 13.4114 22.7476 13.5681L24.253 12.2515ZM24.4086 13.1849C24.7874 12.1927 24.7769 11.089 24.3764 10.0919L22.5205 10.8373C22.735 11.3712 22.7377 11.954 22.5402 12.4715L24.4086 13.1849ZM24.3759 10.0907C23.9843 9.11917 23.251 8.33577 22.3176 7.89456L21.4629 9.70273C21.9328 9.92485 22.3139 10.3248 22.5209 10.8385L24.3759 10.0907ZM22.3252 7.89818C22.4259 7.94682 22.5391 8.02629 22.636 8.14965C22.7262 8.26446 22.8362 8.46395 22.8362 8.73384H20.8362C20.8362 9.28986 21.2352 9.59279 21.4553 9.6991L22.3252 7.89818ZM22.836 8.71559C22.8166 7.65238 22.398 6.63229 21.6506 5.86211L20.2153 7.25501C20.6059 7.65748 20.8261 8.19127 20.8363 8.75208L22.836 8.71559ZM21.6186 5.8306L21.5748 5.78942L20.2036 7.24535L20.2473 7.28652L21.6186 5.8306ZM21.5273 5.74739C21.3238 5.57875 21.027 5.37891 20.6589 5.19041L19.7473 6.97059C20.0016 7.1008 20.1731 7.22272 20.2512 7.28738L21.5273 5.74739ZM20.658 5.18997C20.1541 4.93251 19.5939 4.74254 18.9901 4.67692L18.774 6.66521C19.0963 6.70023 19.4223 6.80457 19.7482 6.97103L20.658 5.18997ZM18.9932 4.67726C19.2976 4.71131 19.6038 4.90771 19.7391 5.25115L17.8783 5.98424C18.0358 6.3841 18.3983 6.62319 18.7709 6.66487L18.9932 4.67726ZM19.7332 5.23654C19.3232 4.24219 18.5457 3.44669 17.5505 3.02091L16.7638 4.85969C17.2727 5.07741 17.6717 5.48354 17.8842 5.99884L19.7332 5.23654ZM17.5474 3.01958C16.9619 2.77143 16.3475 2.69073 15.7631 2.72299L15.8734 4.71995C16.2004 4.7019 16.5033 4.74929 16.7669 4.86102L17.5474 3.01958ZM16.6621 3.18492C15.9587 2.07869 15.0682 0.942615 14.0168 -0.237504L12.5235 1.09286C13.5275 2.21992 14.3456 3.26904 14.9744 4.25803L16.6621 3.18492ZM14.0022 -0.253541C13.6888 -0.59036 13.2631 -0.805903 12.7955 -0.843574L12.6349 1.14997C12.5837 1.14584 12.5507 1.12244 12.5381 1.1089L14.0022 -0.253541ZM12.7989 -0.843294C12.2286 -0.891204 11.6698 -0.66489 11.2897 -0.243894L12.7744 1.0962C12.7426 1.1314 12.6935 1.1549 12.6315 1.14969L12.7989 -0.843294ZM11.2855 -0.239165C10.2465 0.926711 9.36455 2.0484 8.66449 3.14306L10.3494 4.22059C10.9756 3.24138 11.786 2.20533 12.7786 1.09147L11.2855 -0.239165ZM9.54361 2.6825C8.98155 2.66188 8.39404 2.74748 7.83347 2.98556L8.6153 4.82641C8.86975 4.71834 9.15951 4.66975 9.47028 4.68115L9.54361 2.6825ZM7.83332 2.98562C6.87293 3.39369 6.11679 4.14885 5.69367 5.09274L7.51868 5.91086C7.74017 5.41676 8.12952 5.03282 8.61544 4.82635L7.83332 2.98562ZM5.68814 5.1053C5.76752 4.9215 5.90263 4.77449 6.06424 4.6802C6.21777 4.59062 6.36259 4.56661 6.45845 4.56282L6.53754 6.56125C6.85799 6.54857 7.31386 6.38532 7.52421 5.8983L5.68814 5.1053ZM6.45238 4.56307C5.75132 4.59509 5.11573 4.83187 4.56399 5.15765L5.58087 6.87984C5.92271 6.678 6.24293 6.57472 6.54362 6.56099L6.45238 4.56307ZM4.56359 5.15788C4.22369 5.35879 3.9459 5.57157 3.7529 5.75656L5.13682 7.20044C5.20314 7.13687 5.35361 7.01417 5.58128 6.8796L4.56359 5.15788ZM3.76171 5.74823L3.74541 5.76347L5.11171 7.22403L5.12801 7.20878L3.76171 5.74823ZM3.71141 5.79683C2.97443 6.55521 2.5573 7.55938 2.52725 8.6068L4.52643 8.66416C4.54231 8.11043 4.76239 7.58511 5.14571 7.19067L3.71141 5.79683ZM2.5274 8.60199C2.54284 8.14119 2.85387 7.88155 3.06583 7.78672L3.88263 9.61233C4.16275 9.487 4.50935 9.17399 4.52628 8.66897L2.5274 8.60199ZM3.05814 7.7902C2.10441 8.22661 1.35378 9.01886 0.956914 10.0074L2.81292 10.7525C3.02214 10.2314 3.41107 9.82815 3.89032 9.60885L3.05814 7.7902ZM0.957044 10.0071C0.562144 10.9897 0.546035 12.0759 0.910043 13.0594L2.7857 12.3652C2.59549 11.8513 2.60161 11.2784 2.81279 10.7529L0.957044 10.0071ZM0.896538 13.0205C0.764749 12.6136 0.933996 12.2759 1.09531 12.1053L2.54856 13.4794C2.76323 13.2524 2.94433 12.8522 2.7992 12.4041L0.896538 13.0205ZM1.08822 12.1129C0.372987 12.8853 -0.0205078 13.9057 -0.0205078 14.9722H1.97949C1.97949 14.398 2.1906 13.866 2.55565 13.4718L1.08822 12.1129ZM-0.0205078 14.9722C-0.0205078 16.0231 0.362739 17.0285 1.05679 17.7971L2.54115 16.4567C2.18455 16.0618 1.97949 15.5362 1.97949 14.9722H-0.0205078ZM1.05458 17.7947C0.984557 17.7166 0.912264 17.6064 0.868347 17.462C0.8272 17.3267 0.796147 17.1059 0.888933 16.8576L2.76235 17.5578C2.95385 17.0455 2.69579 16.6291 2.54336 16.4592L1.05458 17.7947ZM0.891738 16.8502C0.512004 17.8421 0.521205 18.9474 0.923338 19.9452L2.77833 19.1975C2.564 18.6657 2.56135 18.083 2.75955 17.5653L0.891738 16.8502ZM0.923081 19.9445C1.31443 20.9174 2.04769 21.7024 2.98248 22.1433L3.83557 20.3343C3.36702 20.1134 2.98592 19.7136 2.77859 19.1981L0.923081 19.9445ZM2.98245 22.1433C2.87552 22.0928 2.76264 22.0124 2.66717 21.8927C2.58306 21.7872 2.46237 21.5852 2.46237 21.3013H4.46237C4.46237 20.9985 4.3328 20.7736 4.23091 20.6458C4.11765 20.5037 3.9781 20.4016 3.8356 20.3344L2.98245 22.1433ZM2.46254 21.3195C2.48194 22.3843 2.90051 23.4037 3.64797 24.1738L5.08318 22.7809C4.69257 22.3784 4.47245 21.8454 4.46221 21.2831L2.46254 21.3195ZM3.66573 24.1917C3.88009 24.4017 4.17921 24.6253 4.5577 24.8295L5.50714 23.0692C5.27214 22.9424 5.12966 22.826 5.06542 22.7631L3.66573 24.1917ZM4.5577 24.8295C5.08468 25.1137 5.68036 25.3058 6.33358 25.366L6.51719 23.3744C6.14495 23.3401 5.80854 23.2318 5.50714 23.0692L4.5577 24.8295ZM6.34224 25.3667C5.96032 25.3349 5.68964 25.0874 5.57255 24.8163L7.40862 24.0233C7.26783 23.6973 6.94528 23.4101 6.50853 23.3737L6.34224 25.3667ZM5.56704 24.8032C5.97868 25.7946 6.75509 26.5918 7.75125 27.0158L8.53451 25.1755C8.02953 24.9606 7.62932 24.5545 7.41414 24.0363L5.56704 24.8032ZM7.75122 27.0157C8.71171 27.4246 9.79864 27.4343 10.7652 27.0637L10.0492 25.1962C9.55608 25.3853 9.00702 25.3766 8.53454 25.1755L7.75122 27.0157ZM10.7878 27.0547C10.5177 27.1659 10.2756 27.1274 10.1359 27.0824C9.98365 27.0335 9.86784 26.9529 9.78598 26.8732L11.181 25.4401C11.0178 25.2812 10.5748 24.9796 10.0266 25.2052L10.7878 27.0547ZM9.78286 26.8701C10.5348 27.6085 11.54 28.0258 12.6048 28.0258V26.0258C12.0692 26.0258 11.5658 25.8179 11.1841 25.4431L9.78286 26.8701ZM12.6048 28.0258H12.6055V26.0258H12.6048V28.0258ZM12.6055 28.0258C13.6529 28.0258 14.6469 27.6209 15.397 26.8996L14.0108 25.4579C13.6302 25.8239 13.1319 26.0258 12.6055 26.0258V28.0258ZM15.3918 26.9045C15.312 26.9802 15.1987 27.0579 15.0493 27.1056C14.9121 27.1493 14.6803 27.1857 14.4194 27.085L15.1395 25.2191C14.61 25.0148 14.1829 25.2947 14.016 25.4529L15.3918 26.9045ZM14.4094 27.0811C15.3852 27.4698 16.4894 27.4655 17.4646 27.051L16.6823 25.2104C16.2007 25.4151 15.6438 25.4199 15.1495 25.2231L14.4094 27.0811ZM17.4648 27.0509C18.4402 26.6361 19.205 25.8641 19.6242 24.9002L17.7902 24.1025C17.5707 24.6071 17.1766 25.0001 16.682 25.2105L17.4648 27.0509ZM19.6283 24.8906C19.5132 25.163 19.234 25.4216 18.8335 25.4407L18.7379 23.443C18.2737 23.4652 17.9308 23.7696 17.786 24.1122L19.6283 24.8906ZM18.8314 25.4408C19.6319 25.4042 20.3435 25.2076 20.9267 24.8343L19.8485 23.1498C19.6241 23.2934 19.2732 23.4185 18.74 23.4429L18.8314 25.4408ZM20.9254 24.8351C21.2723 24.6139 21.5125 24.3651 21.6859 24.1216L20.057 22.9613C20.023 23.009 19.9668 23.0744 19.8499 23.1489L20.9254 24.8351ZM21.5763 24.2508C21.6123 24.215 21.6406 24.1822 21.6608 24.1576C21.6803 24.1337 21.6958 24.113 21.7028 24.1035C21.7048 24.1009 21.7065 24.0985 21.7077 24.0968C21.7092 24.0949 21.7098 24.0941 21.7105 24.0931C21.7119 24.0912 21.7113 24.0921 21.7098 24.094C21.7071 24.0976 21.6967 24.1111 21.6812 24.1289L20.1758 22.8122C20.1628 22.8271 20.1515 22.8407 20.1421 22.8524C20.1327 22.864 20.1247 22.8744 20.1185 22.8825C20.1124 22.8905 20.1073 22.8974 20.1041 22.9017C20.1026 22.9038 20.1009 22.906 20.1001 22.9071C20.0991 22.9085 20.0986 22.9092 20.0982 22.9096C20.0975 22.9106 20.0987 22.909 20.1009 22.9062C20.1031 22.9032 20.1071 22.8981 20.1125 22.8915C20.123 22.8787 20.1413 22.8572 20.1666 22.832L21.5763 24.2508ZM21.6655 24.1464C22.3469 23.4033 22.7418 22.4435 22.772 21.4302L20.7729 21.3707C20.7571 21.8991 20.5518 22.4017 20.1915 22.7947L21.6655 24.1464ZM22.7718 21.4351C22.7632 21.683 22.6628 21.8716 22.5682 21.9903C22.4691 22.1146 22.3518 22.1959 22.2435 22.2457L21.408 20.4286C21.1603 20.5425 20.7912 20.8417 20.773 21.3658L22.7718 21.4351ZM22.2419 22.2465C23.1962 21.8098 23.9451 21.0176 24.3432 20.0309L22.4885 19.2826C22.2775 19.8055 21.8884 20.2088 21.4097 20.4279L22.2419 22.2465ZM24.3442 20.0284C24.7373 19.0465 24.752 17.9615 24.3906 16.9797L22.5137 17.6706C22.7035 18.1863 22.6975 18.7604 22.4875 19.2851L24.3442 20.0284ZM24.393 16.9865C24.5529 17.4306 24.3449 17.7792 24.2138 17.9216L22.7424 16.567C22.5579 16.7674 22.3366 17.1785 22.5112 17.6638L24.393 16.9865Z' mask='url(#path-1-inside-1_1187_3448)'/></svg>",
+              "zoomX": "0",
+              "zoomY": "2000",
+              "zoomWidth": "1000",
+              "zoomHeight": "1000",
+              "components": [
+                {
+                  "type": "doogma-html-section",
+                  "attributes": {
+                    "content": "<h2 class='doogma-subtitle'>Pick Your Dip And Creme</h2>"
+                  }
+                },
+                {
+                  "type": "doogma-image-swatches",
+                  "attributes": {
+                    "label": "Select Dip",
+                    "param": "dip",
+                    "labelPlacement": "block",
+                    "size": "120",
+                    "gap": "0.5",
+                    "circular": "no",
+                    "showActiveSelection": "no",
+                    "items": [
+                      {
+                        "name": "White Fudge",
+                        "label": "White Fudge",
+                        "value": "whitefudge",
+                        "src": "https://www.oreo.com/media/catalog/product/w/h/vwhite_fudge_1.png.pagespeed.ic.AAtUdSHCb1.webp",
+                        "selected": "yes"
+                      },
+                      {
+                        "name": "Fudge",
+                        "value": "fudge",
+                        "label": "Fudge",
+                        "src": "https://www.oreo.com/media/catalog/product/c/h/vchocfudge.png.pagespeed.ic.XwjuvFkbXz.webp"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "type": "doogma-html-section",
+                  "attributes": {
+                    "content": "<h3 class='doogma-subtitle-description'>*Go For White Fudge For Better Design Results</h3>"
+                  }
+                },
+                {
+                  "type": "doogma-image-swatches",
+                  "attributes": {
+                    "label": "Select Creme",
+                    "param": "creme",
+                    "labelPlacement": "block",
+                    "size": "50",
+                    "gap": "0.15",
+                    "circular": "no",
+                    "showActiveSelection": "no",
+                    "items": [
+                      {
+                        "name": "white-creme",
+                        "value": "white Creme",
+                        "label": "White Creme",
+                        "selected": "yes",
+                        "src": "https://vip.doogma.com/dzine1/oreo-corporate/th-white-new.png"
+                      },
+                      {
+                        "name": "birthday-cake",
+                        "value": "Birthday Cake",
+                        "label": "Birthday Cake",
+                        "src": "https://vip.doogma.com/dzine1/oreo-corporate/th-birthdaycake-new.png"
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "name": "Packaging",
+              "underText": "Packaging",
+              "svg": "<svg fill='#A9A9A9' width='800px' height='800px' viewBox='0 0 17 17' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'><path d='M8.517-0.035l-8.517 3.221v10.693l8.5 3.188 8.5-3.188v-10.692l-8.483-3.222zM15.084 3.528l-2.586 0.97-6.557-2.489 2.575-0.974 6.568 2.493zM8.5 5.997l-6.581-2.468 2.609-0.986 6.551 2.487-2.579 0.967zM1 4.253l7 2.625v8.932l-7-2.625v-8.932zM9 15.81v-8.932l7-2.625v8.932l-7 2.625z'/></svg>",
+              "zoomX": "0",
+              "zoomY": "3000",
+              "zoomWidth": "1000",
+              "zoomHeight": "1000",
+              "components": [
+                {
+                  "type": "doogma-html-section",
+                  "attributes": {
+                    "content": "<h2 class='doogma-subtitle'>Select a Package</h2><h3 class='doogma-subtitle-description'>Each Selection Has A MIN QTY</h3>"
+                  }
+                },
+
+                {
+                  "type": "doogma-checkbox-counter-group",
+                  "attributes": {
+                    "label": "",
+                    "labelPlacement": "block",
+                    "param": "packaging",
+                    "groupParam": "packaging",
+                    "gap": ".85",
+                    "itemsPlacement": "inline",
+                    "items": [
+                      {
+                        "name": "oreo-wedding-1ct-organza-white",
+                        "param": "oreo-wedding-1ct-organza-white",
+                        "value": 0,
+                        "icon": "ⓘ",
+                        "iconStart": "▼",
+                        "iconEnd": "▲",
+                        "label": "1ct White Organza Bulk Bag",
+                        "span": "Starts @ $2.85/Bag",
+                        "velocity": 400,
+                        "max": 999,
+                        "custom-parameters": {
+                          "data-minimum": "125",
+                          "data-type": "Bag",
+                          "data-cost": "2.85",
+                          "data-info": "MIN QTY: 125 Bags (A Total Of 125 Cookies)"
+                        },
+                        "image": "https://utils.doogma.com/nav-loader/assets/oreo/white_bulk_bag.png"
+                      },
+                      {
+                        "name": "oreo-wedding-1ct-organza-ivory",
+                        "param": "oreo-wedding-1ct-organza-ivory",
+                        "value": 0,
+                        "icon": "ⓘ",
+                        "velocity": 400,
+                        "max": 999,
+                        "label": "1ct Ivory Organza Bulk Bag",
+                        "span": "Starts @ $2.85/Bag",
+                        "iconStart": "▼",
+                        "iconEnd": "▲",
+                        "custom-parameters": {
+                          "data-minimum": "125",
+                          "data-type": "Bag",
+                          "data-cost": "2.85",
+                          "data-info": "MIN QTY: 125 Bags (A Total Of 125 Cookies)"
+                        },
+                        "image": "https://utils.doogma.com/nav-loader/assets/oreo/ivory_bulk_bag.png"
+                      },
+                      {
+                        "name": "oreo-wedding-1ct-organza-pink",
+                        "param": "oreo-wedding-1ct-organza-pink",
+                        "value": 0,
+                        "icon": "ⓘ",
+                        "velocity": 400,
+                        "max": 999,
+                        "label": "1ct Pink Organza Bulk Bag",
+                        "span": "Starts @ $2.85/Bag",
+                        "iconStart": "▼",
+                        "iconEnd": "▲",
+                        "custom-parameters": {
+                          "data-minimum": "125",
+                          "data-type": "Bag",
+                          "data-cost": "2.85",
+                          "data-info": "MIN QTY: 125 Bags (A Total Of 125 Cookies)"
+                        },
+                        "image": "https://utils.doogma.com/nav-loader/assets/oreo/pink_bulk_bag.png"
+                      },
+                      {
+                        "name": "oreo-wedding-1ct-organza-lavender",
+                        "param": "oreo-wedding-1ct-organza-lavender",
+                        "value": 0,
+                        "icon": "ⓘ",
+                        "velocity": 400,
+                        "max": 999,
+                        "label": "1ct Lavender Organza Bulk Bag",
+                        "span": "Starts @ $2.85/Bag",
+                        "iconStart": "▼",
+                        "iconEnd": "▲",
+                        "custom-parameters": {
+                          "data-minimum": "125",
+                          "data-type": "Bag",
+                          "data-cost": "2.85",
+                          "data-info": "MIN QTY: 125 Bags (A Total Of 125 Cookies)"
+                        },
+                        "image": "https://utils.doogma.com/nav-loader/assets/oreo/lavender_bulk_bag.png"
+                      },
+                      {
+                        "name": "oreo-wedding-1ct-bulk-bag",
+                        "param": "oreo-wedding-1ct-bulk-bag",
+                        "value": 0,
+                        "icon": "ⓘ",
+                        "velocity": 400,
+                        "max": 999,
+                        "label": "1ct Clear Bulk Bag",
+                        "span": "Starts @ $2.85/Bag",
+                        "iconStart": "▼",
+                        "iconEnd": "▲",
+                        "custom-parameters": {
+                          "data-minimum": "125",
+                          "data-type": "Bag",
+                          "data-cost": "2.85",
+                          "data-info": "MIN QTY: 125 Bags (A Total Of 125 Cookies)"
+                        },
+                        "image": "https://utils.doogma.com/nav-loader/assets/oreo/clear_bulk_bag.png"
+                      },
+                      {
+                        "name": "oreo-wedding-1ct-box-black",
+                        "param": "oreo-wedding-1ct-box-black",
+                        "icon": "ⓘ",
+                        "velocity": 400,
+                        "max": 999,
+                        "label": "1ct Box With OREO Cookies Design - Black",
+                        "span": "Starts @ $3.92/Box",
+                        "iconStart": "▼",
+                        "iconEnd": "▲",
+                        "custom-parameters": {
+                          "data-minimum": "125",
+                          "data-type": "Box",
+                          "data-cost": "3.92",
+                          "data-info": "MIN QTY: 125 Boxes (A Total Of 125 Cookies)"
+                        },
+                        "value": 0,
+                        "image": "https://utils.doogma.com/nav-loader/assets/oreo/1ct_box_black.png"
+                      },
+                      {
+                        "name": "oreo-wedding-1ct-box-white",
+                        "param": "oreo-wedding-1ct-box-white",
+                        "value": 0,
+                        "icon": "ⓘ",
+                        "velocity": 400,
+                        "max": 999,
+                        "label": "1ct Box With OREO Cookies Design - White",
+                        "span": "Starts @ $3.92/Box",
+                        "iconStart": "▼",
+                        "iconEnd": "▲",
+                        "custom-parameters": {
+                          "data-minimum": "125",
+                          "data-type": "Box",
+                          "data-cost": "3.92",
+                          "data-info": "MIN QTY: 125 Boxes (A Total Of 125 Cookies)"
+                        },
+                        "image": "https://utils.doogma.com/nav-loader/assets/oreo/1ct_box_white.png"
+                      },
+                      {
+                        "name": "oreo-wedding-4ct-box-black",
+                        "param": "oreo-wedding-4ct-box-black",
+                        "value": 0,
+                        "icon": "ⓘ",
+                        "velocity": 400,
+                        "max": 999,
+                        "label": "4ct Box With OREO Cookies Sleeve Design - Black",
+                        "span": "Starts @ $14.95/Box",
+                        "iconStart": "▼",
+                        "iconEnd": "▲",
+                        "custom-parameters": {
+                          "data-minimum": "50",
+                          "data-type": "Box",
+                          "data-cost": "14.95",
+                          "data-info": "MIN QTY: 50 4ct Boxes (A Total Of 200 Cookies)"
+                        },
+                        "image": "https://utils.doogma.com/nav-loader/assets/oreo/4ct_box_sleeve_black.png"
+                      },
+                      {
+                        "name": "oreo-wedding-12ct-box",
+                        "param": "oreo-wedding-12ct-box",
+                        "value": 0,
+                        "icon": "ⓘ",
+                        "velocity": 400,
+                        "max": 999,
+                        "label": "12ct Box With OREO Cookies Sleeve Design - Black",
+                        "span": "Starts @ $35.96/Box",
+                        "iconStart": "▼",
+                        "iconEnd": "▲",
+                        "custom-parameters": {
+                          "data-minimum": "25",
+                          "data-type": "Box",
+                          "data-cost": "35.96",
+                          "data-info": "MIN QTY: 25 12ct Boxes (A Total Of 300 Cookies)"
+                        },
+                        "image": "https://utils.doogma.com/nav-loader/assets/oreo/12ct_box_black_design.png"
+                      },
+                      {
+                        "name": "oreo-wedding-24ct-box",
+                        "param": "oreo-wedding-24ct-box",
+                        "value": 0,
+                        "icon": "ⓘ",
+                        "velocity": 400,
+                        "max": 999,
+                        "label": "24ct (2x12ct Boxes) With OREO Cookies Sleeve Design",
+                        "span": "Starts @ $71.91/Box",
+                        "iconStart": "▼",
+                        "iconEnd": "▲",
+                        "custom-parameters": {
+                          "data-minimum": "12",
+                          "data-type": "Box",
+                          "data-cost": "71.91",
+                          "data-info": "MIN QTY: 12 24ct Boxes (A Total Of 288 Cookies)"
+                        },
+                        "image": "https://utils.doogma.com/nav-loader/assets/oreo/24ct_black_design.png"
+                      },
+                      {
+                        "name": "oreo-wedding-4ct-belly-band-black",
+                        "param": "oreo-wedding-4ct-belly-band-black",
+                        "value": 0,
+                        "icon": "ⓘ",
+                        "velocity": 400,
+                        "max": 999,
+                        "label": "4ct Box With Customizable Band - Black",
+                        "span": "Starts @ $14.95/Box",
+                        "iconStart": "▼",
+                        "iconEnd": "▲",
+                        "custom-parameters": {
+                          "data-minimum": "50",
+                          "data-type": "Box",
+                          "data-cost": "14.95",
+                          "data-info": "MIN QTY: 50 4ct Boxes (A Total Of 200 Cookies)"
+                        },
+                        "image": "https://utils.doogma.com/nav-loader/assets/oreo/4ct_box_black_customize.png"
+                      },
+                      {
+                        "name": "oreo-wedding-4ct-belly-band-white",
+                        "param": "oreo-wedding-4ct-belly-band-white",
+                        "value": 0,
+                        "icon": "ⓘ",
+                        "velocity": 400,
+                        "max": 999,
+                        "label": "4ct Box With Customizable Band - White",
+                        "span": "Starts @ $14.95/Box",
+                        "iconStart": "▼",
+                        "iconEnd": "▲",
+                        "custom-parameters": {
+                          "data-minimum": "50",
+                          "data-type": "Box",
+                          "data-cost": "14.95",
+                          "data-info": "MIN QTY: 50 4ct Boxes (A Total Of 200 Cookies)"
+                        },
+                        "image": "https://utils.doogma.com/nav-loader/assets/oreo/4ct_box_white_customize.png"
+                      },
+
+                      {
+                        "name": "oreo-wedding-12ct-belly-band",
+                        "param": "oreo-wedding-12ct-belly-band",
+                        "value": 0,
+                        "icon": "ⓘ",
+                        "velocity": 400,
+                        "max": 999,
+                        "label": "12ct Box With Customizable Band - Black",
+                        "span": "Starts @ $35.96/Box",
+                        "iconStart": "▼",
+                        "iconEnd": "▲",
+                        "custom-parameters": {
+                          "data-minimum": "25",
+                          "data-type": "Box",
+                          "data-cost": "35.96",
+                          "data-info": "MIN QTY: 25 12ct Boxes (A Total Of 300 Cookies)"
+                        },
+                        "image": "https://utils.doogma.com/nav-loader/assets/oreo/12ct_black_customizable.jpg"
+                      },
+
+                      {
+                        "name": "oreo-wedding-24ct-belly-band-box",
+                        "param": "oreo-wedding-24ct-belly-band-box",
+                        "value": 0,
+                        "icon": "ⓘ",
+                        "velocity": 400,
+                        "max": 999,
+                        "label": "24ct (2x12ct Boxes) With Customizable Band",
+                        "span": "Starts @ $71.91/Box",
+                        "iconStart": "▼",
+                        "iconEnd": "▲",
+                        "custom-parameters": {
+                          "data-minimum": "12",
+                          "data-type": "Box",
+                          "data-cost": "71.91",
+                          "data-info": "MIN QTY: 12 24ct Boxes (A Total Of 288 Cookies)"
+                        },
+                        "image": "https://utils.doogma.com/nav-loader/assets/oreo/24ct_black_customizable.jpg"
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+
+            {
+              "name": "RFQ",
+              "underText": "RFQ",
+              "svg": "<svg fill='#A9A9A9' width='800px' height='800px' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'><path d='M8,16a1,1,0,0,0-2,0,5.006,5.006,0,0,0,5,5v1a1,1,0,0,0,2,0V21a5,5,0,0,0,0-10V5a3,3,0,0,1,3,3,1,1,0,0,0,2,0,5.006,5.006,0,0,0-5-5V2a1,1,0,0,0-2,0V3a5,5,0,0,0,0,10v6A3,3,0,0,1,8,16Zm5-3a3,3,0,0,1,0,6ZM8,8a3,3,0,0,1,3-3v6A3,3,0,0,1,8,8Z'/></svg>",
+              "zoomX": "0",
+              "zoomY": "2000",
+              "zoomWidth": "1000",
+              "zoomHeight": "1000",
+              "components": [
+                {
+                  "type": "doogma-html-section",
+                  "attributes": {
+                    "content": "<h2 class='doogma-subtitle'>Request Quote</h2><h3 class='doogma-subtitle-description'>Orders Through OREO Events Have A Minimum Order Quantity</h3><h3 class='doogma-subtitle-description'>Need A Smaller Order? <a href='https://www.oreo.com/oreoid-1'>Click Here</a> For the OREOiD Site</h3>"
+                  }
+                },
+                {
+                  "type": "doogma-html-section",
+                  "attributes": {
+                    "class": "doogma-quote",
+                    "content": "<form id='doogma-quote-form'><h3>*FULL NAME</h3><input type='text' required class='doogma-quote-name'></input><h3>COMPANY</h3><input type='text' class='doogma-quote-company'></input><h3>*EMAIL</h3><input type='text' required class='doogma-quote-email'></input><h3>*PHONE NUMBER</h3><input required type='tel' class='doogma-quote-phone' placeholder='(XXX-XXX-XXXX)'></input><h3>*ADDRESS</h3><input required type='text' class='doogma-quote-address'></input><div class='terms-container'><input class='doogma-quote-address' type='checkbox'></input><span>I would like to ship to multiple addresses.</span></div><h3>EVENT DATE</h3><input type='date' class='doogma-quote-date'></input><h3>COMMENTS</h3><textarea class='doogma-quote-comment'></textarea><p class=''>*Indicates mandatory field</p><div class='newsletter-container'><input class='doogma-quote-newsletter' type='checkbox'></input><span>I love OREO cookies and I want to receive news about your products.</span></div><div class='terms-container'><input class='doogma-quote-terms' required type='checkbox'></input><span>I have read and agree to the website <a href='https://www.oreo.com/privacy-policy'>Privacy Policy</a> and <a href='https://www.oreo.com/terms-and-conditions'>Terms and conditions</a>.</span></div><div class='quote-btn-container'><button disabled data-dd-addtocartbutton class='btn-request-quote'>Request Quote</button><div></form>"
+                  }
+                },
+                {
+                  "type": "doogma-custom-scripts",
+                  "attributes": {
+                    "items": [
+                      {
+                        "name": "source1",
+                        "source": "https://utils.doogma.com/nav-loader/development/scripts/oreo-weddings.esm.js"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "type": "doogma-component-containers",
+        "attributes": {
+          "param": "oreo-wedding-1ct-organza-white",
+          "name": "oreo-wedding-1ct-organza-white-popup",
+          "items": [
+            {
+              "name": "Container1",
+              "components": [
+                {
+                  "type": "doogma-html-section",
+                  "attributes": {
+                    "content": "<button class='doogma-exit-popup'>x</button><img class='doogma-popup-image' src='https://utils.doogma.com/nav-loader/assets/oreo/white_bulk_bag.png'></img><h2 class='doogma-package-title'>1ct White Organza Bulk Bag</h2><div><span>MIN QTY: 125 Bags (A Total Of 125 Cookies)</span><br><span>Starts @ $2.85/Bag</span></div>"
+                  }
+                },
+                {
+                  "type": "doogma-counterbox",
+                  "attributes": {
+                    "label": "Qty",
+                    "labelPlacement": "block",
+                    "hideLabel": "no",
+                    "param": "oreo-wedding-1ct-organza-white",
+                    "value": 0,
+                    "min": 0,
+                    "max": 9999,
+                    "step": 1,
+                    "velocity": 300,
+                    "name": "oreo-wedding-1ct-organza-white",
+                    "gap": ".5",
+                    "iconStart": "▼",
+                    "iconEnd": "▲",
+                    "itemsPlacement": "inline"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "type": "doogma-component-containers",
+        "attributes": {
+          "param": "oreo-wedding-1ct-organza-ivory",
+          "name": "oreo-wedding-1ct-organza-ivory-popup",
+          "items": [
+            {
+              "name": "Container1",
+              "components": [
+                {
+                  "type": "doogma-html-section",
+                  "attributes": {
+                    "content": "<button class='doogma-exit-popup'>x</button><img class='doogma-popup-image' src='https://utils.doogma.com/nav-loader/assets/oreo/ivory_bulk_bag.png'></img><h2 class='doogma-package-title'>1ct Ivory Organza Bulk Bag</h2><div><span>MIN QTY: 125 Bags (A Total Of 125 Cookies)</span><br><span>Starts @ $2.85/Bag</span></div>"
+                  }
+                },
+                {
+                  "type": "doogma-counterbox",
+                  "attributes": {
+                    "label": "Qty",
+                    "labelPlacement": "block",
+                    "hideLabel": "no",
+                    "param": "oreo-wedding-1ct-organza-ivory",
+                    "value": 0,
+                    "min": 0,
+                    "max": 9999,
+                    "step": 1,
+                    "velocity": 300,
+                    "name": "oreo-wedding-1ct-organza-ivory",
+                    "gap": ".5",
+                    "iconStart": "▼",
+                    "iconEnd": "▲",
+                    "itemsPlacement": "inline"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "type": "doogma-component-containers",
+        "attributes": {
+          "param": "oreo-wedding-1ct-organza-pink",
+          "name": "oreo-wedding-1ct-organza-pink-popup",
+          "items": [
+            {
+              "name": "Container1",
+              "components": [
+                {
+                  "type": "doogma-html-section",
+                  "attributes": {
+                    "content": "<button class='doogma-exit-popup'>x</button><img class='doogma-popup-image' src='https://utils.doogma.com/nav-loader/assets/oreo/pink_bulk_bag.png'></img><h2 class='doogma-package-title'>1ct Pink Organza Bulk Bag</h2><div><span>MIN QTY: 125 Bags (A Total Of 125 Cookies)</span><br><span>Starts @ $2.85/Bag</span></div>"
+                  }
+                },
+                {
+                  "type": "doogma-counterbox",
+                  "attributes": {
+                    "label": "Qty",
+                    "labelPlacement": "block",
+                    "hideLabel": "no",
+                    "param": "oreo-wedding-1ct-organza-pink",
+                    "value": 0,
+                    "min": 0,
+                    "max": 9999,
+                    "step": 1,
+                    "velocity": 300,
+                    "name": "oreo-wedding-1ct-organza-pink",
+                    "gap": ".5",
+                    "iconStart": "▼",
+                    "iconEnd": "▲",
+                    "itemsPlacement": "inline"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "type": "doogma-component-containers",
+        "attributes": {
+          "param": "oreo-wedding-1ct-organza-lavender",
+          "name": "oreo-wedding-1ct-organza-lavender-popup",
+          "items": [
+            {
+              "name": "Container1",
+              "components": [
+                {
+                  "type": "doogma-html-section",
+                  "attributes": {
+                    "content": "<button class='doogma-exit-popup'>x</button><img class='doogma-popup-image' src='https://utils.doogma.com/nav-loader/assets/oreo/lavender_bulk_bag.png'></img><h2 class='doogma-package-title'>1ct Lavender Organza Bulk Bag</h2><div><span>MIN QTY: 125 Bags (A Total Of 125 Cookies)</span><br><span>Starts @ $2.85/Bag</span></div>"
+                  }
+                },
+                {
+                  "type": "doogma-counterbox",
+                  "attributes": {
+                    "label": "Qty",
+                    "labelPlacement": "block",
+                    "hideLabel": "no",
+                    "param": "oreo-wedding-1ct-organza-lavender",
+                    "value": 0,
+                    "min": 0,
+                    "max": 9999,
+                    "step": 1,
+                    "velocity": 300,
+                    "name": "oreo-wedding-1ct-organza-lavender",
+                    "gap": ".5",
+                    "iconStart": "▼",
+                    "iconEnd": "▲",
+                    "itemsPlacement": "inline"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "type": "doogma-component-containers",
+        "attributes": {
+          "param": "oreo-wedding-1ct-bulk-bag",
+          "name": "oreo-wedding-1ct-bulk-bag-popup",
+          "items": [
+            {
+              "name": "Container1",
+              "components": [
+                {
+                  "type": "doogma-html-section",
+                  "attributes": {
+                    "content": "<button class='doogma-exit-popup'>x</button><img class='doogma-popup-image' src='https://utils.doogma.com/nav-loader/assets/oreo/clear_bulk_bag.png'></img><h2 class='doogma-package-title'>1ct Clear Bulk Bag</h2><div><span>MIN QTY: 125 Bags (A Total Of 125 Cookies)</span><br><span>Starts @ $2.85/Bag</span></div>"
+                  }
+                },
+                {
+                  "type": "doogma-counterbox",
+                  "attributes": {
+                    "label": "Qty",
+                    "labelPlacement": "block",
+                    "hideLabel": "no",
+                    "param": "oreo-wedding-1ct-bulk-bag",
+                    "value": 0,
+                    "min": 0,
+                    "max": 9999,
+                    "step": 1,
+                    "velocity": 300,
+                    "name": "oreo-wedding-1ct-bulk-bag",
+                    "gap": ".5",
+                    "iconStart": "▼",
+                    "iconEnd": "▲",
+                    "itemsPlacement": "inline"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "type": "doogma-component-containers",
+        "attributes": {
+          "param": "oreo-wedding-1ct-box-black",
+          "name": "oreo-wedding-1ct-box-black-popup",
+          "items": [
+            {
+              "name": "Container1",
+              "components": [
+                {
+                  "type": "doogma-html-section",
+                  "attributes": {
+                    "content": "<button class='doogma-exit-popup'>x</button><img class='doogma-popup-image' src='https://utils.doogma.com/nav-loader/assets/oreo/1ct_box_black.png'></img><h2 class='doogma-package-title'>1ct Box With OREO Cookies Design - Black</h2><div><span>MIN QTY: 125 Boxes (A Total Of 125 Cookies)</span><br><span>Starts @ $3.92/Box</span></div>"
+                  }
+                },
+                {
+                  "type": "doogma-counterbox",
+                  "attributes": {
+                    "label": "Qty",
+                    "labelPlacement": "block",
+                    "hideLabel": "no",
+                    "param": "oreo-wedding-1ct-box-black",
+                    "value": 0,
+                    "min": 0,
+                    "max": 9999,
+                    "step": 1,
+                    "velocity": 300,
+                    "name": "oreo-wedding-1ct-box-black",
+                    "gap": ".5",
+                    "iconStart": "▼",
+                    "iconEnd": "▲",
+                    "itemsPlacement": "inline"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "type": "doogma-component-containers",
+        "attributes": {
+          "param": "oreo-wedding-1ct-box-white",
+          "name": "oreo-wedding-1ct-box-white-popup",
+          "items": [
+            {
+              "name": "Container1",
+              "components": [
+                {
+                  "type": "doogma-html-section",
+                  "attributes": {
+                    "content": "<button class='doogma-exit-popup'>x</button><img class='doogma-popup-image' src='https://utils.doogma.com/nav-loader/assets/oreo/1ct_box_white.png'></img><h2 class='doogma-package-title'>1ct Box With OREO Cookies Design - White</h2><div><span>MIN QTY: 125 Boxes (A Total Of 125 Cookies)</span><br><span>Starts @ $3.92/Box</span></div><div class='counter-popup-container'>"
+                  }
+                },
+                {
+                  "type": "doogma-counterbox",
+                  "attributes": {
+                    "label": "Qty",
+                    "labelPlacement": "block",
+                    "hideLabel": "no",
+                    "param": "oreo-wedding-1ct-box-white",
+                    "value": 0,
+                    "min": 0,
+                    "max": 9999,
+                    "step": 1,
+                    "velocity": 300,
+                    "name": "oreo-wedding-1ct-box-white",
+                    "gap": ".5",
+                    "iconStart": "▼",
+                    "iconEnd": "▲",
+                    "itemsPlacement": "inline"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "type": "doogma-component-containers",
+        "attributes": {
+          "param": "oreo-wedding-4ct-box-black",
+          "name": "oreo-wedding-4ct-box-black-popup",
+          "items": [
+            {
+              "name": "Container1",
+              "components": [
+                {
+                  "type": "doogma-html-section",
+                  "attributes": {
+                    "content": "<button class='doogma-exit-popup'>x</button><img class='doogma-popup-image' src='https://utils.doogma.com/nav-loader/assets/oreo/4ct_box_sleeve_black.png'></img><h2 class='doogma-package-title'>4ct Box With OREO Cookies Sleeve Design - Black</h2><div><span>MIN QTY: 50 4ct Boxes (A Total Of 200 Cookies)</span><br><span>Starts @ $14.95/Box</span></div>"
+                  }
+                },
+                {
+                  "type": "doogma-counterbox",
+                  "attributes": {
+                    "label": "Qty",
+                    "labelPlacement": "block",
+                    "hideLabel": "no",
+                    "param": "oreo-wedding-4ct-box-black",
+                    "value": 0,
+                    "min": 0,
+                    "max": 9999,
+                    "step": 1,
+                    "velocity": 300,
+                    "name": "oreo-wedding-4ct-box-black",
+                    "gap": ".5",
+                    "iconStart": "▼",
+                    "iconEnd": "▲",
+                    "itemsPlacement": "inline"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "type": "doogma-component-containers",
+        "attributes": {
+          "param": "oreo-wedding-4ct-belly-band-black",
+          "name": "oreo-wedding-4ct-belly-band-black-popup",
+          "items": [
+            {
+              "name": "Container1",
+              "components": [
+                {
+                  "type": "doogma-html-section",
+                  "attributes": {
+                    "content": "<button class='doogma-exit-popup'>x</button><div class='doogmaplugin' data-simultaneous-load='1'  data-uid='n21.oreo-weddings-pack-4withband-black'></div><h2 class='doogma-package-title'>4ct Box With Customizable Band - Black</h2><div><span>MIN QTY: 50 4ct Boxes (A Total Of 200 Cookies)</span><br><span>Starts @ $14.95/Box</span></div>"
+                  }
+                },
+                {
+                  "type": "doogma-counterbox",
+                  "attributes": {
+                    "label": "Qty",
+                    "labelPlacement": "block",
+                    "hideLabel": "no",
+                    "param": "oreo-wedding-4ct-belly-band-black",
+                    "value": 0,
+                    "min": 0,
+                    "max": 9999,
+                    "step": 1,
+                    "velocity": 300,
+                    "name": "oreo-wedding-4ct-belly-band-black",
+                    "gap": ".5",
+                    "iconStart": "▼",
+                    "iconEnd": "▲",
+                    "itemsPlacement": "inline"
+                  }
+                },
+
+                {
+                  "type": "doogma-font-swatches",
+                  "attributes": {
+                    "label": "",
+                    "labelPlacement": "block",
+                    "param": "oreo-wedding-4ct-belly-band-black-image-or-text",
+                    "name": "oreo-wedding-4ct-belly-band-black-image-or-text",
+                    "gap": ".5",
+                    "itemsPlacement": "inline",
+                    "items": [
+                      {
+                        "name": "text",
+                        "value": "text",
+                        "label": "Add Text",
+                        "selected": "yes"
+                      },
+                      {
+                        "name": "image",
+                        "value": "image",
+                        "label": "Upload Image"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "type": "doogma-html-section",
+                  "attributes": {
+                    "content": "<p class='popup-upload-text hidden'>Click On The Box Band Picture Above To Upload Your Image</p>"
+                  }
+                },
+                {
+                  "type": "doogma-color-swatches",
+                  "attributes": {
+                    "label": "Band Color",
+                    "labelPlacement": "block",
+                    "param": "oreo-wedding-4ct-belly-band-black-band-color",
+                    "size": "24",
+                    "gap": ".25",
+                    "circular": "yes",
+                    "value": "",
+                    "showActiveSelection": "no",
+                    "itemsPlacement": "inline",
+                    "items": [
+                      {
+                        "name": "000000",
+                        "value": "000000",
+                        "label": "Black",
+                        "selected": "yes"
+                      },
+                      {
+                        "name": "FFFFFF",
+                        "value": "FFFFFF",
+                        "label": "White"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "type": "doogma-image-swatches",
+                  "attributes": {
+                    "label": "Select Font",
+                    "param": "oreo-wedding-4ct-belly-band-black-font",
+                    "labelPlacement": "block",
+                    "size": "32",
+                    "gap": "0.5",
+                    "circular": "no",
+                    "showActiveSelection": "no",
+                    "items": [
+                      {
+                        "name": "oreosans",
+                        "value": "oreosans",
+                        "src": "https://vip.doogma.com/dzine1/oreo-corporate/th-oreosans.png",
+                        "selected": "yes"
+                      },
+                      {
+                        "name": "pluto",
+                        "value": "pluto",
+                        "src": "https://vip.doogma.com/dzine1/oreo-corporate/th-pluto.png"
+                      },
+                      {
+                        "name": "librebaskervillebold",
+                        "value": "librebaskervillebold",
+                        "src": "https://vip.doogma.com/dzine1/oreo-corporate/th-librebaskervillebold.png"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "type": "doogma-color-swatches",
+                  "attributes": {
+                    "label": "Text Color",
+                    "labelPlacement": "block",
+                    "param": "oreo-wedding-4ct-belly-band-black-text-color",
+                    "size": "24",
+                    "gap": ".25",
+                    "circular": "yes",
+                    "value": "",
+                    "showActiveSelection": "no",
+                    "itemsPlacement": "inline",
+                    "items": [
+                      {
+                        "name": "FFFFFF",
+                        "param": "textcolor",
+                        "value": "FFFFFF",
+                        "label": "White"
+                      },
+                      {
+                        "name": "000000",
+                        "param": "textcolor",
+                        "value": "000000",
+                        "label": "Black"
+                      },
+                      {
+                        "name": "6FA5CF",
+                        "param": "textcolor",
+                        "value": "6FA5CF",
+                        "label": "",
+                        "selected": "yes"
+                      },
+                      {
+                        "name": "9183B8",
+                        "param": "textcolor",
+                        "value": "9183B8",
+                        "label": ""
+                      },
+                      {
+                        "name": "83A661",
+                        "param": "textcolor",
+                        "value": "83A661",
+                        "label": ""
+                      },
+                      {
+                        "name": "B18543",
+                        "param": "textcolor",
+                        "value": "B18543",
+                        "label": ""
+                      },
+                      {
+                        "name": "C35C45",
+                        "param": "textcolor",
+                        "value": "C35C45",
+                        "label": ""
+                      },
+                      {
+                        "name": "AC54A3",
+                        "param": "textcolor",
+                        "value": "AC54A3",
+                        "label": ""
+                      }
+                    ]
+                  }
+                },
+
+                {
+                  "type": "doogma-simple-text",
+                  "attributes": {
+                    "type": "text",
+                    "label": "Your Text",
+                    "labelPlacement": "block",
+                    "param": "oreo-wedding-4ct-belly-band-black-text",
+                    "name": "oreo-wedding-4ct-belly-band-black-text"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "type": "doogma-component-containers",
+        "attributes": {
+          "param": "oreo-wedding-4ct-belly-band-white",
+          "name": "oreo-wedding-4ct-belly-band-white-popup",
+          "items": [
+            {
+              "name": "Container1",
+              "components": [
+                {
+                  "type": "doogma-html-section",
+                  "attributes": {
+                    "content": "<button class='doogma-exit-popup'>x</button><div class='doogmaplugin' data-simultaneous-load='1'  data-uid='n21.oreo-weddings-pack-4withband-white'></div><h2 class='doogma-package-title'>4ct Box With Customizable Band - White</h2><div><span>MIN QTY: 50 4ct Boxes (A Total Of 200 Cookies)</span><br><span>Starts @ $14.95/Box</span></div>"
+                  }
+                },
+                {
+                  "type": "doogma-counterbox",
+                  "attributes": {
+                    "label": "Qty",
+                    "labelPlacement": "block",
+                    "hideLabel": "no",
+                    "param": "oreo-wedding-4ct-belly-band-white",
+                    "value": 0,
+                    "min": 0,
+                    "max": 9999,
+                    "step": 1,
+                    "velocity": 300,
+                    "name": "oreo-wedding-4ct-belly-band-white",
+                    "gap": ".5",
+                    "iconStart": "▼",
+                    "iconEnd": "▲",
+                    "itemsPlacement": "inline"
+                  }
+                },
+
+                {
+                  "type": "doogma-font-swatches",
+                  "attributes": {
+                    "label": "",
+                    "labelPlacement": "block",
+                    "param": "oreo-wedding-4ct-belly-band-white-image-or-text",
+                    "name": "oreo-wedding-4ct-belly-band-white-image-or-text",
+                    "gap": ".5",
+                    "itemsPlacement": "inline",
+                    "items": [
+                      {
+                        "name": "text",
+                        "value": "text",
+                        "label": "Add Text",
+                        "selected": "yes"
+                      },
+                      {
+                        "name": "image",
+                        "value": "image",
+                        "label": "Upload Image"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "type": "doogma-html-section",
+                  "attributes": {
+                    "content": "<p class='popup-upload-text hidden'>Click On The Box Band Picture Above To Upload Your Image</p>"
+                  }
+                },
+                {
+                  "type": "doogma-color-swatches",
+                  "attributes": {
+                    "label": "Band Color",
+                    "labelPlacement": "block",
+                    "param": "oreo-wedding-4ct-belly-band-white-band-color",
+                    "size": "24",
+                    "gap": ".25",
+                    "circular": "yes",
+                    "value": "",
+                    "showActiveSelection": "no",
+                    "itemsPlacement": "inline",
+                    "items": [
+                      {
+                        "name": "000000",
+                        "value": "000000",
+                        "label": "Black"
+                      },
+                      {
+                        "name": "FFFFFF",
+                        "value": "FFFFFF",
+                        "label": "White",
+                        "selected": "yes"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "type": "doogma-color-swatches",
+                  "attributes": {
+                    "label": "Text Color",
+                    "labelPlacement": "block",
+                    "param": "oreo-wedding-4ct-belly-band-white-text-color",
+                    "size": "24",
+                    "gap": ".25",
+                    "circular": "yes",
+                    "value": "",
+                    "showActiveSelection": "no",
+                    "itemsPlacement": "inline",
+                    "items": [
+                      {
+                        "name": "FFFFFF",
+                        "param": "textcolor",
+                        "value": "FFFFFF",
+                        "label": "White"
+                      },
+                      {
+                        "name": "000000",
+                        "param": "textcolor",
+                        "value": "000000",
+                        "label": "Black"
+                      },
+                      {
+                        "name": "6FA5CF",
+                        "param": "textcolor",
+                        "value": "6FA5CF",
+                        "label": "",
+                        "selected": "yes"
+                      },
+                      {
+                        "name": "9183B8",
+                        "param": "textcolor",
+                        "value": "9183B8",
+                        "label": ""
+                      },
+                      {
+                        "name": "83A661",
+                        "param": "textcolor",
+                        "value": "83A661",
+                        "label": ""
+                      },
+                      {
+                        "name": "B18543",
+                        "param": "textcolor",
+                        "value": "B18543",
+                        "label": ""
+                      },
+                      {
+                        "name": "C35C45",
+                        "param": "textcolor",
+                        "value": "C35C45",
+                        "label": ""
+                      },
+                      {
+                        "name": "AC54A3",
+                        "param": "textcolor",
+                        "value": "AC54A3",
+                        "label": ""
+                      }
+                    ]
+                  }
+                },
+                {
+                  "type": "doogma-image-swatches",
+                  "attributes": {
+                    "label": "Select Font",
+                    "param": "oreo-wedding-4ct-belly-band-white-font",
+                    "labelPlacement": "block",
+                    "size": "32",
+                    "gap": "0.5",
+                    "circular": "no",
+                    "showActiveSelection": "no",
+                    "items": [
+                      {
+                        "name": "oreosans",
+                        "value": "oreosans",
+                        "src": "https://vip.doogma.com/dzine1/oreo-corporate/th-oreosans.png",
+                        "selected": "yes"
+                      },
+                      {
+                        "name": "pluto",
+                        "value": "pluto",
+                        "src": "https://vip.doogma.com/dzine1/oreo-corporate/th-pluto.png"
+                      },
+                      {
+                        "name": "librebaskervillebold",
+                        "value": "librebaskervillebold",
+                        "src": "https://vip.doogma.com/dzine1/oreo-corporate/th-librebaskervillebold.png"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "type": "doogma-simple-text",
+                  "attributes": {
+                    "type": "text",
+                    "label": "Your Text",
+                    "labelPlacement": "block",
+                    "param": "oreo-wedding-4ct-belly-band-white-text",
+                    "name": "oreo-wedding-4ct-belly-band-white-text"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "type": "doogma-component-containers",
+        "attributes": {
+          "param": "oreo-wedding-12ct-box",
+          "name": "oreo-wedding-12ct-box-popup",
+          "items": [
+            {
+              "name": "Container1",
+              "components": [
+                {
+                  "type": "doogma-html-section",
+                  "attributes": {
+                    "content": "<button class='doogma-exit-popup'>x</button><img class='doogma-popup-image' src='https://utils.doogma.com/nav-loader/assets/oreo/12ct_box_black_design.png'><h2 class='doogma-package-title'>12ct Box With OREO Cookies Sleeve Design - Black</h2><div><span>MIN QTY: 25 12ct Boxes (A Total Of 300 Cookies)</span><br><span>Starts @ $35.96/Box</span></div>"
+                  }
+                },
+                {
+                  "type": "doogma-counterbox",
+                  "attributes": {
+                    "label": "Qty",
+                    "labelPlacement": "block",
+                    "hideLabel": "no",
+                    "param": "oreo-wedding-12ct-box",
+                    "value": 0,
+                    "min": 0,
+                    "max": 9999,
+                    "step": 1,
+                    "velocity": 300,
+                    "name": "oreo-wedding-12ct-box",
+                    "gap": ".5",
+                    "iconStart": "▼",
+                    "iconEnd": "▲",
+                    "itemsPlacement": "inline"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "type": "doogma-component-containers",
+        "attributes": {
+          "param": "oreo-wedding-12ct-belly-band",
+          "name": "oreo-wedding-12ct-belly-band-popup",
+          "items": [
+            {
+              "name": "Container1",
+              "components": [
+                {
+                  "type": "doogma-html-section",
+                  "attributes": {
+                    "content": "<button class='doogma-exit-popup'>x</button><div class='doogmaplugin' data-simultaneous-load='1'  data-uid='n21.oreo-weddings-pack-12withband-black'></div><h2 class='doogma-package-title'>12ct Box With Customizable Band - Black</h2><div><span>MIN QTY: 25 12ct Boxes (A Total Of 300 Cookies)</span><br><span>Starts @ $35.96/Box</span></div>"
+                  }
+                },
+                {
+                  "type": "doogma-counterbox",
+                  "attributes": {
+                    "label": "Qty",
+                    "labelPlacement": "block",
+                    "hideLabel": "no",
+                    "param": "oreo-wedding-12ct-belly-band",
+                    "value": 0,
+                    "min": 0,
+                    "max": 9999,
+                    "step": 1,
+                    "velocity": 300,
+                    "name": "oreo-wedding-12ct-belly-band",
+                    "gap": ".5",
+                    "iconStart": "▼",
+                    "iconEnd": "▲",
+                    "itemsPlacement": "inline"
+                  }
+                },
+
+                {
+                  "type": "doogma-font-swatches",
+                  "attributes": {
+                    "label": "",
+                    "labelPlacement": "block",
+                    "param": "oreo-wedding-12ct-belly-band-image-or-text",
+                    "name": "oreo-wedding-12ct-belly-band-image-or-text",
+                    "gap": ".5",
+                    "itemsPlacement": "inline",
+                    "items": [
+                      {
+                        "name": "text",
+                        "value": "text",
+                        "label": "Add Text",
+                        "selected": "yes"
+                      },
+                      {
+                        "name": "image",
+                        "value": "image",
+                        "label": "Upload Image"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "type": "doogma-html-section",
+                  "attributes": {
+                    "content": "<p class='popup-upload-text hidden'>Click On The Box Band Picture Above To Upload Your Image</p>"
+                  }
+                },
+                {
+                  "type": "doogma-color-swatches",
+                  "attributes": {
+                    "label": "Band Color",
+                    "labelPlacement": "block",
+                    "param": "oreo-wedding-12ct-belly-band-band-color",
+                    "size": "24",
+                    "gap": ".25",
+                    "circular": "yes",
+                    "value": "",
+                    "showActiveSelection": "no",
+                    "itemsPlacement": "inline",
+                    "items": [
+                      {
+                        "name": "000000",
+                        "value": "000000",
+                        "label": "Black",
+                        "selected": "yes"
+                      },
+                      {
+                        "name": "FFFFFF",
+                        "value": "FFFFFF",
+                        "label": "White"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "type": "doogma-color-swatches",
+                  "attributes": {
+                    "label": "Text Color",
+                    "labelPlacement": "block",
+                    "param": "oreo-wedding-12ct-belly-band-text-color",
+                    "size": "24",
+                    "gap": ".25",
+                    "circular": "yes",
+                    "value": "",
+                    "showActiveSelection": "no",
+                    "itemsPlacement": "inline",
+                    "items": [
+                      {
+                        "name": "FFFFFF",
+                        "param": "textcolor",
+                        "value": "FFFFFF",
+                        "label": "White"
+                      },
+                      {
+                        "name": "000000",
+                        "param": "textcolor",
+                        "value": "000000",
+                        "label": "Black"
+                      },
+                      {
+                        "name": "6FA5CF",
+                        "param": "textcolor",
+                        "value": "6FA5CF",
+                        "label": "",
+                        "selected": "yes"
+                      },
+                      {
+                        "name": "9183B8",
+                        "param": "textcolor",
+                        "value": "9183B8",
+                        "label": ""
+                      },
+                      {
+                        "name": "83A661",
+                        "param": "textcolor",
+                        "value": "83A661",
+                        "label": ""
+                      },
+                      {
+                        "name": "B18543",
+                        "param": "textcolor",
+                        "value": "B18543",
+                        "label": ""
+                      },
+                      {
+                        "name": "C35C45",
+                        "param": "textcolor",
+                        "value": "C35C45",
+                        "label": ""
+                      },
+                      {
+                        "name": "AC54A3",
+                        "param": "textcolor",
+                        "value": "AC54A3",
+                        "label": ""
+                      }
+                    ]
+                  }
+                },
+                {
+                  "type": "doogma-image-swatches",
+                  "attributes": {
+                    "label": "Select Font",
+                    "param": "oreo-wedding-12ct-belly-band-font",
+                    "labelPlacement": "block",
+                    "size": "32",
+                    "gap": "0.5",
+                    "circular": "no",
+                    "showActiveSelection": "no",
+                    "items": [
+                      {
+                        "name": "oreosans",
+                        "value": "oreosans",
+                        "src": "https://vip.doogma.com/dzine1/oreo-corporate/th-oreosans.png",
+                        "selected": "yes"
+                      },
+                      {
+                        "name": "pluto",
+                        "value": "pluto",
+                        "src": "https://vip.doogma.com/dzine1/oreo-corporate/th-pluto.png"
+                      },
+                      {
+                        "name": "librebaskervillebold",
+                        "value": "librebaskervillebold",
+                        "src": "https://vip.doogma.com/dzine1/oreo-corporate/th-librebaskervillebold.png"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "type": "doogma-simple-text",
+                  "attributes": {
+                    "type": "text",
+                    "label": "Your Text",
+                    "labelPlacement": "block",
+                    "param": "oreo-wedding-12ct-belly-band-text",
+                    "name": "oreo-wedding-12ct-belly-band-text"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "type": "doogma-component-containers",
+        "attributes": {
+          "param": "oreo-wedding-24ct-box",
+          "name": "oreo-wedding-24ct-box-popup",
+          "items": [
+            {
+              "name": "Container1",
+              "components": [
+                {
+                  "type": "doogma-html-section",
+                  "attributes": {
+                    "content": "<button class='doogma-exit-popup'>x</button><img class='doogma-popup-image' src='https://utils.doogma.com/nav-loader/assets/oreo/24ct_black_design.png'></img><h2 class='doogma-package-title'>24ct (2x12ct Boxes) With OREO Cookies Sleeve Design</h2><div><span>MIN QTY: 12 24ct Boxes (A Total Of 288 Cookies)</span><br><span>Starts @ $71.91/Box</span></div>"
+                  }
+                },
+                {
+                  "type": "doogma-counterbox",
+                  "attributes": {
+                    "label": "Qty",
+                    "labelPlacement": "block",
+                    "hideLabel": "no",
+                    "param": "oreo-wedding-24ct-box",
+                    "value": 0,
+                    "min": 0,
+                    "max": 9999,
+                    "step": 1,
+                    "velocity": 300,
+                    "name": "oreo-wedding-24ct-box",
+                    "gap": ".5",
+                    "iconStart": "▼",
+                    "iconEnd": "▲",
+                    "itemsPlacement": "inline"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "type": "doogma-component-containers",
+        "attributes": {
+          "param": "oreo-wedding-24ct-belly-band-box",
+          "name": "oreo-wedding-24ct-belly-band-box-popup",
+          "items": [
+            {
+              "name": "Container1",
+              "components": [
+                {
+                  "type": "doogma-html-section",
+                  "attributes": {
+                    "content": "<button class='doogma-exit-popup'>x</button><div class='doogmaplugin' data-simultaneous-load='1'  data-uid='n21.oreo-weddings-pack-12x2withband'></div><h2 class='doogma-package-title'>24ct (2x12ct Boxes) With Customizable Band</h2><div><span>MIN QTY: 12 24ct Boxes (A Total Of 288 Cookies)</span><br><span>Starts @ $71.91/Box</span></div>"
+                  }
+                },
+                {
+                  "type": "doogma-counterbox",
+                  "attributes": {
+                    "label": "Qty",
+                    "labelPlacement": "block",
+                    "hideLabel": "no",
+                    "param": "oreo-wedding-24ct-belly-band-box",
+                    "value": 0,
+                    "min": 0,
+                    "max": 9999,
+                    "step": 1,
+                    "velocity": 300,
+                    "name": "oreo-wedding-24ct-belly-band-box",
+                    "gap": ".5",
+                    "iconStart": "▼",
+                    "iconEnd": "▲",
+                    "itemsPlacement": "inline"
+                  }
+                },
+
+                {
+                  "type": "doogma-font-swatches",
+                  "attributes": {
+                    "label": "",
+                    "labelPlacement": "block",
+                    "param": "oreo-wedding-24ct-belly-band-box-image-or-text",
+                    "name": "oreo-wedding-24ct-belly-band-box-image-or-text",
+                    "gap": ".5",
+                    "itemsPlacement": "inline",
+                    "items": [
+                      {
+                        "name": "text",
+                        "value": "text",
+                        "label": "Add Text",
+                        "selected": "yes"
+                      },
+                      {
+                        "name": "image",
+                        "value": "image",
+                        "label": "Upload Image"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "type": "doogma-html-section",
+                  "attributes": {
+                    "content": "<p class='popup-upload-text hidden'>Click On The Box Band Picture Above To Upload Your Image</p>"
+                  }
+                },
+                {
+                  "type": "doogma-color-swatches",
+                  "attributes": {
+                    "label": "Band Color",
+                    "labelPlacement": "block",
+                    "param": "oreo-wedding-24ct-belly-band-box-band-color",
+                    "size": "24",
+                    "gap": ".25",
+                    "circular": "yes",
+                    "value": "",
+                    "showActiveSelection": "no",
+                    "itemsPlacement": "inline",
+                    "items": [
+                      {
+                        "name": "000000",
+                        "value": "000000",
+                        "label": "Black",
+                        "selected": "yes"
+                      },
+                      {
+                        "name": "FFFFFF",
+                        "value": "FFFFFF",
+                        "label": "White"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "type": "doogma-color-swatches",
+                  "attributes": {
+                    "label": "Text Color",
+                    "labelPlacement": "block",
+                    "param": "oreo-wedding-24ct-belly-band-box-text-color",
+                    "size": "24",
+                    "gap": ".25",
+                    "circular": "yes",
+                    "value": "",
+                    "showActiveSelection": "no",
+                    "itemsPlacement": "inline",
+                    "items": [
+                      {
+                        "name": "FFFFFF",
+                        "param": "textcolor",
+                        "value": "FFFFFF",
+                        "label": "White"
+                      },
+                      {
+                        "name": "000000",
+                        "param": "textcolor",
+                        "value": "000000",
+                        "label": "Black"
+                      },
+                      {
+                        "name": "6FA5CF",
+                        "param": "textcolor",
+                        "value": "6FA5CF",
+                        "label": "",
+                        "selected": "yes"
+                      },
+                      {
+                        "name": "9183B8",
+                        "param": "textcolor",
+                        "value": "9183B8",
+                        "label": ""
+                      },
+                      {
+                        "name": "83A661",
+                        "param": "textcolor",
+                        "value": "83A661",
+                        "label": ""
+                      },
+                      {
+                        "name": "B18543",
+                        "param": "textcolor",
+                        "value": "B18543",
+                        "label": ""
+                      },
+                      {
+                        "name": "C35C45",
+                        "param": "textcolor",
+                        "value": "C35C45",
+                        "label": ""
+                      },
+                      {
+                        "name": "AC54A3",
+                        "param": "textcolor",
+                        "value": "AC54A3",
+                        "label": ""
+                      }
+                    ]
+                  }
+                },
+                {
+                  "type": "doogma-image-swatches",
+                  "attributes": {
+                    "label": "Select Font",
+                    "param": "oreo-wedding-24ct-belly-band-box-font",
+                    "labelPlacement": "block",
+                    "size": "32",
+                    "gap": "0.5",
+                    "circular": "no",
+                    "showActiveSelection": "no",
+                    "items": [
+                      {
+                        "name": "oreosans",
+                        "value": "oreosans",
+                        "src": "https://vip.doogma.com/dzine1/oreo-corporate/th-oreosans.png",
+                        "selected": "yes"
+                      },
+                      {
+                        "name": "pluto",
+                        "value": "pluto",
+                        "src": "https://vip.doogma.com/dzine1/oreo-corporate/th-pluto.png"
+                      },
+                      {
+                        "name": "librebaskervillebold",
+                        "value": "librebaskervillebold",
+                        "src": "https://vip.doogma.com/dzine1/oreo-corporate/th-librebaskervillebold.png"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "type": "doogma-simple-text",
+                  "attributes": {
+                    "type": "text",
+                    "label": "Your Text",
+                    "labelPlacement": "block",
+                    "param": "oreo-wedding-24ct-belly-band-box-text",
+                    "name": "oreo-wedding-24ct-belly-band-box-text"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "type": "doogma-html-section",
+        "attributes": {
+          "class": "",
+          "content": "<textarea style='display:none;' class='doogma-export-data'></textarea>"
+        }
+      }
+    ]
+  },
+  "_comment": "Components END"
+}

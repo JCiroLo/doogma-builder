@@ -1,0 +1,685 @@
+{
+  "id": "oreocp3",
+  "wrapper": {
+    "maxWidth": "1600px",
+    "ratio": "50:30",
+    "ratios": "mobile=70:100|tablet=45:55|desktop=50:30",
+    "topOffset": "100px",
+    "topOffsets": "mobile=90px|tablet=90px|desktop=100px",
+    "gutter": "15px",
+    "version": "0.1"
+  },
+  "visualisation": {
+    "visualisationId": "n21.oreo-corporate-webcomp",
+    "initConfig": "",
+    "beforeVis": {},
+    "afterVis": {}
+  },
+  "hiddenParams": [
+    {
+      "class": "doogma-view-x",
+      "value": "0"
+    },
+    {
+      "class": "doogma-view-y",
+      "value": "0"
+    },
+    {
+      "class": "doogma-view-width",
+      "value": "750"
+    },
+    {
+      "class": "doogma-view-height",
+      "value": "750"
+    },
+    {
+      "class": "doogma-export-data",
+      "value": ""
+    },
+    {
+      "class": "doogma-form-source",
+      "value": "Corporate Gifting"
+    },
+    {
+      "id": "uploadedimagecookie",
+      "class": "uploadedimagecookie",
+      "value": ""
+    },
+    {
+      "id": "uploadedimagepackage",
+      "class": "uploadedimagepackage",
+      "value": ""
+    },
+    {
+      "id": "savedDesign",
+      "class": "saved-design",
+      "value": ""
+    },
+    {
+      "id": "proof",
+      "class": "thumb",
+      "value": ""
+    }
+  ],
+  "navigation": {
+    "components": [
+      {
+        "type": "doogma-html-section",
+        "attributes": {
+          "class": "doogma-title",
+          "content": "<h2>Build Your Oreo Cookie</h2>"
+        }
+      },
+      {
+        "type": "doogma-nav-tabs",
+        "attributes": {
+          "param": "navtabs",
+          "viewType": "tabs",
+          "maxWidth": "100%",
+          "hideTabs": "no",
+          "enableZoom": "yes",
+          "items": [
+            {
+              "name": "Step 1 Cookie",
+              "selected": "yes",
+              "zoomX": "0",
+              "zoomY": "0",
+              "zoomWidth": "750",
+              "zoomHeight": "750",
+              "components": [
+                {
+                  "type": "doogma-image-swatches",
+                  "attributes": {
+                    "label": "Creme",
+                    "param": "creme",
+                    "labelPlacement": "block",
+                    "size": "32",
+                    "gap": "0.15",
+                    "circular": "yes",
+                    "showActiveSelection": "yes",
+                    "items": [
+                      {
+                        "name": "White",
+                        "value": "white",
+                        "src": "https://vip.doogma.com/dzine1/oreo-corporate/th-white-new.png",
+                        "selected": "yes"
+                      },
+                      {
+                        "name": "Birthday Cake",
+                        "value": "Birthday Cake",
+                        "src": "https://vip.doogma.com/dzine1/oreo-corporate/th-birthdaycake-new.png"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "type": "doogma-image-swatches",
+                  "attributes": {
+                    "label": "Dip",
+                    "param": "dip",
+                    "labelPlacement": "block",
+                    "size": "32",
+                    "gap": "0.5",
+                    "circular": "yes",
+                    "showActiveSelection": "yes",
+                    "items": [
+                      {
+                        "name": "Fudge",
+                        "value": "fudge",
+                        "src": "https://vip.doogma.com/dzine1/oreo-corporate/th-fudge.png"
+                      },
+                      {
+                        "name": "White Fudge",
+                        "value": "whitefudge",
+                        "src": "https://vip.doogma.com/dzine1/oreo-corporate/th-whitefudge.png",
+                        "selected": "yes"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "type": "doogma-checkbox-group",
+                  "attributes": {
+                    "label": "Select Up To 4 Sprinkle Colors Or a Rainbow Mix",
+                    "labelPlacement": "block",
+                    "param": "sprinkles",
+                    "groupParam": "sprinkles",
+                    "gap": ".85",
+                    "itemsPlacement": "inline",
+                    "items": [
+                      {
+                        "name": "sprinklesred",
+                        "param": "sprinklesred",
+                        "value": "true",
+                        "label": "Red"
+                      },
+                      {
+                        "name": "sprinklesorange",
+                        "param": "sprinklesorange",
+                        "value": "true",
+                        "label": "Orange"
+                      },
+                      {
+                        "name": "sprinklesyellow",
+                        "param": "sprinklesyellow",
+                        "value": "true",
+                        "label": "Yellow"
+                      },
+                      {
+                        "name": "sprinklesgreen",
+                        "param": "sprinklesgreen",
+                        "value": "true",
+                        "label": "Green"
+                      },
+                      {
+                        "name": "sprinklesblue",
+                        "param": "sprinklesblue",
+                        "value": "true",
+                        "label": "Blue"
+                      },
+                      {
+                        "name": "sprinklespink",
+                        "param": "sprinklespink",
+                        "value": "true",
+                        "label": "Pink"
+                      },
+                      {
+                        "name": "sprinklespurple",
+                        "param": "sprinklespurple",
+                        "value": "true",
+                        "label": "Purple"
+                      },
+                      {
+                        "name": "sprinkleswhite",
+                        "param": "sprinkleswhite",
+                        "value": "true",
+                        "label": "White",
+                        "selected": "yes"
+                      },
+                      {
+                        "name": "sprinklesrainbow",
+                        "param": "sprinklesrainbow",
+                        "value": "true",
+                        "label": "Rainbow Mix"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "type": "doogma-color-swatches",
+                  "attributes": {
+                    "label": "Background Color",
+                    "labelPlacement": "block",
+                    "param": "background",
+                    "size": "24",
+                    "gap": ".25",
+                    "circular": "yes",
+                    "value": "",
+                    "showActiveSelection": "no",
+                    "itemsPlacement": "inline",
+                    "items": [
+                      {
+                        "name": "a50034",
+                        "param": "background",
+                        "value": "a50034",
+                        "label": "Red"
+                      },
+                      {
+                        "name": "ff7f41",
+                        "param": "background",
+                        "value": "ff7f41",
+                        "label": "Orange"
+                      },
+                      {
+                        "name": "f9e267",
+                        "param": "background",
+                        "value": "f9e267",
+                        "label": "Yellow"
+                      },
+                      {
+                        "name": "00843d",
+                        "param": "background",
+                        "value": "00843d",
+                        "label": "Green"
+                      },
+                      {
+                        "name": "1d428a",
+                        "param": "background",
+                        "value": "1d428a",
+                        "label": "Blue"
+                      },
+                      {
+                        "name": "685bc7",
+                        "param": "background",
+                        "value": "685bc7",
+                        "label": "Purple"
+                      },
+                      {
+                        "name": "e63888",
+                        "param": "background",
+                        "value": "e63888",
+                        "label": "Pink"
+                      },
+                      {
+                        "name": "ffffff",
+                        "param": "background",
+                        "value": "ffffff",
+                        "label": "White",
+                        "selected": "yes"
+                      },
+                      {
+                        "name": "252525",
+                        "param": "background",
+                        "value": "252525",
+                        "label": "Black"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "type": "doogma-radio-group",
+                  "attributes": {
+                    "label": "Upload An Image (Optional)",
+                    "labelPlacement": "block",
+                    "param": "logo",
+                    "groupParam": "logo",
+                    "gap": ".5",
+                    "itemsPlacement": "inline",
+                    "items": [
+                      {
+                        "name": "logo",
+                        "param": "logo",
+                        "value": "yes",
+                        "label": "Yes",
+                        "multiText": "no",
+                        "title": "Yes"
+                      },
+                      {
+                        "name": "logo",
+                        "param": "logo",
+                        "value": "no",
+                        "label": "No",
+                        "title": "No",
+                        "selected": "yes"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "type": "doogma-simple-text",
+                  "attributes": {
+                    "label": "Text Line 1 (Up To 13 Characters)",
+                    "labelPlacement": "block",
+                    "param": "text1",
+                    "name": "text1"
+                  }
+                },
+                {
+                  "type": "doogma-simple-text",
+                  "attributes": {
+                    "label": "Text Line 2 (Up To 13 Characters)",
+                    "labelPlacement": "block",
+                    "param": "text2",
+                    "name": "text2"
+                  }
+                },
+                {
+                  "type": "doogma-counterbox",
+                  "attributes": {
+                    "label": "Text Position",
+                    "labelPlacement": "block",
+                    "param": "textline1-y",
+                    "value": 347,
+                    "min": 209,
+                    "max": 442,
+                    "step": 1,
+                    "velocity": 25,
+                    "name": "text-position-counter",
+                    "gap": ".5",
+                    "iconStart": "↑",
+                    "iconEnd": "↓",
+                    "itemsPlacement": "inline"
+                  }
+                },
+                {
+                  "type": "doogma-counterbox",
+                  "attributes": {
+                    "label": "Text Position",
+                    "labelPlacement": "block",
+                    "param": "textline2-y",
+                    "value": 416,
+                    "min": 278,
+                    "max": 511,
+                    "iconStart": "↑",
+                    "iconEnd": "↓",
+                    "velocity": 25,
+                    "step": 1,
+                    "name": "text-position-counter",
+                    "gap": ".5",
+                    "itemsPlacement": "inline"
+                  }
+                },
+                {
+                  "type": "doogma-image-swatches",
+                  "attributes": {
+                    "label": "Select Font",
+                    "param": "font",
+                    "labelPlacement": "block",
+                    "size": "32",
+                    "gap": "0.5",
+                    "circular": "yes",
+                    "showActiveSelection": "yes",
+                    "items": [
+                      {
+                        "name": "oreosans",
+                        "value": "oreosans",
+                        "src": "https://vip.doogma.com/dzine1/oreo-corporate/th-oreosans.png",
+                        "selected": "yes"
+                      },
+                      {
+                        "name": "pluto",
+                        "value": "pluto",
+                        "src": "https://vip.doogma.com/dzine1/oreo-corporate/th-pluto.png"
+                      },
+                      {
+                        "name": "librebaskervillebold",
+                        "value": "librebaskervillebold",
+                        "src": "https://vip.doogma.com/dzine1/oreo-corporate/th-librebaskervillebold.png"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "type": "doogma-color-swatches",
+                  "attributes": {
+                    "label": "Text Color",
+                    "labelPlacement": "block",
+                    "param": "textcolor",
+                    "size": "24",
+                    "gap": ".25",
+                    "circular": "yes",
+                    "value": "",
+                    "showActiveSelection": "no",
+                    "itemsPlacement": "inline",
+                    "items": [
+                      {
+                        "name": "af294a",
+                        "param": "textcolor",
+                        "value": "af294a",
+                        "label": "Red",
+                        "selected": "yes"
+                      },
+                      {
+                        "name": "f15d29",
+                        "param": "textcolor",
+                        "value": "f15d29",
+                        "label": "Orange"
+                      },
+                      {
+                        "name": "fdba12",
+                        "param": "textcolor",
+                        "value": "fdba12",
+                        "label": "Yellow"
+                      },
+                      {
+                        "name": "ffc0cb",
+                        "param": "textcolor",
+                        "value": "ffc0cb",
+                        "label": "Pink"
+                      },
+                      {
+                        "name": "00974b",
+                        "param": "textcolor",
+                        "value": "00974b",
+                        "label": "Green"
+                      },
+                      {
+                        "name": "004f80",
+                        "param": "textcolor",
+                        "value": "004f80",
+                        "label": "Blue"
+                      },
+                      {
+                        "name": "574896",
+                        "param": "textcolor",
+                        "value": "574896",
+                        "label": "Purple"
+                      },
+                      {
+                        "name": "ffffff",
+                        "param": "textcolor",
+                        "value": "ffffff",
+                        "label": "White"
+                      },
+                      {
+                        "name": "000000",
+                        "param": "textcolor",
+                        "value": "000000",
+                        "label": "Black"
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "name": "Step 2 Packaging",
+              "zoomX": "0",
+              "zoomY": "750",
+              "zoomWidth": "750",
+              "zoomHeight": "750",
+              "components": [
+                {
+                  "type": "doogma-radio-group",
+                  "attributes": {
+                    "label": "Select Packaging",
+                    "labelPlacement": "block",
+                    "param": "packaging",
+                    "groupParam": "packaging",
+                    "gap": ".5",
+                    "itemsPlacement": "block",
+                    "items": [
+                      {
+                        "name": "pack",
+                        "id": "1bulk",
+                        "selected": "yes",
+                        "param": "packaging",
+                        "value": "1CT BULK CLEAR BAG",
+                        "multiText": "yes",
+                        "custom-parameters": {
+                          "data-minimum": "125",
+                          "data-type": "Bag",
+                          "data-cost": "2.85"
+                        },
+                        "title": "1ct Clear Bulk Bag",
+                        "body": [
+                          "MIN QTY: 125 bags (a total of 125 cookies)",
+                          "Starting@ $2.85 per bag"
+                        ]
+                      },
+                      {
+                        "name": "pack",
+                        "param": "packaging",
+                        "value": "1CT BRANDED BOX",
+                        "multiText": "yes",
+                        "custom-parameters": {
+                          "data-minimum": "125",
+                          "data-type": "Box",
+                          "data-cost": "3.92"
+                        },
+                        "title": "1ct Box With OREO Cookies Design",
+                        "body": [
+                          "MIN QTY: 125 Boxes (A Total Of 125 Cookies)",
+                          "Starting @ $3.92 Per Box"
+                        ]
+                      },
+                      {
+                        "name": "pack",
+                        "param": "packaging",
+                        "value": "4CT BRANDED BOX",
+                        "label": "Opt 2",
+                        "multiText": "yes",
+                        "custom-parameters": {
+                          "data-minimum": "50",
+                          "data-type": "Box",
+                          "data-cost": "14.95"
+                        },
+                        "title": "4ct Box With OREO Cookies Sleeve Design",
+                        "body": [
+                          "MIN QTY: 50 4ct Boxes (A Total Of 200 Cookies)",
+                          "Starting @ $14.95 Per Box"
+                        ]
+                      },
+                      {
+                        "name": "pack",
+                        "id": "4bellyband",
+                        "param": "packaging",
+                        "value": "4CT BELLY BAND BOX",
+                        "label": "Opt 2",
+                        "multiText": "yes",
+                        "custom-parameters": {
+                          "data-minimum": "50",
+                          "data-type": "Box",
+                          "data-cost": "14.95"
+                        },
+                        "title": "4ct Box With Customizable Band",
+                        "body": [
+                          "MIN QTY: 50 4ct Boxes (A Total Of 200 Cookies)",
+                          "Starting @ $14.95 Per Box"
+                        ]
+                      },
+                      {
+                        "name": "pack",
+                        "id": "12",
+                        "param": "packaging",
+                        "value": "12 CT BRANDED BOX",
+                        "label": "Opt 2",
+                        "multiText": "yes",
+                        "custom-parameters": {
+                          "data-minimum": "25",
+                          "data-type": "Box",
+                          "data-cost": "35.96"
+                        },
+                        "title": "12ct Box With OREO Cookies Sleeve Design",
+                        "body": [
+                          "MIN QTY: 25 12ct Boxes (A Total Of 300 Cookies)",
+                          "Starting @ $35.96 Per Box"
+                        ]
+                      },
+                      {
+                        "name": "pack",
+                        "id": "12withband",
+                        "param": "packaging",
+                        "value": "12 CT BELLY BAND BOX",
+                        "label": "Opt 2",
+                        "multiText": "yes",
+                        "custom-parameters": {
+                          "data-minimum": "25",
+                          "data-type": "Box",
+                          "data-cost": "35.96"
+                        },
+                        "title": "12ct Box With Customizable Band",
+                        "body": [
+                          "MIN QTY: 25 12ct Boxes (A Total Of 300 Cookies)",
+                          "Starting @ $35.96 Per Box"
+                        ]
+                      },
+                      {
+                        "name": "pack",
+                        "id": "12x2",
+                        "param": "packaging",
+                        "value": "24 CT BRANDED BOX",
+                        "label": "Opt 2",
+                        "multiText": "yes",
+                        "custom-parameters": {
+                          "data-minimum": "12",
+                          "data-type": "Box",
+                          "data-cost": "71.91"
+                        },
+                        "title": "24ct (2x12ct Boxes) With OREO Cookies Sleeve Design",
+                        "body": [
+                          "MIN QTY: 12 24ct Boxes (A Total Of 288 Cookies)",
+                          "Starting @ $71.91 Per Box"
+                        ]
+                      },
+                      {
+                        "name": "pack",
+                        "id": "12x2withband",
+                        "param": "packaging",
+                        "value": "24 CT BELLY BAND BOX",
+                        "label": "Opt 2",
+                        "multiText": "yes",
+                        "custom-parameters": {
+                          "data-minimum": "12",
+                          "data-type": "Box",
+                          "data-cost": "71.91"
+                        },
+                        "title": "24ct (2x12ct Boxes) With Customizable Band",
+                        "body": [
+                          "MIN QTY: 12 24ct Boxes (A Total Of 288 Cookies)",
+                          "Starting @ $71.91 Per Box"
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "type": "doogma-simple-text",
+                  "attributes": {
+                    "type": "number",
+                    "label": "Enter Quantity (Boxes / Bags)",
+                    "labelPlacement": "block",
+                    "param": "packaging-quantity",
+                    "name": "quantity"
+                  }
+                },
+                {
+                  "type": "doogma-html-section",
+                  "attributes": {
+                    "class": "",
+                    "content": "<p>Orders through OREO Events have a minimum order quantity <br> Need a smaller order? Click <a href='https://www.oreo.com/oreoid-1'>here</a> for the OREOiD site</p>"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "Step 3 Request Quote",
+              "zoomX": "0",
+              "zoomY": "750",
+              "zoomWidth": "750",
+              "zoomHeight": "750",
+              "components": [
+                {
+                  "type": "doogma-html-section",
+                  "attributes": {
+                    "class": "doogma-quote",
+                    "content": "<form id='doogma-quote-form'><h2>Get a Quote</h2><h3>*FULL NAME</h3><input type='text' required class='doogma-quote-name'></input><h3>COMPANY</h3><input type='text' class='doogma-quote-company'></input><h3>*EMAIL</h3><input type='text' required placeholder='mail@email.com' class='doogma-quote-email'></input><h3>*PHONE NUMBER</h3><input required type='tel' class='doogma-quote-phone' placeholder='(XXX-XXX-XXXX)'></input><h3>*ADDRESS</h3><input required type='text' class='doogma-quote-address'></input><div class='terms-container'><input class='doogma-quote-address' type='checkbox'></input><span>I would like to ship to multiple addresses.</span></div><h3>EVENT DATE</h3><input type='date' class='doogma-quote-date'></input><h3>COMMENTS</h3><textarea class='doogma-quote-comment'></textarea><p class=''>*Indicates mandatory field</p><div class='newsletter-container'><input class='doogma-quote-newsletter' type='checkbox'></input><span>I love OREO cookies and I want to receive news about your products.</span></div><div class='terms-container'><input class='doogma-quote-terms' required type='checkbox'></input><span>* I have read and agree to the website <a href='https://www.oreo.com/privacy-policy'>Privacy Policy</a> and <a href='https://www.oreo.com/terms-and-conditions'>Terms and conditions</a>.</span></div><div class='quote-btn-container'><button disabled class='btn-request-quote'>Request Quote</button><div></form>"
+                  }
+                },
+                {
+                  "type": "doogma-custom-scripts",
+                  "attributes": {
+                    "items": [
+                      {
+                        "name": "source1",
+                        "source": "https://utils.doogma.com/nav-loader/production/scripts/oreo-corp-custom-scripts/oreo-corp-scripts.esm.js"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "type": "doogma-html-section",
+        "attributes": {
+          "class": "",
+          "content": "<textarea style='display:none;' class='doogma-export-data'></textarea>"
+        }
+      }
+    ]
+  },
+  "_comment": "Components END"
+}

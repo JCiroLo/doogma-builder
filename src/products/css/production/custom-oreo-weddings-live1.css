@@ -1,0 +1,1471 @@
+/*
+! tailwindcss v3.1.4 | MIT License | https://tailwindcss.com
+*/
+
+/*
+1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)
+2. Allow adding a border to an element by just adding a border-width. (https://github.com/tailwindcss/tailwindcss/pull/116)
+*/
+
+/*
+1. Use a consistent sensible line-height in all browsers.
+2. Prevent adjustments of font size after orientation changes in iOS.
+3. Use a more readable tab size.
+4. Use the user's configured `sans` font-family by default.
+*/
+
+html {
+  line-height: 1.5;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+  -moz-tab-size: 4;
+  /* 3 */
+  -o-tab-size: 4;
+  tab-size: 4;
+  /* 3 */
+  font-family: "Poppins", "Unica One", ui-sans-serif, system-ui, -apple-system,
+    BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans",
+    sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+    "Noto Color Emoji";
+  /* 4 */
+}
+
+/*
+    1. Remove the margin in all browsers.
+    2. Inherit line-height from `html` so users can set them as a class directly on the `html` element.
+    */
+
+body {
+  margin: 0;
+  /* 1 */
+  line-height: inherit;
+  /* 2 */
+}
+
+/* custom css */
+::-webkit-scrollbar {
+  display: none;
+}
+
+.doogma-nav-wrapper {
+  overflow: none;
+  height: auto;
+}
+
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 99;
+}
+
+.div_1 {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 10%;
+  height: 800px;
+}
+
+.doogma-navigation-container {
+  max-width: 484px;
+}
+
+/***
+    TABS
+     */
+
+.tabs {
+  border-bottom: 2px solid #000;
+}
+
+.tabs .tab {
+  background-color: #e3e3e3;
+  color: #000;
+  margin-top: 1px;
+  margin-bottom: 0;
+  margin-left: 1px;
+  margin-right: 0;
+}
+
+.tabs .tab.active {
+  background-color: #000 !important;
+  color: #fff;
+}
+
+.doogma-nav-tabs li.active a {
+  background-color: #3c3c3c;
+}
+
+.doogma-nav-tabs li.active svg {
+  fill: white;
+}
+
+.tab-content {
+  display: none;
+}
+
+.tab-content.active {
+  display: block;
+}
+
+button.mobile-nav {
+  display: none;
+}
+button.desktop-nav {
+  display: inline;
+}
+/* Media Query */
+
+@media screen and (max-width: 767px) {
+  .main {
+    flex-wrap: wrap !important;
+  }
+
+  .doogma-nav-wrapper {
+    box-shadow: 1px 13px 14px -4px rgba(173, 173, 173, 0.91);
+    -webkit-box-shadow: 1px 13px 14px -4px rgba(173, 173, 173, 0.91);
+    -moz-box-shadow: 1px 13px 14px -4px rgba(173, 173, 173, 0.91);
+    margin-bottom: 15px;
+    padding: 3%;
+  }
+
+  .doogma-wrapper .doogma-wrapper-row .doogma-col-2 {
+    width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .div_1,
+  .div_2 {
+    position: relative;
+    width: 100%;
+    height: auto !important;
+  }
+
+  .div_2 {
+    overflow: hidden !important;
+  }
+
+  button.desktop-nav {
+    display: none;
+  }
+
+  button.mobile-nav {
+    display: inline;
+  }
+}
+
+.hover\:bg-indigo-700:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(67 56 202 / var(--tw-bg-opacity));
+}
+
+@media (min-width: 640px) {
+  .sm\:flex-row {
+    flex-direction: row;
+  }
+
+  .sm\:px-6 {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:mr-1 {
+    margin-right: 0.25rem;
+  }
+
+  .md\:mt-0 {
+    margin-top: 0px;
+  }
+
+  .md\:ml-1 {
+    margin-left: 0.25rem;
+  }
+
+  .md\:flex {
+    display: flex;
+  }
+
+  .md\:flex-1 {
+    flex: 1 1 0%;
+  }
+
+  .md\:justify-start {
+    justify-content: flex-start;
+  }
+
+  .md\:space-x-10 > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-x-reverse: 0;
+    margin-right: calc(2.5rem * var(--tw-space-x-reverse));
+    margin-left: calc(2.5rem * calc(1 - var(--tw-space-x-reverse)));
+  }
+  .doogma-nav-tabs-content::-webkit-scrollbar,
+  .doogma-nav-tabs-content::-webkit-scrollbar-thumb {
+    width: 25px;
+    position: absolute;
+    border-radius: 13px;
+    background-clip: padding-box;
+    border: 10px solid transparent;
+    color: #f7f7f7;
+    height: 100px;
+  }
+
+  .doogma-nav-tabs-content {
+    scrollbar-width: thin;
+  }
+
+  .doogma-nav-tabs-content::-webkit-scrollbar-thumb {
+    box-shadow: inset 0 0 0 10px;
+  }
+}
+
+#doogma-quote-form {
+  /* box-shadow: -1px 13px 14px -4px rgb(122 122 122 / 59%);
+    -webkit-box-shadow: -1px 13px 14px -4px rgb(122 122 122 / 59%);
+    -moz-box-shadow: -1px 13px 14px -4px rgba(122, 122, 122, 0.59); */
+  padding: 0px;
+}
+
+@media (min-width: 1024px) {
+  .lg\:w-0 {
+    width: 0px;
+  }
+
+  .lg\:flex-1 {
+    flex: 1 1 0%;
+  }
+}
+
+doogma-counterbox .doogma-nav-component-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+doogma-component-containers doogma-counterbox label {
+  margin-right: 15px;
+  font-family: "PlutoCondBlack";
+  font-weight: bold;
+  font-size: 15px !important;
+}
+
+doogma-counterbox .doogma-nav-component-container input[type="text"] {
+  border: 1px solid #bbbbbb;
+  border-radius: 0.25rem;
+  height: 3.125rem;
+  padding: 0 1.25rem !important;
+  font-size: 1rem;
+  width: 100%;
+}
+
+.doogma-nav-component-container .multitext-container {
+  margin: 0.5rem 1rem;
+  font-size: 0.9rem;
+}
+.multitext-container .title {
+  font-weight: 700;
+  padding: 5px 0;
+}
+.multitext-container .body {
+  padding: 5px 0;
+}
+
+.doogma-control-wrapper .alert {
+  margin: 10px 0;
+  color: red;
+}
+
+.doogma-html-section p {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+
+.doogma-html-section a {
+  color: #080808;
+  font-weight: bold;
+}
+
+.doogma-html-section a:hover {
+  color: #1c1c1c;
+}
+
+.doogma-title {
+  font-size: 2.625rem;
+  font-weight: 700;
+  margin-bottom: 0.625rem;
+}
+
+.doogma-nav-component-container
+  .doogma-swatch-list
+  .doogma-swatch-list--item.active {
+  border: 2px rgba(0, 0, 0, 0) !important;
+}
+
+/* .doogma-nav-component-container
+  .doogma-swatch-list
+  .doogma-swatch-list--item.active::before {
+  content: "\2713";
+  display: block;
+  width: 18px;
+  color: white;
+  padding: 3px;
+  background: #00a200;
+  border-radius: 100%;
+  margin-left: 72%;
+  margin-top: -1%;
+  position: absolute;
+}
+ */
+
+doogma-image-swatches[param="dip"] doogma-image-swatch.active::before {
+  content: "\2713";
+  display: block;
+  width: 20px;
+  color: white;
+  padding: 2px;
+  background: #00a200;
+  border-radius: 100px;
+  margin-left: 72%;
+  margin-top: -1%;
+  position: absolute;
+}
+
+doogma-image-swatches[param="creme"] doogma-image-swatch.active::before {
+  content: "\2713";
+  display: block;
+  position: absolute;
+  width: 10px;
+  color: white;
+  padding: 1px;
+  background: #00a200;
+  border-radius: 100px;
+  margin-left: 70%;
+  margin-top: -5%;
+  float: right;
+  font-size: 7px;
+}
+
+doogma-checkbox-group doogma-checkbox .doogma-control {
+  position: relative;
+}
+
+doogma-checkbox-counter {
+  position: relative;
+}
+
+doogma-checkbox-counter input[type="number"] {
+  font-family: "PlutoCondBlack";
+  font-weight: bold;
+  font-size: 15px;
+  color: black !important;
+}
+
+doogma-checkbox-group doogma-checkbox:has(input:checked) .doogma-control:before,
+doogma-checkbox-counter:has(input:checked) .doogma-control:before {
+  content: "\2713";
+  display: block;
+  width: 15px;
+  height: auto;
+  color: white;
+  padding: 1px;
+  background: #00a200;
+  border-radius: 100px;
+  text-align: center;
+  align-items: center;
+  top: 3%;
+  right: 3%;
+  position: absolute;
+  float: right;
+  font-size: 10px;
+}
+
+.doogma-nav-tabs {
+  justify-content: space-between;
+  overflow-x: scroll;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+.doogma-nav-tabs::-webkit-scrollbar {
+  display: none;
+}
+
+.quote-btn-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+  .doogma-nav-tabs li {
+    min-width: 60px;
+  }
+  .doogma-nav-tabs li a {
+    width: 47%;
+  }
+}
+
+.doogma-select-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+doogma-html-section .finished-length-list {
+  /* width: 5rem; */
+}
+
+.doogma-radio input[type="radio"] {
+  margin: 0 5px;
+}
+
+doogma-html-section .angle-list {
+}
+
+.doogma-nav-tabs-container-navtabs {
+  overflow-y: scroll;
+  height: 400px;
+}
+
+.doogma-nav-tabs-content {
+  padding: 0 2rem;
+  /* max-height: 90vh; */
+  max-width: 500px;
+}
+
+@media only screen and (min-width: 768px) {
+  .doogma-wrapper-row .doogma-col-2 {
+    max-width: 550px;
+    margin-left: 1rem;
+  }
+}
+
+/* No Wrapper */
+
+.doogma-wrapper .doogma-wrapper-row {
+  /*   justify-content: space-between; */
+}
+
+/* .doogma-wrapper-row .doogma-col-1 {
+      width: 47%;
+    }
+    
+    .doogma-wrapper-row .doogma-col-2 {
+      width: 47%;
+      max-width: 500px;
+      margin-left: 1rem;
+    } */
+
+.doogma-nav-tabs-content:hover {
+  /* overflow-y: scroll; */
+}
+
+/*
+      new
+    */
+
+.doogma-subtitle h2 {
+  font-size: 21px;
+  text-transform: uppercase;
+  color: black;
+  font-weight: bold;
+}
+
+.doogma-subtitle h2.disclaimer {
+  font-size: 21px;
+  color: #00734e;
+  margin: 0;
+  font-weight: normal;
+  margin-bottom: 0.5rem;
+}
+
+.doogma-nav-tabs {
+  border-bottom: 0px;
+}
+
+.doogma-nav-tabs li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 20%;
+  min-width: 90px;
+  margin-right: 0px;
+  position: relative;
+}
+
+.doogma-nav-tabs li:not(:last-child)::before {
+  position: absolute;
+  content: "";
+  border-bottom: 3px solid #a9a9a9;
+  width: 100%;
+  top: 33px;
+  left: 49%;
+  z-index: -1;
+}
+
+.doogma-nav-tabs li span {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 768px) {
+  .doogma-nav-tabs li:not(:last-child)::before {
+    position: absolute;
+    content: "";
+    border-bottom: 3px solid #a9a9a9;
+    width: 100%;
+    top: 24px;
+    left: 49%;
+    z-index: -1;
+  }
+
+  .doogma-nav-tabs li span {
+    font-size: 0.7rem;
+    font-weight: bold;
+  }
+}
+/* 
+  .doogma-nav-tab-content-inner.doogma-nav-nested-content-inner h2 {
+    text-align: center;
+    font-weight: normal;
+  }
+   */
+
+.doogma-nav-nested-content-inner h2 {
+  font-weight: bold;
+  font-size: 24px;
+  margin: 20px 0 0 0;
+}
+
+.doogma-nav-nested-content-inner h3 {
+  text-align: left;
+  font-weight: normal;
+  color: #888888;
+  font-size: 1.3rem;
+  line-height: 1.2em;
+  margin: 0 0 30px;
+}
+
+.doogma-nav-tabs li a {
+  padding: 15px 0 0 0 !important;
+  font-size: 1rem;
+  background-color: white;
+  border: 1px solid #a9a9a9;
+  color: #a9a9a9;
+  justify-content: space-between;
+  width: 68%;
+  text-align: center;
+  border-radius: 50%;
+  height: 68px;
+}
+
+svg {
+  width: 38px;
+  height: 38px;
+}
+
+.doogma-nav-tabs-content .doogma-nav-tab-content {
+  padding: 0.3rem 0;
+}
+
+/* .doogma-nav-tabs li:not(:last-child) a,
+  .doogma-nav-tabs li.active:not(:last-child) a {
+    border-right: 0px;
+  }
+   */
+
+.doogma-nav-tabs li a {
+  background-color: white;
+}
+
+.doogma-nav-tabs li.active a {
+  /* background-color: #000000 !important; */
+  color: #000000;
+  border: 1px solid #000000;
+  font-weight: bold;
+  /* text-decoration: underline; */
+}
+
+.doogma-nav-component-container {
+  font-weight: normal !important;
+  font-size: 21px !important;
+}
+
+.doogma-font-swatches-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.doogma-font-swatch-list {
+  display: flex;
+  justify-content: center;
+}
+
+doogma-font-swatch span {
+  height: auto !important;
+  /* min-width: 150px; */
+  min-height: 2rem !important;
+  width: 100% !important;
+  justify-content: space-between;
+  padding: 0 1rem;
+  background-color: white !important;
+  color: black !important;
+  font-size: 20px;
+  cursor: pointer;
+  border-bottom: 5px solid #bcbcbc;
+  font-weight: normal;
+}
+
+doogma-font-swatch.active span {
+  border-bottom: 5px solid #0057c7;
+}
+
+.doogma-nav-component-container label > .selection {
+  display: block;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+doogma-component-container label {
+  text-align: left;
+}
+
+.doogma-nav-component-container label span {
+  font-size: 16px;
+  color: #8f8f8f;
+}
+
+.doogma-select-container > label {
+  border-bottom: 1px solid #d9d7d7;
+}
+
+.doogma-select-container select {
+  border: 1px solid #00734e;
+  padding: 10px;
+  height: 2.5rem;
+  background-color: #ffffff;
+  color: #8f8f8f;
+  width: 100%;
+}
+
+doogma-radio {
+  margin-bottom: 0rem !important;
+}
+
+doogma-color-swatch {
+  margin-right: 0.5rem !important;
+  margin-bottom: 0.5rem !important;
+  margin-left: 5px;
+}
+
+.doogma-color-swatch-list .doogma-swatch-list--item {
+  border-radius: 7px;
+}
+
+.doogma-color-swatch-list span {
+  border-radius: 7px;
+}
+
+doogma-color-swatch {
+  display: flex;
+  justify-content: center;
+}
+
+doogma-color-swatch {
+  color: black;
+  position: relative;
+}
+
+doogma-color-swatch:has(span[title="Black"]) {
+  color: white !important;
+}
+
+.doogma-color-swatch-list .doogma-swatch-list--item.active:before {
+  content: "\2713";
+  position: absolute;
+  font-weight: 800;
+  display: inline-block;
+}
+
+.doogma-color-swatch-list
+  .doogma-swatch-list--item.active:before:has(span[title="Black"]) {
+  color: white;
+}
+
+.doogma-color-swatch-list .doogma-swatch-list--item.color-swatch {
+  border: 0px;
+}
+
+.doogma-nav-component-container.doogma-ci-inline .doogma-control-items {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.doogma-nav-component-container.doogma-ci-inline .doogma-font-swatch-list {
+  justify-content: center;
+}
+.doogma-nav-component-container.doogma-ci-inline
+  .doogma-font-swatch-list
+  doogma-font-swatch {
+  margin: 0px !important;
+  border: 0px;
+}
+
+doogma-image-swatches[param="dip"] {
+  /*  margin: 0.2rem 1rem; */
+  display: block;
+  position: relative;
+}
+
+doogma-image-swatches[param="creme"] {
+  /*   margin-left: 22%; */
+  /*   margin: 0.2rem 1rem; */
+  display: block;
+  position: relative;
+}
+
+doogma-image-swatches[param="creme"] .doogma-image-swatch-list {
+  /*  display: flex;
+  justify-content: center; */
+}
+
+doogma-image-swatches[param="creme"] div div doogma-image-swatch {
+  word-wrap: break-word;
+  padding: 2%;
+  margin: 0 2rem;
+}
+
+doogma-image-swatches[param="creme"] div div doogma-image-swatch::part(span) {
+  height: 50px !important;
+  display: flex !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  width: 100% !important;
+  justify-content: center !important;
+}
+
+doogma-color-swatch span {
+  width: 28px !important;
+  height: 28px !important;
+}
+
+doogma-color-swatch span[title="White"] {
+  background-color: #ffffff !important;
+  border-radius: 100%;
+  border: 0.5px solid #ccc;
+}
+
+.image-swatch span {
+  height: 100% !important;
+  margin: auto !important;
+}
+
+doogma-image-swatch.active {
+  border: none;
+  border-radius: 4pt;
+  box-shadow: 0 0 0 1pt #080808;
+  outline: none;
+  transition: 0.1s;
+  padding: 1%;
+}
+
+.doogma-nav-component-container.doogma-ci-inline
+  .doogma-control-items
+  .doogma-control-item {
+  margin: 0.2rem;
+}
+
+.doogma-control-item doogma-checkbox hydrated {
+  margin: 0.2rem !important;
+}
+
+doogma-checkbox-group input[type="checkbox"],
+doogma-checkbox-counter input[type="checkbox"] {
+  display: none;
+}
+
+.doogma-checkbox-group-list {
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.doogma-checkbox-counter-group-list {
+  margin: auto;
+  display: grid !important;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+}
+
+.doogma-checkbox-counter {
+  width: 90%;
+}
+
+.doogma-checkbox-counter input[type="number"] {
+  margin-right: 0 !important;
+  text-align: center;
+  border: none;
+}
+
+doogma-checkbox-counter {
+  margin: 0.5rem 0 !important;
+}
+
+.doogma-checkbox-counter-group-list input {
+  height: 100%;
+  border: none;
+  background: transparent;
+}
+
+.doogma-checkbox-counter-group-list button {
+  height: 100%;
+  border: none;
+  background: transparent;
+  width: 1px;
+  padding: 6px;
+  color: transparent;
+}
+
+.doogma-control-items .doogma-control-item {
+}
+
+.doogma-checkbox-counter-group-list doogma-checkbox-counter {
+  flex: 0 0 33.333333%;
+  list-style: none;
+}
+
+doogma-checkbox .doogma-control,
+doogma-checkbox-counter .doogma-control {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 4px;
+}
+
+doogma-checkbox img,
+doogma-checkbox-counter img {
+  width: 70px;
+  height: 70px;
+}
+
+doogma-checkbox:has(input[type="checkbox"]:checked),
+doogma-checkbox-counter:has(input[type="checkbox"]:checked) {
+  border: none;
+  border-radius: 5pt;
+  box-shadow: 0 0 0 1pt #080808;
+  outline: none;
+  transition: 0.1s;
+}
+
+.doogma-counter-container {
+  display: flex;
+  height: 2.8rem;
+  /* border: solid #dcdcdc 1px; */
+  border-radius: 10px;
+}
+
+.doogma-counter-container input[type="number"] {
+  width: 60px;
+}
+
+doogma-checkbox:has(input[name="sprinklesrainbow"]) {
+  /* margin: auto !important; */
+}
+
+.doogma-control-items:has(input[name="sprinklesrainbow"]) {
+  border-top: solid 2px black;
+  justify-content: left !important;
+  margin: -21px;
+  padding-left: 2%;
+}
+
+.doogma-swatch-list--item:has(input[name="birthdaycake"]) {
+  border: solid red 2px;
+}
+
+.doogma-control-items:has(input[name="oreosans"]) {
+  border-top: solid 2px black;
+  justify-content: left !important;
+  margin: -21px;
+}
+
+.doogma-add-to-cart-button-container button {
+  background-color: #ffffff !important;
+  color: #00734e !important;
+  border-color: #00734e !important;
+  text-decoration: underline;
+  text-transform: uppercase;
+  margin-left: 1rem;
+}
+
+.doogma-nav-component-container
+  .doogma-image-swatch-list
+  .doogma-swatch-list--item,
+.doogma-nav-component-container .doogma-swatch-list .doogma-swatch-list--item {
+  display: block;
+  position: relative;
+  margin: auto;
+  text-align: center;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.doogma-nav-component-container.doogma-ci-inline
+  .doogma-control-items
+  .doogma-control-item.span
+  img {
+  width: 190px;
+  height: auto;
+  display: flex;
+}
+
+.newsletter-container span {
+  font-size: 12px;
+}
+
+.terms-container span {
+  font-size: 12px;
+}
+
+.quote-btn-container button {
+  background-color: #0058c9;
+  color: white;
+  padding: 2%;
+  width: 166px;
+  font-size: 17px;
+}
+
+#doogma-quote-form h3 {
+  color: #000000;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 12px 0;
+}
+
+#doogma-quote-form textarea {
+  width: 100%;
+  height: 75px;
+  border-color: #000000;
+}
+
+#doogma-quote-form button:disabled {
+  background-color: #888888;
+  color: #262525;
+}
+
+.doogma-control label {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+#doogma-nav-tab-content-navtabs-design0
+  doogma-counterbox
+  .doogma-nav-component-container
+  .decrease {
+  border: solid 1px #9e9e9e;
+  border-radius: 7px;
+  padding: 0 14px 2px 14px;
+  margin: 2%;
+  background: transparent;
+  font-size: 30px;
+  color: #000000;
+}
+
+#doogma-nav-tab-content-navtabs-design0
+  doogma-counterbox
+  .doogma-nav-component-container {
+  display: block;
+}
+
+#doogma-nav-tab-content-navtabs-design0
+  doogma-counterbox
+  .doogma-nav-component-container
+  .increase {
+  border: solid 1px #9e9e9e;
+  border-radius: 7px;
+  padding: 0 14px 2px 14px;
+  margin: 2%;
+  background: transparent;
+  font-size: 30px;
+  color: #000;
+}
+
+.doogma-popup-image {
+  height: 100px;
+  width: 100px;
+}
+
+.doogma-prev-button {
+  width: 120px;
+  /* height: 66px; */
+  color: #fff;
+  background: #0058c9;
+  border-radius: 3px;
+  border-color: transparent;
+  /*  margin-left: 26%; */
+  padding: 8px;
+  border-radius: 5px;
+}
+
+.doogma-next-button {
+  width: 120px;
+  /* height: 66px; */
+  color: #fff;
+  background: #0058c9;
+  border-radius: 3px;
+  border-color: transparent;
+  margin-left: 8%;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+.doogma-component-containers .doogma-control-wrapper .decrease {
+  border: none;
+  border-radius: 5px;
+  height: 30px;
+  padding: 5px;
+  background: transparent;
+  font-size: 30px;
+  color: rgb(0, 0, 0);
+}
+
+.doogma-component-containers .doogma-control-wrapper .increase {
+  border: none;
+  border-radius: 5px;
+  height: 30px;
+  padding: 5px;
+  background: transparent;
+  font-size: 30px;
+  color: rgb(0, 0, 0);
+}
+
+.doogma-counterbox-container .doogma-control-wrapper {
+  border: solid #e2e2e2 2px;
+  border-radius: 5px;
+}
+
+.doogma-nav-component-container
+  .doogma-counterbox-container
+  .doogma-control-wrapper {
+  display: block;
+  border: none;
+}
+
+doogma-component-containers doogma-counterbox .doogma-control-wrapper input {
+  border: none;
+  /* border-radius: 4px; */
+  width: 50px;
+  text-align: center;
+  height: 30px;
+}
+
+doogma-component-containers doogma-font-swatch {
+  font-family: "PlutoCondBlack";
+}
+
+doogma-component-containers label {
+  text-align: start;
+  font-family: "PlutoCondBlack" !important;
+  font-weight: bold;
+}
+
+doogma-component-containers
+  doogma-counterbox
+  .doogma-control-wrapper
+  .increase:hover {
+  color: #fff;
+  background-color: #000;
+}
+
+doogma-counterbox .doogma-control-wrapper .decrease:hover {
+  color: #fff;
+  background-color: #000;
+}
+
+doogma-component-container doogma-counterbox button {
+  font-size: 1rem !important;
+}
+
+@media only screen and (max-width: 768px) {
+  .doogma-nav-tabs li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 54px;
+    margin-right: 0px;
+  }
+
+  .doogma-wrapper {
+    margin-top: 127px;
+  }
+
+  .doogma-control-items:has(input[name="sprinklesrainbow"]) {
+    padding-left: 3%;
+  }
+
+  .doogma-nav-tabs li a {
+    font-size: 1rem;
+    background-color: white;
+    border: 1px solid rgb(169, 169, 169);
+    color: rgb(169, 169, 169);
+    justify-content: space-between;
+    width: 50px;
+    text-align: center;
+    border-radius: 50%;
+    height: 68px;
+    padding: 15px 0px 0px !important;
+  }
+
+  svg {
+    width: 25px;
+    height: 25px;
+  }
+
+  .doogma-nav-tabs li a {
+    max-height: 48px;
+    padding: 12px 0 0 0 !important;
+  }
+
+  .doogma-nav-tabs li a {
+    padding: 4px 10px;
+    font-size: 0.8rem;
+  }
+
+  .doogma-nav-tabs-content {
+    padding: 0;
+    max-height: 0;
+    max-height: 100vh;
+  }
+
+  .doogma-sticky {
+    position: static;
+  }
+
+  .doogma-nav-tabs-content::-webkit-scrollbar,
+  .doogma-nav-tabs-content::-webkit-scrollbar-thumb {
+    width: 25px;
+    position: absolute;
+    border-radius: 13px;
+    background-clip: padding-box;
+    border: 10px solid transparent;
+    color: #424b5a;
+    height: 100px;
+  }
+  .doogma-nav-tabs-content {
+    scrollbar-width: thin;
+  }
+
+  .doogma-next-button {
+    width: 115px;
+    height: 50px;
+    color: #fff;
+    background: #0058c9;
+    /* border-radius: 3px; */
+    /* border-color: transparent; */
+    margin-left: 8%;
+    margin-bottom: 3%;
+  }
+
+  .doogma-prev-button {
+    width: 115px;
+    height: 50px;
+    /*  margin-left: 14%; */
+    margin-bottom: 3%;
+  }
+  doogma-image-swatches[param="dip"] {
+    margin-left: 10%;
+    display: block;
+    position: relative;
+  }
+
+  doogma-image-swatches[param="creme"] {
+    margin-left: 6%;
+    display: block;
+    position: relative;
+  }
+}
+
+doogma-component-containers .doogma-container-content-inner {
+  max-height: 80vh;
+  overflow-y: scroll;
+}
+/* 
+@media only screen and (min-width: 624px) and (max-width: 767px) {
+  .doogma-nav-tabs li {
+    width: 14%;
+  }
+  .doogma-control-items:has(input[name="sprinklesrainbow"]) {
+    padding-left: 3%;
+  }
+
+  .doogma-nav-wrapper {
+    overflow: none;
+    height: auto;
+  }
+
+  .doogma-nav-tabs li:not(:last-child)::before {
+    left: 73%;
+  }
+}
+ */
+@media only screen and (max-width: 767px) {
+  /*  .doogma-nav-tabs {
+    padding: 0 10px;
+    max-height: 40vh;
+    overflow: auto;
+    overflow-y: scroll;
+  }
+ */
+  .doogma-nav-tabs-content .doogma-nav-tab-content {
+    padding: 0 10px;
+    max-height: 50vh;
+    overflow: auto;
+    overflow-y: scroll;
+  }
+}
+
+.navigation-buttons-container {
+  display: flex;
+}
+.doogma-upper-buttons {
+  justify-content: center;
+}
+.doogma-upper-buttons {
+  justify-content: center;
+}
+
+.navigation-buttons-container.doogma-lower-buttons {
+  justify-content: space-around;
+}
+
+.navigation-buttons-container button.invalid {
+  background-color: #888888;
+  color: #262525;
+}
+
+doogma-color-swatches[param="weight-screw-fill-circle-color"]
+  doogma-color-swatch:has(span[title="18k Gold"]),
+doogma-color-swatches[param="weight-screw-lagp-logo"]
+  doogma-color-swatch:has(span[title="18k Gold"]) {
+  display: none !important;
+}
+
+.hidden {
+  display: none !important;
+}
+
+/* Chrome, Safari, Edge, Opera arrows icons*/
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox arrows icons */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+doogma-component-containers {
+  display: none;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  width: 100%;
+  margin: auto;
+  height: 100%;
+  /* padding-top: 5%; */
+  z-index: 12;
+  transform: translate(-50%, -50%);
+}
+/* 
+li {
+  position: relative;
+}
+
+li::before {
+  content: "";
+  position: absolute;
+  top: 1.5em;
+  left: -4em;
+  width: 4em;
+  height: 0.2em;
+  background: black;
+  z-index: -5;
+}
+
+li:first-child::before {
+  display: none;
+}
+ */
+.doogma-component-containers doogma-radio-group label {
+  font-weight: normal;
+}
+/* 
+  .doogma-component-containers {
+    display: flex;
+    position: absolute;
+    background-color: white;
+    min-width: 350px;
+    padding: 10px 40px;
+    border: 1px solid #000;
+    border-radius: 5px;
+  }
+   */
+.doogma-component-containers {
+  display: flex;
+  position: relative;
+  /* position: fixed; */
+  background-color: white;
+  width: 300px;
+  min-width: 350px;
+  padding: 10px 20px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  z-index: 12;
+  margin: auto;
+  justify-content: center;
+  text-align: center;
+}
+
+doogma-html-section h2.doogma-package-title {
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 0px;
+}
+
+.doogma-component-containers doogma-html-section {
+  font-size: 13px;
+  text-align: center;
+}
+
+.doogma-inner-title {
+  background-color: #0057c7;
+  color: white;
+  margin: 15px -20px;
+  font-size: 15px;
+}
+
+.doogma-component-containers .doogma-exit-popup {
+  position: absolute;
+  border-radius: 100%;
+  border: 0px;
+  padding: 4px 10px;
+  cursor: pointer;
+  background-color: black;
+  font-size: 18px;
+  color: white;
+  right: -15px;
+  top: -15px;
+}
+
+doogma-checkbox-counter {
+  text-align: center;
+}
+
+doogma-checkbox-counter label {
+  font-family: "PlutoCondBlack";
+  height: 2.4em;
+  line-height: 1em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+  padding: 4% 0;
+}
+
+doogma-checkbox-counter .content-container {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  max-width: 120px;
+}
+
+doogma-checkbox-counter .content-container {
+  font-size: 12px;
+}
+
+doogma-checkbox-counter i {
+  cursor: pointer;
+  color: #0057c7;
+  margin-right: 0.3rem;
+  font-style: normal;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+doogma-checkbox-counter .content-container span {
+  color: #4b4b4b;
+  text-overflow: ellipsis;
+  font-size: 11px;
+}
+
+.doogma-nav-tab-content-inner doogma-counterbox input[type="number"] {
+  display: none;
+}
+
+.doogma-nav-tabs img {
+  height: 25px;
+}
+
+doogma-checkbox-group[param="rainbow-sprinkles"] img {
+  height: 50px;
+  width: 50px;
+}
+
+span.blue-color {
+  margin-left: 10px;
+  color: #0058c9;
+}
+
+button.save-copy {
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 10px 25px;
+  margin-left: 1rem;
+  cursor: pointer;
+}
+
+button.save-copy:hover {
+  background-color: black;
+  color: white;
+}
+
+doogma-simple-text[name="text2-personalization"],
+doogma-simple-text[name="text3-personalization"],
+doogma-image-swatches[param="font-line-2"],
+doogma-image-swatches[param="font-line-3"] {
+  display: none;
+}
+
+.doogma-nav-component-container input[type="tel"] {
+  width: 100%;
+  border: 1px solid #ccc;
+  padding: 0.25rem;
+}
+
+@media only screen and (max-width: 767px) {
+  .doogma-col-1 {
+    margin: auto;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .doogma-checkbox-counter-group-list {
+    grid-template-columns: 1fr 1fr;
+  }
+  .doogma-component-containers {
+    min-width: auto;
+  }
+}
+.doogma-nav-component-container > label {
+  font-family: "PlutoCondBlack";
+  font-size: 1.5rem;
+}
